@@ -1,0 +1,12 @@
+# Ein Bandname pro Zeile, immer der ganze Name.
+# Zeilen mit # werden ignoriert. Beispiel:
+# Beispielband
+Deafheaven
+We Butter the Bread with Butter
+Nail Bite
+Rumkicks
+Sandow
+Witch Club Satan
+La Dispute
+Defeater
+Touché Amoré
