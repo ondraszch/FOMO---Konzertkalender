@@ -1,0 +1,37 @@
+name: Konzerte pruefen
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository holen
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bibliotheken installieren
+        run: pip install requests beautifulsoup4
+
+      - name: Konzerte pruefen
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python konzerte.py
+
+      - name: Stand speichern
+        if: always()
+        run: |
+          git config user.name "konzert-bot"
+          git config user.email "konzert-bot@users.noreply.github.com"
+          [ -f known_events.json ] && git add known_events.json
+          git diff --cached --quiet || (git commit -m "Termine aktualisiert" && git push)
