@@ -1,0 +1,15 @@
+# Ein Wort pro Zeile. Gross-/Kleinschreibung ist egal.
+# Zeilen mit # werden ignoriert.
+metal
+hardcore
+metalcore
+deathcore
+grind
+crust
+punk
+thrash
+doom
+sludge
+stoner
+blackmetal
+deathmetal
