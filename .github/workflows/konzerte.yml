@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   pruefen:
@@ -35,3 +36,18 @@ jobs:
           git config user.email "konzert-bot@users.noreply.github.com"
           [ -f known_events.json ] && git add known_events.json
           git diff --cached --quiet || (git commit -m "Termine aktualisiert" && git push)
+
+      - name: Zeitplan aktiv halten
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow enable konzerte.yml --repo "$GITHUB_REPOSITORY" || true
+
+      - name: Monatliches Lebenszeichen
+        if: always()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ "$(date -u +%d)" = "01" ]; then
+            curl -s -o /dev/null -H "Title: Konzertkalender laeuft" -d "Der taegliche Abruf ist aktiv. Naechste Meldung am 1. des naechsten Monats." "https://ntfy.sh/$NTFY_TOPIC"
+          fi
