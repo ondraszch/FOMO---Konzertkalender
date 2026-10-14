@@ -77,6 +77,27 @@
   .tag.cancel { border-color: #c0392b; color: #e57368; }
   .ev.cancelled .title { text-decoration: line-through; color: var(--muted); }
   .ev.cancelled { opacity: .7; }
+  .tag.sold { border-color: #c79a2b; color: #d9b04a; }
+  details.card { margin-top: 8px; border-top: 1px solid var(--line); padding-top: 2px; }
+  details.card summary {
+    cursor: pointer; color: var(--muted); font-size: .85rem;
+    list-style: none; padding: 8px 0 4px;
+  }
+  details.card summary::-webkit-details-marker { display: none; }
+  details.card summary::before { content: "\25B8  "; }
+  details.card[open] summary::before { content: "\25BE  "; }
+  .card-body { font-size: .88rem; display: grid; gap: 10px; padding-top: 4px; }
+  .lineup { list-style: none; margin: 0; padding: 0; }
+  .lineup li { padding: 2px 0; }
+  .lineup .lu-info { color: var(--muted); }
+  .facts { color: var(--text); }
+  .facts span { display: inline-block; margin-right: 12px; }
+  .btn {
+    display: inline-block; padding: 6px 12px; margin: 0 6px 6px 0;
+    border: 1px solid var(--line); border-radius: 999px;
+    color: var(--text); text-decoration: none; font-size: .85rem;
+  }
+  .btn.primary { border-color: var(--accent); color: var(--accent); }
   .msg { color: var(--muted); padding: 24px 4px; }
   footer { color: var(--muted); font-size: .78rem; margin-top: 28px; }
 </style>
@@ -140,6 +161,59 @@
   }
 
   function isHttp(url) { return /^https?:\/\//i.test(url || ""); }
+
+  function buildCard(e) {
+    var lineup = Array.isArray(e.lineup) ? e.lineup : [];
+    var tickets = (Array.isArray(e.tickets) ? e.tickets : []).filter(function (t) { return t && isHttp(t.url); });
+
+    var times = [];
+    if (e.doors) times.push("Einlass " + e.doors + " Uhr");
+    if (e.start) times.push("Beginn " + e.start + " Uhr");
+    if (!times.length && e.time) times.push("Zeit: " + e.time + " Uhr");
+
+    var prices = [];
+    if (e.vvk) prices.push("Vorverkauf " + e.vvk + (e.vvk_note ? " " + e.vvk_note : ""));
+    if (e.ak) prices.push("Abendkasse " + e.ak);
+
+    if (!lineup.length && !times.length && !prices.length && !tickets.length) return null;
+
+    var card = el("details", "card");
+    card.appendChild(el("summary", "", "Details"));
+    var body = el("div", "card-body");
+
+    if (lineup.length) {
+      var ul = el("ul", "lineup");
+      lineup.forEach(function (a) {
+        var li = el("li");
+        li.appendChild(el("strong", "", a.name));
+        if (a.info) li.appendChild(el("span", "lu-info", " \u2013 " + a.info));
+        ul.appendChild(li);
+      });
+      body.appendChild(ul);
+    }
+
+    if (times.length || prices.length) {
+      var facts = el("div", "facts");
+      times.concat(prices).forEach(function (t) { facts.appendChild(el("span", "", t)); });
+      body.appendChild(facts);
+    }
+
+    var links = el("div");
+    tickets.forEach(function (t) {
+      var a = el("a", "btn primary", "Tickets: " + t.name);
+      a.href = t.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      links.appendChild(a);
+    });
+    if (isHttp(e.url)) {
+      var club = el("a", "btn", "Zur Club-Seite");
+      club.href = e.url; club.target = "_blank"; club.rel = "noopener noreferrer";
+      links.appendChild(club);
+    }
+    if (links.childNodes.length) body.appendChild(links);
+
+    card.appendChild(body);
+    return card;
+  }
 
   function buildChips() {
     var box = $("chips");
@@ -231,9 +305,12 @@
       var meta = el("div", "meta");
       meta.appendChild(el("span", "tag", e.club));
       if (e.cancelled) meta.appendChild(el("span", "tag cancel", "abgesagt"));
+      if (e.soldout) meta.appendChild(el("span", "tag sold", "ausverkauft"));
       if (e.new) meta.appendChild(el("span", "tag new", "neu"));
       (e.hits || []).forEach(function (h) { meta.appendChild(el("span", "tag hit", h)); });
       info.appendChild(meta);
+      var card = buildCard(e);
+      if (card) info.appendChild(card);
 
       row.appendChild(info);
       list.appendChild(row);
