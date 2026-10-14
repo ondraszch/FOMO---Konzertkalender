@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#121212">
+<title>Konzertkalender</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #121212;
+    --card: #1c1c1c;
+    --line: #2e2e2e;
+    --text: #ececec;
+    --muted: #9b9b9b;
+    --accent: #e8553d;
+    --new: #3ba55d;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: 8px; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 12px 12px 40px; }
+  h1 { font-size: 1.4rem; margin: 8px 0 2px; }
+  .stand { color: var(--muted); font-size: .85rem; margin-bottom: 12px; }
+  .controls {
+    position: sticky; top: 0; z-index: 5;
+    background: var(--bg);
+    padding: 8px 0 10px;
+    border-bottom: 1px solid var(--line);
+  }
+  .controls input[type=search] {
+    width: 100%; padding: 10px 12px; margin-bottom: 8px;
+    background: var(--card); color: var(--text);
+    border: 1px solid var(--line); border-radius: 8px; font: inherit;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    padding: 6px 12px; border-radius: 999px; cursor: pointer;
+    background: var(--card); color: var(--text);
+    border: 1px solid var(--line); font: inherit; font-size: .9rem;
+  }
+  .chip[aria-pressed=true] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .chip.off { opacity: .45; }
+  .count { color: var(--muted); font-size: .85rem; margin: 10px 0 0; }
+  h2 {
+    font-size: .95rem; text-transform: uppercase; letter-spacing: .06em;
+    color: var(--muted); margin: 22px 0 8px;
+  }
+  .ev {
+    display: flex; gap: 12px; padding: 10px 12px; margin-bottom: 8px;
+    background: var(--card); border: 1px solid var(--line);
+    border-left: 4px solid var(--line); border-radius: 8px;
+  }
+  .ev.hit { border-left-color: var(--accent); }
+  .date { min-width: 46px; text-align: center; line-height: 1.1; }
+  .dow { display: block; font-size: .75rem; color: var(--muted); text-transform: uppercase; }
+  .day { display: block; font-size: 1.5rem; font-weight: 700; }
+  .mon { display: block; font-size: .75rem; color: var(--muted); }
+  .info { min-width: 0; flex: 1; }
+  .title { font-weight: 600; overflow-wrap: anywhere; }
+  a.title { color: var(--text); text-decoration: none; }
+  a.title:hover, a.title:focus { text-decoration: underline; }
+  .detail {
+    color: var(--muted); font-size: .85rem; margin-top: 2px;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; font-size: .78rem; }
+  .tag { padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+  .tag.hit { border-color: var(--accent); color: var(--accent); }
+  .tag.new { border-color: var(--new); color: var(--new); }
+  .tag.cancel { border-color: #c0392b; color: #e57368; }
+  .ev.cancelled .title { text-decoration: line-through; color: var(--muted); }
+  .ev.cancelled { opacity: .7; }
+  .msg { color: var(--muted); padding: 24px 4px; }
+  footer { color: var(--muted); font-size: .78rem; margin-top: 28px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Konzertkalender</h1>
+  <div class="stand" id="stand">Lade Termine …</div>
+
+  <div class="controls">
+    <input type="search" id="q" placeholder="Suchen (Band, Titel, Club)" aria-label="Suchen">
+    <div class="chips" id="chips"></div>
+    <div class="count" id="count"></div>
+  </div>
+
+  <div id="list"></div>
+
+  <footer>
+    Die Termine stammen von den Webseiten der Clubs und werden einmal täglich abgerufen.
+    Angaben ohne Gewähr – bitte beim jeweiligen Club prüfen.
+  </footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var MONTHS = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli",
+                "August", "September", "Oktober", "November", "Dezember"];
+  var MON_SHORT = ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"];
+  var DOW = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"];
+
+  var data = [];
+  var state = { hidden: [], onlyHits: false, q: "" };
+
+  function $(id) { return document.getElementById(id); }
+
+  function loadState() {
+    try {
+      var raw = localStorage.getItem("konzertkalender-filter");
+      if (raw) {
+        var s = JSON.parse(raw);
+        if (Array.isArray(s.hidden)) state.hidden = s.hidden;
+        state.onlyHits = !!s.onlyHits;
+      }
+    } catch (e) { /* ohne Speicher weiterarbeiten */ }
+  }
+
+  function saveState() {
+    try {
+      localStorage.setItem("konzertkalender-filter",
+        JSON.stringify({ hidden: state.hidden, onlyHits: state.onlyHits }));
+    } catch (e) { /* ignorieren */ }
+  }
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text !== undefined) n.textContent = text;
+    return n;
+  }
+
+  function isHttp(url) { return /^https?:\/\//i.test(url || ""); }
+
+  function buildChips() {
+    var box = $("chips");
+    box.replaceChildren();
+
+    var hitBtn = el("button", "chip", "Nur meine Treffer");
+    hitBtn.type = "button";
+    hitBtn.setAttribute("aria-pressed", state.onlyHits ? "true" : "false");
+    hitBtn.addEventListener("click", function () {
+      state.onlyHits = !state.onlyHits;
+      saveState(); buildChips(); render();
+    });
+    box.appendChild(hitBtn);
+
+    var clubs = [];
+    data.forEach(function (e) { if (clubs.indexOf(e.club) < 0) clubs.push(e.club); });
+    clubs.sort();
+    clubs.forEach(function (club) {
+      var off = state.hidden.indexOf(club) >= 0;
+      var b = el("button", "chip" + (off ? " off" : ""), club);
+      b.type = "button";
+      b.setAttribute("aria-pressed", off ? "false" : "true");
+      b.addEventListener("click", function () {
+        var i = state.hidden.indexOf(club);
+        if (i >= 0) state.hidden.splice(i, 1); else state.hidden.push(club);
+        saveState(); buildChips(); render();
+      });
+      box.appendChild(b);
+    });
+  }
+
+  function render() {
+    var list = $("list");
+    list.replaceChildren();
+    var q = state.q.trim().toLowerCase();
+
+    var shown = data.filter(function (e) {
+      if (state.hidden.indexOf(e.club) >= 0) return false;
+      if (state.onlyHits && !e.hit) return false;
+      if (q) {
+        var hay = (e.title + " " + (e.detail || "") + " " + e.club).toLowerCase();
+        if (hay.indexOf(q) < 0) return false;
+      }
+      return true;
+    });
+
+    $("count").textContent = shown.length + " von " + data.length + " Terminen";
+
+    if (!shown.length) {
+      list.appendChild(el("div", "msg", "Keine Termine für diese Auswahl."));
+      return;
+    }
+
+    var lastMonth = "";
+    shown.forEach(function (e) {
+      var d = new Date(e.date + "T00:00:00");
+      var monthKey = e.date.slice(0, 7);
+      if (monthKey !== lastMonth) {
+        lastMonth = monthKey;
+        list.appendChild(el("h2", "", MONTHS[d.getMonth()] + " " + d.getFullYear()));
+      }
+
+      var row = el("div", "ev" + (e.hit ? " hit" : "") + (e.cancelled ? " cancelled" : ""));
+
+      var date = el("div", "date");
+      date.appendChild(el("span", "dow", DOW[d.getDay()]));
+      date.appendChild(el("span", "day", String(d.getDate())));
+      date.appendChild(el("span", "mon", MON_SHORT[d.getMonth()]));
+      row.appendChild(date);
+
+      var info = el("div", "info");
+      var title;
+      if (isHttp(e.url)) {
+        title = el("a", "title", e.title);
+        title.href = e.url;
+        title.target = "_blank";
+        title.rel = "noopener noreferrer";
+      } else {
+        title = el("div", "title", e.title);
+      }
+      info.appendChild(title);
+
+      var detail = e.detail || "";
+      if (detail && detail.toLowerCase().indexOf(e.title.toLowerCase()) === 0) {
+        detail = detail.slice(e.title.length).trim();
+      }
+      if (detail) info.appendChild(el("div", "detail", detail));
+
+      var meta = el("div", "meta");
+      meta.appendChild(el("span", "tag", e.club));
+      if (e.cancelled) meta.appendChild(el("span", "tag cancel", "abgesagt"));
+      if (e.new) meta.appendChild(el("span", "tag new", "neu"));
+      (e.hits || []).forEach(function (h) { meta.appendChild(el("span", "tag hit", h)); });
+      info.appendChild(meta);
+
+      row.appendChild(info);
+      list.appendChild(row);
+    });
+  }
+
+  function formatUpdated(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || "");
+    return m ? m[3] + "." + m[2] + "." + m[1] : "unbekannt";
+  }
+
+  function start() {
+    loadState();
+    $("q").addEventListener("input", function (ev) { state.q = ev.target.value; render(); });
+
+    fetch("events.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(function (json) {
+        data = Array.isArray(json.events) ? json.events : [];
+        $("stand").textContent = "Stand: " + formatUpdated(json.updated);
+        buildChips();
+        render();
+      })
+      .catch(function () {
+        $("stand").textContent = "";
+        $("list").appendChild(el("div", "msg",
+          "Die Termine konnten nicht geladen werden. Bitte später erneut versuchen."));
+      });
+  }
+
+  start();
+})();
+</script>
+</body>
+</html>
