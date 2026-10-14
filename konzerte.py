@@ -13,11 +13,13 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent
 STATE_FILE = ROOT / "known_events.json"
+EVENTS_FILE = ROOT / "events.json"
 HEADERS = {"User-Agent": "Konzertkalender-privat/1.0 (privates Hobbyprojekt)"}
 WEEKDAYS = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
 CANCEL_WORDS = ("abgesagt", "fällt aus", "faellt aus")
 MAX_PUSH_CHARS = 3500
 KEEP_DAYS = 60
+NEW_DAYS = 7
 
 DATE_RE = re.compile(r"\b(Mo|Di|Mi|Do|Fr|Sa|So)\.?,?\s+(\d{1,2})\.(\d{1,2})\.(\d{2,4})")
 TIME_RE = re.compile(r"^\s*\d{1,2}:\d{2}\s*Uhr\s*")
@@ -197,23 +199,52 @@ def main(today=None):
             print(f"WARNUNG: {name} lieferte keine Termine - evtl. hat sich die Seite geaendert")
         events.extend(got)
 
-    new_hits, initial = [], {}
+    new_hits, initial, out = [], {}, []
     for e in events:
         key = f"{e['club']}:{e['id']}"
-        if key in known:
-            continue
-        known[key] = {"title": e["title"], "date": e["date"]}
         hits = find_hits(e["text"], genres, bands)
         low = e["text"].lower()
         cancelled = any(w in low for w in CANCEL_WORDS)
-        if e["club"] not in seen_clubs:
-            stats = initial.setdefault(e["club"], [0, 0])
-            stats[0] += 1
-            stats[1] += 1 if hits and not cancelled else 0
-            continue
-        if hits and not cancelled:
-            e["hits"] = hits
-            new_hits.append(e)
+        is_hit = bool(hits) and not cancelled
+        entry = known.get(key)
+        if entry is None:
+            entry = {"title": e["title"], "date": e["date"]}
+            known[key] = entry
+            if e["club"] in seen_clubs:
+                entry["seen"] = today.isoformat()
+                if is_hit:
+                    e["hits"] = hits
+                    new_hits.append(e)
+            else:
+                stats = initial.setdefault(e["club"], [0, 0])
+                stats[0] += 1
+                stats[1] += 1 if is_hit else 0
+        seen = entry.get("seen", "")
+        is_new = bool(seen) and (today - dt.date.fromisoformat(seen)).days <= NEW_DAYS
+        out.append({
+            "club": e["club"],
+            "date": e["date"],
+            "title": e["title"],
+            "detail": e.get("detail", "")[:160],
+            "url": e.get("url", ""),
+            "hit": is_hit,
+            "hits": hits if is_hit else [],
+            "cancelled": cancelled,
+            "new": is_new,
+        })
+
+    # Ausgefallene Quellen: letzten bekannten Stand der Seite behalten
+    if errors and EVENTS_FILE.exists():
+        try:
+            prev = json.loads(EVENTS_FILE.read_text("utf-8")).get("events", [])
+        except ValueError:
+            prev = []
+        out += [x for x in prev if x.get("club") in errors and x.get("date", "") >= today.isoformat()]
+    out.sort(key=lambda x: (x["date"], x["club"], x["title"]))
+    EVENTS_FILE.write_text(
+        json.dumps({"updated": today.isoformat(), "events": out}, ensure_ascii=False, indent=1),
+        "utf-8",
+    )
 
     failed = False
     if new_hits:
