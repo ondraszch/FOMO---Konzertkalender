@@ -5,6 +5,7 @@ import json
 import os
 import re
 import sys
+import time
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -20,6 +21,9 @@ CANCEL_WORDS = ("abgesagt", "fällt aus", "faellt aus")
 MAX_PUSH_CHARS = 3500
 KEEP_DAYS = 60
 NEW_DAYS = 7
+DETAIL_MAX_AGE_DAYS = 7
+DETAIL_MAX_FETCHES = 70
+DETAIL_PAUSE = 1.0
 
 DATE_RE = re.compile(r"\b(Mo|Di|Mi|Do|Fr|Sa|So)\.?,?\s+(\d{1,2})\.(\d{1,2})\.(\d{2,4})")
 TIME_RE = re.compile(r"^\s*\d{1,2}:\d{2}\s*Uhr\s*")
@@ -43,40 +47,101 @@ def get(url):
     return r.content.decode("utf-8", errors="replace")
 
 
+def norm(text):
+    return " ".join((text or "").split())
+
+
 def parse_chemiefabrik(html, base="https://www.chemiefabrik.info/"):
     soup = BeautifulSoup(html, "html.parser")
     found = {}
-    for a in soup.find_all("a", href=re.compile(r"/gigs/\d+")):
-        href = a["href"]
-        gig_id = re.search(r"/gigs/(\d+)", href).group(1)
-        text = " ".join(a.get_text(" ", strip=True).split())
-        m = DATE_RE.search(text)
-        if not m:
+    for a in soup.select("a.event"):
+        href = a.get("href", "")
+        m_id = re.search(r"/gigs/(\d+)", href)
+        date_box = a.select_one(".date")
+        m = DATE_RE.search(norm(date_box.get_text(" ")) if date_box else "")
+        if not m_id or not m:
             continue
-        day, month, year = int(m.group(2)), int(m.group(3)), int(m.group(4))
+        year = int(m.group(4))
         if year < 100:
             year += 2000
         try:
-            date = dt.date(year, month, day)
+            date = dt.date(year, int(m.group(3)), int(m.group(2)))
         except ValueError:
             continue
-        title = re.sub(r"^Flyer\s+", "", text[: m.start()]).strip()
-        rest = TIME_RE.sub("", text[m.end():]).strip()
-        if not title or title.lower().startswith("infos folgen"):
-            title = rest[:60] or "Termin"
+        time_box = a.select_one(".time")
+        m_time = re.search(r"\d{1,2}:\d{2}", time_box.get_text() if time_box else "")
+
+        headlines = [norm(x.get_text(" ")) for x in a.select(".headlines .item")]
+        headlines = [h for h in headlines if h and not h.lower().startswith("infos folgen")]
+
+        lineup = []
+        for item in a.select(".artists .item"):
+            name_el, info_el = item.select_one(".artist-name"), item.select_one(".artist-info")
+            name = norm(name_el.get_text(" ")) if name_el else norm(item.get_text(" "))
+            info = norm(info_el.get_text(" ")) if info_el else ""
+            if name:
+                lineup.append({"name": name, "info": info})
+
+        img = a.select_one("img")
+        alt = norm(img.get("alt", "")) if img else ""
+        alt = re.sub(r"^Flyer\s+", "", alt)
+        if alt.lower().startswith("infos folgen"):
+            alt = ""
+        names = [x["name"] for x in lineup]
+        title = alt or (headlines[0] if headlines else "") or " + ".join(names[:3]) or "Termin"
+        preview = ", ".join(n for n in names if n.lower() != title.lower())
+
+        flat = norm(a.get_text(" "))
         event = {
             "club": "Chemiefabrik",
-            "id": gig_id,
+            "id": m_id.group(1),
             "date": date.isoformat(),
             "title": title,
-            "detail": rest,
+            "detail": preview,
             "url": urljoin(base, href),
-            "text": text,
+            "text": f"{alt} {flat}",
+            "lineup": lineup,
+            "time": m_time.group(0) if m_time else "",
         }
-        old = found.get(gig_id)
+        old = found.get(event["id"])
         if old is None or len(event["text"]) > len(old["text"]):
-            found[gig_id] = event
+            found[event["id"]] = event
     return list(found.values())
+
+
+def parse_chemiefabrik_detail(html):
+    """Liest Einlass/Beginn, Preise und Ticketlinks von der Detailseite eines Konzerts."""
+    soup = BeautifulSoup(html, "html.parser")
+    out = {}
+    box = soup.select_one("#event .time") or soup.select_one(".time")
+    if box:
+        txt = norm(box.get_text(" "))
+        m = re.search(r"Einlass:?\s*(\d{1,2}:\d{2})", txt)
+        if m:
+            out["doors"] = m.group(1)
+        m = re.search(r"(?:Start|Beginn):?\s*(\d{1,2}:\d{2})", txt)
+        if m:
+            out["start"] = m.group(1)
+    vvk = soup.select_one(".vvk")
+    if vvk:
+        m = re.search(r"Vorverkauf:?\s*([\d.,]+)\s*€", norm(vvk.get_text(" ")))
+        if m:
+            out["vvk"] = m.group(1) + " €"
+        if vvk.select_one(".vvk-gebuehr"):
+            out["vvk_note"] = "zzgl. Gebühren"
+        tickets = []
+        for link in vvk.select("a.vvk-stelle"):
+            url = link.get("href", "")
+            if url.startswith(("http://", "https://")):
+                tickets.append({"name": norm(link.get_text(" ")) or "Tickets", "url": url})
+        if tickets:
+            out["tickets"] = tickets
+    ak = soup.select_one(".ak")
+    if ak:
+        m = re.search(r"Abendkasse:?\s*([\d.,]+)\s*€", norm(ak.get_text(" ")))
+        if m:
+            out["ak"] = m.group(1) + " €"
+    return out
 
 
 def unfold(text):
@@ -121,6 +186,40 @@ def parse_ics(text, club):
     return events
 
 
+def enrich_chemiefabrik(events, known, today):
+    """Holt fehlende oder veraltete Detailseiten (mit Pause) und merkt sich das Ergebnis."""
+    details, fetched, failed = {}, 0, 0
+    for e in events:
+        if e["club"] != "Chemiefabrik":
+            continue
+        key = f"{e['club']}:{e['id']}"
+        cached = (known.get(key) or {}).get("d")
+        if cached:
+            age = (today - dt.date.fromisoformat(cached.get("f", "2000-01-01"))).days
+            if age < DETAIL_MAX_AGE_DAYS:
+                details[key] = cached
+                continue
+        if fetched >= DETAIL_MAX_FETCHES:
+            if cached:
+                details[key] = cached
+            continue
+        if fetched:
+            time.sleep(DETAIL_PAUSE)
+        fetched += 1
+        try:
+            data = parse_chemiefabrik_detail(get(e["url"]))
+        except Exception as exc:  # noqa: BLE001
+            failed += 1
+            print(f"Detailseite {e['id']}: {type(exc).__name__}")
+            if cached:
+                details[key] = cached
+            continue
+        data["f"] = today.isoformat()
+        details[key] = data
+    print(f"Chemiefabrik-Detailseiten: {fetched} abgerufen, {failed} fehlgeschlagen")
+    return details
+
+
 SOURCES = [
     ("Chemiefabrik", lambda: parse_chemiefabrik(get("https://www.chemiefabrik.info/"))),
     ("GrooveStation", lambda: parse_ics(get("https://www.groovestation.de/calendar.ics"), "GrooveStation")),
@@ -144,12 +243,7 @@ def format_message(events):
     for i, e in enumerate(events):
         d = dt.date.fromisoformat(e["date"])
         title, detail = e["title"], e.get("detail", "")
-        if detail and detail.lower().startswith(title.lower()):
-            label = detail[:90]
-        elif detail:
-            label = f"{title} - {detail[:70]}"
-        else:
-            label = title
+        label = f"{title} - {detail[:70]}" if detail else title
         line = f"{WEEKDAYS[d.weekday()]} {d:%d.%m.} {label} ({e['club']})"
         if sum(len(x) + 1 for x in lines) + len(line) > MAX_PUSH_CHARS:
             lines.append(f"... und {len(events) - i} weitere")
@@ -199,6 +293,8 @@ def main(today=None):
             print(f"WARNUNG: {name} lieferte keine Termine - evtl. hat sich die Seite geaendert")
         events.extend(got)
 
+    details = enrich_chemiefabrik(events, known, today)
+
     new_hits, initial, out = [], {}, []
     for e in events:
         key = f"{e['club']}:{e['id']}"
@@ -207,6 +303,7 @@ def main(today=None):
         cancelled = any(w in low for w in CANCEL_WORDS)
         is_hit = bool(hits) and not cancelled
         entry = known.get(key)
+        extra = details.get(key) or (entry or {}).get("d") or {}
         if entry is None:
             entry = {"title": e["title"], "date": e["date"]}
             known[key] = entry
@@ -219,6 +316,8 @@ def main(today=None):
                 stats = initial.setdefault(e["club"], [0, 0])
                 stats[0] += 1
                 stats[1] += 1 if is_hit else 0
+        if extra:
+            entry["d"] = extra
         seen = entry.get("seen", "")
         is_new = bool(seen) and (today - dt.date.fromisoformat(seen)).days <= NEW_DAYS
         out.append({
@@ -227,6 +326,15 @@ def main(today=None):
             "title": e["title"],
             "detail": e.get("detail", "")[:160],
             "url": e.get("url", ""),
+            "lineup": e.get("lineup", []),
+            "time": e.get("time", ""),
+            "doors": extra.get("doors", ""),
+            "start": extra.get("start", ""),
+            "vvk": extra.get("vvk", ""),
+            "vvk_note": extra.get("vvk_note", ""),
+            "ak": extra.get("ak", ""),
+            "tickets": extra.get("tickets", []),
+            "soldout": "ausverkauft" in low,
             "hit": is_hit,
             "hits": hits if is_hit else [],
             "cancelled": cancelled,
