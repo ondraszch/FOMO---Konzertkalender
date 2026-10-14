@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "konzert-bot"
           git config user.email "konzert-bot@users.noreply.github.com"
-          [ -f known_events.json ] && git add known_events.json
+          for f in known_events.json events.json; do if [ -f "$f" ]; then git add "$f"; fi; done
           git diff --cached --quiet || (git commit -m "Termine aktualisiert" && git pull --rebase origin main && git push)
 
       - name: Zeitplan aktiv halten
