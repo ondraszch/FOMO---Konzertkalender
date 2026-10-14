@@ -7,6 +7,15 @@
    "title": "MiDi w/ Meta Chrom & Trokar",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-14-midi-w-meta-chrom-trokar",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -15,9 +24,32 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-10-15",
-   "title": "JUSE JU HipHop / D Joseph Steinschleuder HipHop / (Ukr/D)",
-   "detail": "JUSE JU HipHop / D Joseph Steinschleuder HipHop / (Ukr/D)",
+   "title": "JUSE JU",
+   "detail": "Joseph Steinschleuder",
    "url": "https://www.chemiefabrik.info/gigs/10228/",
+   "lineup": [
+    {
+     "name": "JUSE JU",
+     "info": "HipHop / D"
+    },
+    {
+     "name": "Joseph Steinschleuder",
+     "info": "HipHop / (Ukr/D)"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "30,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "35,00 €",
+   "tickets": [
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/startseite/3118-juse-ju-d.html"
+    }
+   ],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -29,6 +61,15 @@
    "title": "Billard & Bar",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-15-billard-bar",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -40,6 +81,15 @@
    "title": "Sax Royal - Die Dresdner Lesebühne",
    "detail": "",
    "url": "https://scheune.org/show/5601/sax-royal-die-dresdner-lesebhne.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -48,9 +98,44 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-10-16",
-   "title": "HEAVY PSYCH SOUNDS FEST VALLEY OF THE SUN Heavy Rock/Stonerr",
-   "detail": "HEAVY PSYCH SOUNDS FEST VALLEY OF THE SUN Heavy Rock/Stonerrock / USA DUEL Heavy Rock/Proto Metal/Stoner Boogie / Austin/TX MR. BISON Prog/Psych Rock / Italien ",
+   "title": "Heavy Psych Sounds Fest #6",
+   "detail": "VALLEY OF THE SUN, DUEL, MR. BISON, LORD ELEPHANT, HIJSS",
    "url": "https://www.chemiefabrik.info/gigs/10224/",
+   "lineup": [
+    {
+     "name": "VALLEY OF THE SUN",
+     "info": "Heavy Rock/Stonerrock / USA"
+    },
+    {
+     "name": "DUEL",
+     "info": "Heavy Rock/Proto Metal/Stoner Boogie / Austin/TX"
+    },
+    {
+     "name": "MR. BISON",
+     "info": "Prog/Psych Rock / Italien"
+    },
+    {
+     "name": "LORD ELEPHANT",
+     "info": "Stoner/Fuzz/Psych / Italien"
+    },
+    {
+     "name": "HIJSS",
+     "info": "Kraut/Psych/Space Rock / Italien"
+    }
+   ],
+   "time": "16:30",
+   "doors": "16:30",
+   "start": "18:00",
+   "vvk": "63,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73495"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal",
@@ -65,6 +150,15 @@
    "title": "Der Weg einer Freiheit",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-16-der-weg-einer-freiheit",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal"
@@ -78,6 +172,15 @@
    "title": "hypnosis",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-16-hypnosis",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -89,6 +192,15 @@
    "title": "local.exe",
    "detail": "",
    "url": "https://scheune.org/show/5528/local-exe.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -97,9 +209,44 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-10-17",
-   "title": "HEAVY PSYCH SOUNDS FEST BELZEBONG Stoner/Doom / Polen HIPPIE",
-   "detail": "HEAVY PSYCH SOUNDS FEST BELZEBONG Stoner/Doom / Polen HIPPIE DEATH CULT Heavy Rock / USA KANAAN Fuzzy Psychedelic Jazz Rock / Norwegen FIREBREATHER Doom / Metal",
+   "title": "Heavy Psych Sounds Fest # 6",
+   "detail": "BELZEBONG, HIPPIE DEATH CULT, KANAAN, FIREBREATHER, MONSTERNAUT",
    "url": "https://www.chemiefabrik.info/gigs/10225/",
+   "lineup": [
+    {
+     "name": "BELZEBONG",
+     "info": "Stoner/Doom / Polen"
+    },
+    {
+     "name": "HIPPIE DEATH CULT",
+     "info": "Heavy Rock / USA"
+    },
+    {
+     "name": "KANAAN",
+     "info": "Fuzzy Psychedelic Jazz Rock / Norwegen"
+    },
+    {
+     "name": "FIREBREATHER",
+     "info": "Doom / Metal / SWE"
+    },
+    {
+     "name": "MONSTERNAUT",
+     "info": "Finnland"
+    }
+   ],
+   "time": "16:30",
+   "doors": "16:30",
+   "start": "17:40",
+   "vvk": "63,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73495"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal",
@@ -115,6 +262,15 @@
    "title": "INDIE DISCO",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-17-indie-disco",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -126,6 +282,15 @@
    "title": "Alex Stoldt",
    "detail": "",
    "url": "https://scheune.org/show/5325/alex-stoldt.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -134,9 +299,23 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-10-18",
-   "title": "+++ Leider ersatzlos abgesagt +++ MARK FOGGO leider abgesagt",
-   "detail": "+++ Leider ersatzlos abgesagt +++ MARK FOGGO leider abgesagt",
+   "title": "MARK FOGGO",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/15084/",
+   "lineup": [
+    {
+     "name": "MARK FOGGO",
+     "info": "leider abgesagt"
+    }
+   ],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": true,
@@ -148,6 +327,15 @@
    "title": "GrooveQuiz - Disney Spezial",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-18-groovequiz-disney-spezial",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -156,9 +344,40 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-10-19",
-   "title": "\"The Force from Hell\" Tour ONSLAUGHT Thrash Metal / UK THE P",
-   "detail": "\"The Force from Hell\" Tour ONSLAUGHT Thrash Metal / UK THE PROPHECY 23 Thrash Metal, Death Metal / D TORANAGA Thrash Metal / UK",
+   "title": "ONSLAUGHT",
+   "detail": "THE PROPHECY 23, TORANAGA",
    "url": "https://www.chemiefabrik.info/gigs/15087/",
+   "lineup": [
+    {
+     "name": "ONSLAUGHT",
+     "info": "Thrash Metal / UK"
+    },
+    {
+     "name": "THE PROPHECY 23",
+     "info": "Thrash Metal, Death Metal / D"
+    },
+    {
+     "name": "TORANAGA",
+     "info": "Thrash Metal / UK"
+    }
+   ],
+   "time": "18:30",
+   "doors": "18:30",
+   "start": "19:30",
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "25,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75536"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/8407-onslaught-uk.html"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal",
@@ -173,6 +392,15 @@
    "title": "Kickermontag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-19-kickermontag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -181,9 +409,36 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-10-20",
-   "title": "\"Solastalgia over Europe MMXXVI\" Tour 2026 HERETOIR Post Met",
-   "detail": "\"Solastalgia over Europe MMXXVI\" Tour 2026 HERETOIR Post Metal / D Unreqvited Nidare",
+   "title": "HERETOIR",
+   "detail": "Unreqvited, Nidare",
    "url": "https://www.chemiefabrik.info/gigs/10468/",
+   "lineup": [
+    {
+     "name": "HERETOIR",
+     "info": "Post Metal / D"
+    },
+    {
+     "name": "Unreqvited",
+     "info": ""
+    },
+    {
+     "name": "Nidare",
+     "info": ""
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "32,90 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Vertikal Concerts",
+     "url": "https://www.vertikalconcerts.com/konzerte/heretoir-dd-26"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal"
@@ -197,6 +452,15 @@
    "title": "Matterz",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-20-matterz",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -208,6 +472,15 @@
    "title": "Food & Folks",
    "detail": "",
    "url": "https://scheune.org/show/5684/food-folks.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -219,6 +492,15 @@
    "title": "Billard & Bar",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-21-billard-bar",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -230,6 +512,15 @@
    "title": "Andy Strauß",
    "detail": "",
    "url": "https://scheune.org/show/5425/andy-strauss.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -238,9 +529,36 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-10-22",
-   "title": "15. Pogorausch Festival - Warm Up Show BONECRUSHER Punk Bull",
-   "detail": "15. Pogorausch Festival - Warm Up Show BONECRUSHER Punk Bulldozer, Streetpunk / USA, Californian SKINSECTS Punk,Oi! / Dresden TOLEDO PANIC Oi! / Streetpunk / US",
+   "title": "Pogorausch-Festival 2026",
+   "detail": "BONECRUSHER, SKINSECTS, TOLEDO PANIC",
    "url": "https://www.chemiefabrik.info/gigs/10337/",
+   "lineup": [
+    {
+     "name": "BONECRUSHER",
+     "info": "Punk Bulldozer, Streetpunk / USA, Californian"
+    },
+    {
+     "name": "SKINSECTS",
+     "info": "Punk,Oi! / Dresden"
+    },
+    {
+     "name": "TOLEDO PANIC",
+     "info": "Oi! / Streetpunk / USA"
+    }
+   ],
+   "time": "19:30",
+   "doors": "19:30",
+   "start": "20:15",
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "26,00 €",
+   "tickets": [
+    {
+     "name": "Pogorausch Concerts",
+     "url": "https://www.pogorausch-concerts.de"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -254,6 +572,15 @@
    "title": "Robine",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-22-robine",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -265,6 +592,15 @@
    "title": "Fällt aus - Regio Tales",
    "detail": "",
    "url": "https://scheune.org/show/5604/fllt-aus-regio-tales.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": true,
@@ -273,9 +609,48 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-10-23",
-   "title": "15. Pogorausch Festival THE PROWLERS Oi! Veteranen / CAN, Mo",
-   "detail": "15. Pogorausch Festival THE PROWLERS Oi! Veteranen / CAN, Montreal GENERATION EXIT Streetpunk'n'Roll / USA UNDERDOGZ Dirty Dogs / Berlin THE BUZZERS Oi! / CAN, ",
+   "title": "15. Pogorausch Festival",
+   "detail": "THE PROWLERS, GENERATION EXIT, UNDERDOGZ, THE BUZZERS, STREETWISE, 21 GUN SALUTE",
    "url": "https://www.chemiefabrik.info/gigs/10202/",
+   "lineup": [
+    {
+     "name": "THE PROWLERS",
+     "info": "Oi! Veteranen / CAN, Montreal"
+    },
+    {
+     "name": "GENERATION EXIT",
+     "info": "Streetpunk'n'Roll / USA"
+    },
+    {
+     "name": "UNDERDOGZ",
+     "info": "Dirty Dogs / Berlin"
+    },
+    {
+     "name": "THE BUZZERS",
+     "info": "Oi! / CAN, Vancouver"
+    },
+    {
+     "name": "STREETWISE",
+     "info": "Streetpunk / Baskenland"
+    },
+    {
+     "name": "21 GUN SALUTE",
+     "info": "Oi! / Streetpunk / USA"
+    }
+   ],
+   "time": "18:15",
+   "doors": "18:15",
+   "start": "19:00",
+   "vvk": "30,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "35,00 €",
+   "tickets": [
+    {
+     "name": "Pogorausch Concerts",
+     "url": "https://www.pogorausch-concerts.de"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -289,6 +664,15 @@
    "title": "Abramowicz",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-23-abramowicz",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -300,6 +684,15 @@
    "title": "Farewell Youth Party",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-23-farewell-youth-party",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -313,6 +706,15 @@
    "title": "Till Reiners",
    "detail": "",
    "url": "https://scheune.org/show/5324/till-reiners.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -321,9 +723,48 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-10-24",
-   "title": "15. Pogorausch Festival GEWOHNHEITSTRINKER Oi!-Punk / Freibu",
-   "detail": "15. Pogorausch Festival GEWOHNHEITSTRINKER Oi!-Punk / Freiburg THE LAST RESORT Oi! Legende / GB THE YOUNG ONES Classic Oi! / NL THE CLINCH Oi! / AUS/Melbourne C",
+   "title": "Pogorausch-Festival 2026",
+   "detail": "GEWOHNHEITSTRINKER, THE LAST RESORT, THE YOUNG ONES, THE CLINCH, CHEAP STUFF, THE HIDDEN KNIVES",
    "url": "https://www.chemiefabrik.info/gigs/10203/",
+   "lineup": [
+    {
+     "name": "GEWOHNHEITSTRINKER",
+     "info": "Oi!-Punk / Freiburg"
+    },
+    {
+     "name": "THE LAST RESORT",
+     "info": "Oi! Legende / GB"
+    },
+    {
+     "name": "THE YOUNG ONES",
+     "info": "Classic Oi! / NL"
+    },
+    {
+     "name": "THE CLINCH",
+     "info": "Oi! / AUS/Melbourne"
+    },
+    {
+     "name": "CHEAP STUFF",
+     "info": "Punkrock, Streetpunk / Weinböhla/Dresden"
+    },
+    {
+     "name": "THE HIDDEN KNIVES",
+     "info": "Garage Punk, Power Pop / München"
+    }
+   ],
+   "time": "18:15",
+   "doors": "18:15",
+   "start": "19:00",
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "40,00 €",
+   "tickets": [
+    {
+     "name": "Pogorausch Concerts",
+     "url": "https://www.pogorausch-concerts.de"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -337,6 +778,15 @@
    "title": "POP2000",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-24-pop2000",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -348,6 +798,15 @@
    "title": "LEFTOVERS",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-25-leftovers",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -358,9 +817,36 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-10-26",
-   "title": "\"OFF THE ROAD\" THE MONSTERS Garage, Punk, Psychobilly, Trash",
-   "detail": "\"OFF THE ROAD\" THE MONSTERS Garage, Punk, Psychobilly, Trash / CH Electric Eel Shock Garage/Punk-Rock / Japan",
+   "title": "The MONSTERS",
+   "detail": "Electric Eel Shock",
    "url": "https://www.chemiefabrik.info/gigs/15030/",
+   "lineup": [
+    {
+     "name": "THE MONSTERS",
+     "info": "Garage, Punk, Psychobilly, Trash / CH"
+    },
+    {
+     "name": "Electric Eel Shock",
+     "info": "Garage/Punk-Rock / Japan"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "23,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "28,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75302"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=3627&rewrite=the-monsters-ch&controller=product"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -374,6 +860,15 @@
    "title": "Kickermontag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-26-kickermontag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -385,6 +880,15 @@
    "title": "Billard & Bar",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-27-billard-bar",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -396,6 +900,15 @@
    "title": "Dagobert",
    "detail": "",
    "url": "https://scheune.org/show/5455/dagobert.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -404,9 +917,28 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-10-28",
-   "title": "Planet Kumpel Tour 2026 $ONO$ CLIQ HipHop, Rap / D",
-   "detail": "Planet Kumpel Tour 2026 $ONO$ CLIQ HipHop, Rap / D",
+   "title": "$ONO$ CLIQ",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/15045/",
+   "lineup": [
+    {
+     "name": "$ONO$ CLIQ",
+     "info": "HipHop, Rap / D"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "32 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Landstreicher Konzerte",
+     "url": "https://landstreicher-konzerte.de/konzerte/sonos-cliq-dd-26"
+    }
+   ],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -418,6 +950,15 @@
    "title": "MiDi w/ Marcel Koar & DJ Pommes",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-28-midi-w-marcel-koar-dj-pommes",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -429,6 +970,15 @@
    "title": "Neu: EINFACH ELSES Late Night Show",
    "detail": "",
    "url": "https://scheune.org/show/5537/neu-einfach-elses-late-night-show.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -440,6 +990,15 @@
    "title": "Billard & Bar",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-29-billard-bar",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -451,6 +1010,15 @@
    "title": "ECHT? Der Festivalauftakt der Tschechisch-Deutschen Kulturtage",
    "detail": "",
    "url": "https://scheune.org/show/5441/echt-der-festivalauftakt-der-tschechisch-deutschen-kulturtage.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -459,9 +1027,31 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-10-30",
-   "title": "A Spooktacular Night Volume 5 DJ TEAM THE EXORSISTERS DJ SUB",
-   "detail": "A Spooktacular Night Volume 5 DJ TEAM THE EXORSISTERS DJ SUBHU-MANNTRASH DJ GHOUL FOOL",
+   "title": "A Spooktacular Night Volume 5",
+   "detail": "DJ TEAM THE EXORSISTERS, DJ SUBHU-MANNTRASH, DJ GHOUL FOOL",
    "url": "https://www.chemiefabrik.info/gigs/10348/",
+   "lineup": [
+    {
+     "name": "DJ TEAM THE EXORSISTERS",
+     "info": ""
+    },
+    {
+     "name": "DJ SUBHU-MANNTRASH",
+     "info": ""
+    },
+    {
+     "name": "DJ GHOUL FOOL",
+     "info": ""
+    }
+   ],
+   "time": "20:30",
+   "doors": "20:30",
+   "start": "21:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "5,00 €",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -473,6 +1063,15 @@
    "title": "Endstation Sekt by DISCOnnect",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-30-endstation-sekt-by-disconnect",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -484,6 +1083,15 @@
    "title": "MC Bomber",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-30-mc-bomber",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -492,9 +1100,40 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-10-31",
-   "title": "LOS FASTIDIOS Antifashist Oi! / Italien The OFFCUTS Ska / Dr",
-   "detail": "LOS FASTIDIOS Antifashist Oi! / Italien The OFFCUTS Ska / Dresden HAMMERKEEN Punk-Rock mit Herz und Haltung / Dresden",
+   "title": "LOS FASTIDIOS",
+   "detail": "The OFFCUTS, HAMMERKEEN",
    "url": "https://www.chemiefabrik.info/gigs/10341/",
+   "lineup": [
+    {
+     "name": "LOS FASTIDIOS",
+     "info": "Antifashist Oi! / Italien"
+    },
+    {
+     "name": "The OFFCUTS",
+     "info": "Ska / Dresden"
+    },
+    {
+     "name": "HAMMERKEEN",
+     "info": "Punk-Rock mit Herz und Haltung / Dresden"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "17,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "20,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75664"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/5711-los-fastidios-i.html"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -508,6 +1147,15 @@
    "title": "Halloween Special",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-10-31-halloween-special",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -519,6 +1167,15 @@
    "title": "Kickermontag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-02-kickermontag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -530,6 +1187,15 @@
    "title": "10 Jahre Hotel Matze",
    "detail": "",
    "url": "https://scheune.org/show/5557/10-jahre-hotel-matze.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -541,6 +1207,15 @@
    "title": "Betreutes Singen",
    "detail": "",
    "url": "https://scheune.org/show/5496/betreutes-singen.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -552,6 +1227,15 @@
    "title": "Chess Fanatics",
    "detail": "",
    "url": "https://scheune.org/show/5662/chess-fanatics.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -563,6 +1247,15 @@
    "title": "Billard & Bar",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-04-billard-bar",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -574,6 +1267,15 @@
    "title": "Abdul Kader Chahin",
    "detail": "",
    "url": "https://scheune.org/show/5303/abdul-kader-chahin.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -582,9 +1284,27 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-05",
-   "title": "TrAnSpArEnt. MolOtow. TOuR. //////////////AKa Rinde AKA RIND",
-   "detail": "TrAnSpArEnt. MolOtow. TOuR. //////////////AKa Rinde AKA RINDE (Andrej von Dÿse) akustischer Molotowcocktail mit Haltung / Berlin SUGAR KO:MA energetischer Fairy",
+   "title": "AKA RINDE + SUGAR KO:MA",
+   "detail": "AKA RINDE (Andrej von Dÿse), SUGAR KO:MA",
    "url": "https://www.chemiefabrik.info/gigs/15039/",
+   "lineup": [
+    {
+     "name": "AKA RINDE (Andrej von Dÿse)",
+     "info": "akustischer Molotowcocktail mit Haltung / Berlin"
+    },
+    {
+     "name": "SUGAR KO:MA",
+     "info": "energetischer Fairy-Art-Punk-Doom-Noise / Dresden"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "12,00 €",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk",
@@ -599,6 +1319,15 @@
    "title": "Livelyrix Poetry Slam",
    "detail": "",
    "url": "https://scheune.org/show/5394/livelyrix-poetry-slam.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -610,6 +1339,15 @@
    "title": "Unser Schmerz ist unsere Kraft",
    "detail": "",
    "url": "https://scheune.org/show/5488/unser-schmerz-ist-unsere-kraft.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -618,9 +1356,44 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-06",
-   "title": "ANCST Blackened MxC & Dark Ambient / Berlin Chaver Metal,HC ",
-   "detail": "ANCST Blackened MxC & Dark Ambient / Berlin Chaver Metal,HC / Leipzig Necromorph Grindcore / Berlin Welk Black Metal / Leipzig",
+   "title": "ANCST",
+   "detail": "Chaver, Necromorph, Welk",
    "url": "https://www.chemiefabrik.info/gigs/10106/",
+   "lineup": [
+    {
+     "name": "ANCST",
+     "info": "Blackened MxC & Dark Ambient / Berlin"
+    },
+    {
+     "name": "Chaver",
+     "info": "Metal,HC / Leipzig"
+    },
+    {
+     "name": "Necromorph",
+     "info": "Grindcore / Berlin"
+    },
+    {
+     "name": "Welk",
+     "info": "Black Metal / Leipzig"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "22,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "24,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/71549"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=7601&rewrite=uli-sailor-d&controller=product"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal",
@@ -635,6 +1408,15 @@
    "title": "Freddy Fischer & his Cosmic Rocktime Band",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-06-freddy-fischer-his-cosmic-rocktime-band",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -646,6 +1428,15 @@
    "title": "I bet you look good on the dancefloor w/ !Mauf",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-06-i-bet-you-look-good-on-the-dancefloor-w-mauf",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -657,6 +1448,15 @@
    "title": "Hi Freaks",
    "detail": "",
    "url": "https://scheune.org/show/5665/hi-freaks.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -668,6 +1468,15 @@
    "title": "Zum Dorfkrug",
    "detail": "",
    "url": "https://scheune.org/show/5666/zum-dorfkrug.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -676,9 +1485,40 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-07",
-   "title": "BERLINER WEISSE Oi-Punk / Berlin EAST END CHAOS Punkrock, St",
-   "detail": "BERLINER WEISSE Oi-Punk / Berlin EAST END CHAOS Punkrock, Streetpunk / Sachsen JAGDSCHEIN Ska-Punk / Zwickau, Dresden",
+   "title": "BERLINER WEISSE",
+   "detail": "EAST END CHAOS, JAGDSCHEIN",
    "url": "https://www.chemiefabrik.info/gigs/10360/",
+   "lineup": [
+    {
+     "name": "BERLINER WEISSE",
+     "info": "Oi-Punk / Berlin"
+    },
+    {
+     "name": "EAST END CHAOS",
+     "info": "Punkrock, Streetpunk / Sachsen"
+    },
+    {
+     "name": "JAGDSCHEIN",
+     "info": "Ska-Punk / Zwickau, Dresden"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "21,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "28,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/71024"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=2164&rewrite=berliner-weisse-d&controller=product"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -692,6 +1532,15 @@
    "title": "Die 90er Party",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-07-die-90er-party",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -703,6 +1552,15 @@
    "title": "Antritt - Der Fahrradpodcast",
    "detail": "",
    "url": "https://scheune.org/show/5668/antritt-der-fahrradpodcast.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -714,6 +1572,15 @@
    "title": "Bin ich das Arschloch?",
    "detail": "",
    "url": "https://scheune.org/show/5672/bin-ich-das-arschloch.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -725,6 +1592,15 @@
    "title": "Journalismus machen",
    "detail": "",
    "url": "https://scheune.org/show/5704/journalismus-machen.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -736,6 +1612,15 @@
    "title": "Lesen ist schwul - Die Show!",
    "detail": "",
    "url": "https://scheune.org/show/5664/lesen-ist-schwul-die-show.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -747,6 +1632,15 @@
    "title": "Mit einfachen Mitteln zum eigenen Podcast",
    "detail": "",
    "url": "https://scheune.org/show/5735/mit-einfachen-mitteln-zum-eigenen-podcast.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -758,6 +1652,15 @@
    "title": "Naturerkunden",
    "detail": "",
    "url": "https://scheune.org/show/5701/naturerkunden.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -769,6 +1672,15 @@
    "title": "Neues vom Ballaballa-Balkan",
    "detail": "",
    "url": "https://scheune.org/show/5676/neues-vom-ballaballa-balkan.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -780,6 +1692,15 @@
    "title": "PISSY - der Missy Magazine Podcast",
    "detail": "",
    "url": "https://scheune.org/show/5708/pissy-der-missy-magazine-podcast.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -791,6 +1712,15 @@
    "title": "Podcat + Poodle = Party",
    "detail": "",
    "url": "https://scheune.org/show/5733/podcat-poodle-party.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -802,6 +1732,15 @@
    "title": "Stimmbildung - Wie spreche ich richtig?",
    "detail": "",
    "url": "https://scheune.org/show/5734/stimmbildung-wie-spreche-ich-richtig.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -813,6 +1752,15 @@
    "title": "SALÒ",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-08-salo",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "hardcore",
@@ -827,6 +1775,15 @@
    "title": "Kickermontag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-09-kickermontag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -838,6 +1795,15 @@
    "title": "Feature Ring: Spilif",
    "detail": "",
    "url": "https://scheune.org/show/5458/feature-ring-spilif.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -846,9 +1812,40 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-10",
-   "title": "NASTY - EUROPE 2026 NASTY Hardcore / Belgien CRAWLSPACE Hard",
-   "detail": "NASTY - EUROPE 2026 NASTY Hardcore / Belgien CRAWLSPACE Hardcore / Belgien PINTGLASS Hardcore / UK GHETTO JUSTICE Hardcore / Berlin",
+   "title": "NASTY - EUROPE 2026",
+   "detail": "NASTY, CRAWLSPACE, PINTGLASS, GHETTO JUSTICE",
    "url": "https://www.chemiefabrik.info/gigs/15086/",
+   "lineup": [
+    {
+     "name": "NASTY",
+     "info": "Hardcore / Belgien"
+    },
+    {
+     "name": "CRAWLSPACE",
+     "info": "Hardcore / Belgien"
+    },
+    {
+     "name": "PINTGLASS",
+     "info": "Hardcore / UK"
+    },
+    {
+     "name": "GHETTO JUSTICE",
+     "info": "Hardcore / Berlin"
+    }
+   ],
+   "time": "18:00",
+   "doors": "18:00",
+   "start": "19:00",
+   "vvk": "30,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "35,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/74662"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "hardcore"
@@ -862,6 +1859,15 @@
    "title": "Billard & Bar",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-10-billard-bar",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -873,6 +1879,15 @@
    "title": "Be Reel: Social Media & Content Creation für Musiker:innen",
    "detail": "",
    "url": "https://scheune.org/show/5697/be-reel-social-media-content-creation-fr-musiker-innen.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -881,9 +1896,31 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-11",
-   "title": "Drawn and Quartered Death Metal / Seattle, USA Noroth Death ",
-   "detail": "Drawn and Quartered Death Metal / Seattle, USA Noroth Death Metal / Seattle, USA Mouth of Madness Black/Death Metal / Berlin/Görlitz, Germany",
+   "title": "DRAWN AND QUARTERED + NOROTH + MOUTH OF MADNESS",
+   "detail": "Drawn and Quartered, Noroth, Mouth of Madness",
    "url": "https://www.chemiefabrik.info/gigs/15063/",
+   "lineup": [
+    {
+     "name": "Drawn and Quartered",
+     "info": "Death Metal / Seattle, USA"
+    },
+    {
+     "name": "Noroth",
+     "info": "Death Metal / Seattle, USA"
+    },
+    {
+     "name": "Mouth of Madness",
+     "info": "Black/Death Metal / Berlin/Görlitz, Germany"
+    }
+   ],
+   "time": "18:30",
+   "doors": "18:30",
+   "start": "19:30",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "25,00 €",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal"
@@ -897,6 +1934,15 @@
    "title": "Sax Royal - Die Dresdner Lesebühne",
    "detail": "",
    "url": "https://scheune.org/show/5602/sax-royal-die-dresdner-lesebhne.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -905,9 +1951,32 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-12",
-   "title": "DAILY THOMPSON Grunge/Alternative/Desert Rock / Deutschland ",
-   "detail": "DAILY THOMPSON Grunge/Alternative/Desert Rock / Deutschland Constance Tomb Post Punk/Goth Rock / USA",
+   "title": "Daily Thompson",
+   "detail": "Constance Tomb",
    "url": "https://www.chemiefabrik.info/gigs/10289/",
+   "lineup": [
+    {
+     "name": "DAILY THOMPSON",
+     "info": "Grunge/Alternative/Desert Rock / Deutschland"
+    },
+    {
+     "name": "Constance Tomb",
+     "info": "Post Punk/Goth Rock / USA"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "22,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "25,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/72404"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -921,6 +1990,15 @@
    "title": "Bruchbude",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-12-bruchbude",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -932,6 +2010,15 @@
    "title": "Anna Bartling",
    "detail": "",
    "url": "https://scheune.org/show/5220/anna-bartling.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -943,6 +2030,15 @@
    "title": "MilkShake",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-13-milkshake",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -954,6 +2050,15 @@
    "title": "So Soon",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-13-so-soon",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -965,6 +2070,15 @@
    "title": "Tiere Streicheln Menschen",
    "detail": "",
    "url": "https://scheune.org/show/5504/tiere-streicheln-menschen.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -973,9 +2087,40 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-14",
-   "title": "VSK Punkrock / Freiberg/Celle PARKPUNK Punkrock / Regensburg",
-   "detail": "VSK Punkrock / Freiberg/Celle PARKPUNK Punkrock / Regensburg TROTZDEM Punkrock / Dresden",
+   "title": "VSK",
+   "detail": "PARKPUNK, TROTZDEM",
    "url": "https://www.chemiefabrik.info/gigs/10264/",
+   "lineup": [
+    {
+     "name": "VSK",
+     "info": "Punkrock / Freiberg/Celle"
+    },
+    {
+     "name": "PARKPUNK",
+     "info": "Punkrock / Regensburg"
+    },
+    {
+     "name": "TROTZDEM",
+     "info": "Punkrock / Dresden"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "17,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "20,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/71019"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=5057&rewrite=vsk-d&controller=product&fbclid=IwY2xjawSduPdleHRuA2FlbQIxMABicmlkETFoc0FOWThXZWg1TzFTSm9kc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHgB3oo3FzPKRFUxLzG1aFH5D7wVGbdpQ19q0LfeoXWQOk9jxGgbOHtBXXx79_aem_o4w0wpunkPXlaHY5O_2_7g"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -989,6 +2134,15 @@
    "title": "Alternative Block Party",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-14-alternative-block-party",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal",
@@ -1003,6 +2157,15 @@
    "title": "Kickermontag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-16-kickermontag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1011,9 +2174,36 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-17",
-   "title": "MURPHY`S LAW HC, Punk / USA, New York CLOBBER HC, Punk / GB,",
-   "detail": "MURPHY`S LAW HC, Punk / USA, New York CLOBBER HC, Punk / GB, London",
+   "title": "MURPHY’S LAW + CLOBBER",
+   "detail": "MURPHY`S LAW, CLOBBER",
    "url": "https://www.chemiefabrik.info/gigs/15129/",
+   "lineup": [
+    {
+     "name": "MURPHY`S LAW",
+     "info": "HC, Punk / USA, New York"
+    },
+    {
+     "name": "CLOBBER",
+     "info": "HC, Punk / GB, London"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "22,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "28,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/76828"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/8529-murphy-s-law-usa.html"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1027,6 +2217,15 @@
    "title": "Unlocked #12",
    "detail": "",
    "url": "https://scheune.org/show/5552/unlocked-12.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1035,9 +2234,44 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-18",
-   "title": "Europe November `26 IGNITE Melodic Hardcore / USA CANCER BAT",
-   "detail": "Europe November `26 IGNITE Melodic Hardcore / USA CANCER BATS Hardcore, Southern Rock / CAN OUTSPOKEN Hardcore / USA 1000 LÖWEN UNTER FEINDEN HC / D",
+   "title": "IGNITE - CANCER BATS - CANCER BATS - TLUF",
+   "detail": "IGNITE, CANCER BATS, OUTSPOKEN, 1000 LÖWEN UNTER FEINDEN",
    "url": "https://www.chemiefabrik.info/gigs/15151/",
+   "lineup": [
+    {
+     "name": "IGNITE",
+     "info": "Melodic Hardcore / USA"
+    },
+    {
+     "name": "CANCER BATS",
+     "info": "Hardcore, Southern Rock / CAN"
+    },
+    {
+     "name": "OUTSPOKEN",
+     "info": "Hardcore / USA"
+    },
+    {
+     "name": "1000 LÖWEN UNTER FEINDEN",
+     "info": "HC / D"
+    }
+   ],
+   "time": "18:00",
+   "doors": "18:00",
+   "start": "19:00",
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "40,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75601"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/startseite/5616-ignite-usa.html"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "hardcore"
@@ -1048,9 +2282,27 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-19",
-   "title": "GRIN Heavy Psych/Doom/Sludge / Berlin ASTRAL KOMPAKT Instrum",
-   "detail": "GRIN Heavy Psych/Doom/Sludge / Berlin ASTRAL KOMPAKT Instrumental Stoner Rock / Köln",
+   "title": "GRIN + ASTRAL KOMPAKT",
+   "detail": "GRIN, ASTRAL KOMPAKT",
    "url": "https://www.chemiefabrik.info/gigs/15013/",
+   "lineup": [
+    {
+     "name": "GRIN",
+     "info": "Heavy Psych/Doom/Sludge / Berlin"
+    },
+    {
+     "name": "ASTRAL KOMPAKT",
+     "info": "Instrumental Stoner Rock / Köln"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "15,00 €",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "doom",
@@ -1066,6 +2318,15 @@
    "title": "Facesoul",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-19-facesoul",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1077,6 +2338,15 @@
    "title": "David Lübke",
    "detail": "",
    "url": "https://scheune.org/show/5400/david-lbke.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1085,9 +2355,36 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-20",
-   "title": "„UNVERKENNBARER SOUND AUS BERLIN\" DIE VERLIERER Punk / Berli",
-   "detail": "„UNVERKENNBARER SOUND AUS BERLIN\" DIE VERLIERER Punk / Berlin DIE SCHLUEPPIS Punk / Berlin Aftershow mit: Teenage Depression / 77 Punk, Powerpop, 80s & more",
+   "title": "DIE VERLIERER + DIE SCHLUEPPIS",
+   "detail": "DIE VERLIERER, DIE SCHLUEPPIS, Aftershow mit:",
    "url": "https://www.chemiefabrik.info/gigs/10306/",
+   "lineup": [
+    {
+     "name": "DIE VERLIERER",
+     "info": "Punk / Berlin"
+    },
+    {
+     "name": "DIE SCHLUEPPIS",
+     "info": "Punk / Berlin"
+    },
+    {
+     "name": "Aftershow mit:",
+     "info": "Teenage Depression / 77 Punk, Powerpop, 80s & more"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "22,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "25,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/72232"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1101,6 +2398,15 @@
    "title": "Female Pop Night",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-20-female-pop-night",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1109,9 +2415,28 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-21",
-   "title": "4. Dresden Death Punk Night /Asses Of Fire - The Turbonegro ",
-   "detail": "4. Dresden Death Punk Night /Asses Of Fire - The Turbonegro Show ASSES OF FIRE Death Punk / DD",
+   "title": "4. Dresden Death Punk Night",
+   "detail": "ASSES OF FIRE",
    "url": "https://www.chemiefabrik.info/gigs/10277/",
+   "lineup": [
+    {
+     "name": "ASSES OF FIRE",
+     "info": "Death Punk / DD"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "18,80 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/startseite/1766-asses-of-fire-30-jahre-turbonegro.html"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1125,6 +2450,15 @@
    "title": "Eagle-Eye Cherry",
    "detail": "",
    "url": "https://scheune.org/show/5579/eagle-eye-cherry.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1133,9 +2467,23 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-22",
-   "title": "Generation Y Punk Doku - \"von Sozialen Medien, Bands und DIY",
-   "detail": "Generation Y Punk Doku - \"von Sozialen Medien, Bands und DIY-Punk\" Lesung",
+   "title": "Generation Y Punk Doku",
+   "detail": "Lesung",
    "url": "https://www.chemiefabrik.info/gigs/15094/",
+   "lineup": [
+    {
+     "name": "Lesung",
+     "info": ""
+    }
+   ],
+   "time": "17:30",
+   "doors": "17:30",
+   "start": "18:30",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1149,6 +2497,15 @@
    "title": "Kickermontag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-23-kickermontag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1160,6 +2517,15 @@
    "title": "Streichelt",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-24-streichelt",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1168,9 +2534,32 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-25",
-   "title": "SUMA Doom/Sludge/Noise / Schweden DOUBLEWIDE HARD STONED HEA",
-   "detail": "SUMA Doom/Sludge/Noise / Schweden DOUBLEWIDE HARD STONED HEAVY ROCK / D",
+   "title": "SUMA",
+   "detail": "DOUBLEWIDE",
    "url": "https://www.chemiefabrik.info/gigs/15019/",
+   "lineup": [
+    {
+     "name": "SUMA",
+     "info": "Doom/Sludge/Noise / Schweden"
+    },
+    {
+     "name": "DOUBLEWIDE",
+     "info": "HARD STONED HEAVY ROCK / D"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "15,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "20,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75544"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "doom",
@@ -1185,6 +2574,15 @@
    "title": "Sebastian 23",
    "detail": "",
    "url": "https://scheune.org/show/5304/sebastian-23.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1196,6 +2594,15 @@
    "title": "Árstíðir",
    "detail": "",
    "url": "https://scheune.org/show/5434/rstir.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1204,9 +2611,23 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-27",
-   "title": "+++ Ausverkauft +++ GRUPPA KARL MARX STADT Balkan / Chemnitz",
-   "detail": "+++ Ausverkauft +++ GRUPPA KARL MARX STADT Balkan / Chemnitz",
+   "title": "GRUPPA KARL MARX STADT",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/10470/",
+   "lineup": [
+    {
+     "name": "GRUPPA KARL MARX STADT",
+     "info": "Balkan / Chemnitz"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "20:30",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": true,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1215,20 +2636,48 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-28",
-   "title": "Infos folgen … Veganer Wintermarkt",
-   "detail": "Infos folgen … Veganer Wintermarkt",
-   "url": "https://www.chemiefabrik.info/gigs/10161/",
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Chemiefabrik",
-   "date": "2026-11-28",
-   "title": "Loop-Tour 2026 KONRAD KUECHENMEISTER Loop Entertainment / DD",
-   "detail": "Loop-Tour 2026 KONRAD KUECHENMEISTER Loop Entertainment / DD",
+   "title": "KONRAD KUECHENMEISTER",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/9603/",
+   "lineup": [
+    {
+     "name": "KONRAD KUECHENMEISTER",
+     "info": "Loop Entertainment / DD"
+    }
+   ],
+   "time": "21:00",
+   "doors": "21:00",
+   "start": "22:00",
+   "vvk": "25,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "30,00 €",
+   "tickets": [
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=1624&rewrite=konrad-kuechenmeister-d&controller=product"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Chemiefabrik",
+   "date": "2026-11-28",
+   "title": "Veganer Wintermarkt",
+   "detail": "",
+   "url": "https://www.chemiefabrik.info/gigs/10161/",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1240,6 +2689,15 @@
    "title": "Cabal & Employed To Serve",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-28-cabal-employed-to-serve",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal",
@@ -1255,6 +2713,15 @@
    "title": "Tino Bomelino",
    "detail": "",
    "url": "https://scheune.org/show/5423/tino-bomelino.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1263,9 +2730,23 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-29",
-   "title": "Protex: 1978 gegründet - die ersten Pioniere der Belfast Pun",
-   "detail": "Protex: 1978 gegründet - die ersten Pioniere der Belfast Punk-Bewegung! PROTEX 77`s Punk / IRL, Belfast",
+   "title": "PROTEX",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/15074/",
+   "lineup": [
+    {
+     "name": "PROTEX",
+     "info": "77`s Punk / IRL, Belfast"
+    }
+   ],
+   "time": "18:00",
+   "doors": "18:00",
+   "start": "19:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "16,00 €",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1279,6 +2760,15 @@
    "title": "Kickermontag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-11-30-kickermontag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1290,6 +2780,15 @@
    "title": "Betreutes Singen on Ice",
    "detail": "",
    "url": "https://scheune.org/show/5444/betreutes-singen-on-ice.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1301,6 +2800,15 @@
    "title": "Chess Fanatics",
    "detail": "",
    "url": "https://scheune.org/show/5663/chess-fanatics.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1312,6 +2820,15 @@
    "title": "Food & Folks",
    "detail": "",
    "url": "https://scheune.org/show/5725/food-folks.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1323,6 +2840,15 @@
    "title": "Poetry Slam",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-02-poetry-slam",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1334,6 +2860,15 @@
    "title": "Livelyrix Poetry Slam",
    "detail": "",
    "url": "https://scheune.org/show/5395/livelyrix-poetry-slam.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1342,9 +2877,44 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-12-04",
-   "title": "Punishable Act Hardcore / Berlin New Hate Rising Hardcore / ",
-   "detail": "Punishable Act Hardcore / Berlin New Hate Rising Hardcore / Stendal Out Of Step Hardcore / Hamburg Mein Herz in Flammen Hardcore / Altmark",
+   "title": "Punishable Act",
+   "detail": "New Hate Rising, Out Of Step, Mein Herz in Flammen",
    "url": "https://www.chemiefabrik.info/gigs/10364/",
+   "lineup": [
+    {
+     "name": "Punishable Act",
+     "info": "Hardcore / Berlin"
+    },
+    {
+     "name": "New Hate Rising",
+     "info": "Hardcore / Stendal"
+    },
+    {
+     "name": "Out Of Step",
+     "info": "Hardcore / Hamburg"
+    },
+    {
+     "name": "Mein Herz in Flammen",
+     "info": "Hardcore / Altmark"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "25,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/71977"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=2922&rewrite=punishable-act-d-record-release&controller=product&fbclid=IwY2xjawREqvdleHRuA2FlbQIxMABicmlkETFtbGs2cnhkdTREbGN3U3lzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHuMEmz6JtjiG7MRqQ_q68swokJ2tEVJY9XpAuwpugGU0mBoVuXQyfIuZCMQA_aem_m8ZeSB86Jz4pbhZPj74t7w"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "hardcore"
@@ -1358,6 +2928,15 @@
    "title": "La Boum - Das große Wunschkonzert",
    "detail": "",
    "url": "https://scheune.org/show/5567/la-boum-das-grosse-wunschkonzert.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1366,9 +2945,52 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-12-05",
-   "title": "Tunnelblick Fest No.1 DIE SELEKTION Cold Wave/EBM / Stuttgar",
-   "detail": "Tunnelblick Fest No.1 DIE SELEKTION Cold Wave/EBM / Stuttgart/Luzern Die Tödin Darkwave / Gelsenkirchen Das Kinn Minimal / Synthwave / Avantgarde / Frankfurt/M.",
+   "title": "Tunnelblick Fest No.1",
+   "detail": "DIE SELEKTION, Die Tödin, Das Kinn, DIAF, Elende Leiber, Kostenfalle",
    "url": "https://www.chemiefabrik.info/gigs/10425/",
+   "lineup": [
+    {
+     "name": "DIE SELEKTION",
+     "info": "Cold Wave/EBM / Stuttgart/Luzern"
+    },
+    {
+     "name": "Die Tödin",
+     "info": "Darkwave / Gelsenkirchen"
+    },
+    {
+     "name": "Das Kinn",
+     "info": "Minimal / Synthwave / Avantgarde / Frankfurt/M."
+    },
+    {
+     "name": "DIAF",
+     "info": "NDW aus der Hölle / Landshut"
+    },
+    {
+     "name": "Elende Leiber",
+     "info": "Postpunk/Darkwave/Industrial / Leipzig"
+    },
+    {
+     "name": "Kostenfalle",
+     "info": "Hamburg / Electro-Wave-Punk-Duo"
+    }
+   ],
+   "time": "17:00",
+   "doors": "17:00",
+   "start": "18:00",
+   "vvk": "30,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "35,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73726"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=7632&rewrite=the-real-mckenzies-can&controller=product"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1382,6 +3004,15 @@
    "title": "25 Jahre Banda Comunale",
    "detail": "",
    "url": "https://scheune.org/show/5563/25-jahre-banda-comunale.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1393,6 +3024,15 @@
    "title": "Glitzerkids - Die Kinderdisko",
    "detail": "",
    "url": "https://scheune.org/show/5629/glitzerkids-die-kinderdisko.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1404,6 +3044,15 @@
    "title": "Kickermontag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-07-kickermontag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1415,6 +3064,15 @@
    "title": "PaulK",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-07-paulk",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1426,6 +3084,15 @@
    "title": "ELL",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-08-ell",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1437,6 +3104,15 @@
    "title": "Spite House + Prize Horse + Wrong Man",
    "detail": "",
    "url": "https://scheune.org/show/5470/spite-house-prize-horse-wrong-man.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1445,9 +3121,18 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-12-10",
-   "title": "Infos folgen … LAUT MUSIKVIDEOS GUCKEN #5",
-   "detail": "Infos folgen … LAUT MUSIKVIDEOS GUCKEN #5",
+   "title": "LAUT MUSIKVIDEOS GUCKEN #5",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/15199/",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1459,6 +3144,15 @@
    "title": "Ana Lucia",
    "detail": "",
    "url": "https://scheune.org/show/5396/ana-lucia.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1470,6 +3164,15 @@
    "title": "Sax Royal - Die Dresdner Lesebühne",
    "detail": "",
    "url": "https://scheune.org/show/5603/sax-royal-die-dresdner-lesebhne.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1478,9 +3181,18 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-12-11",
-   "title": "Infos folgen … Heartbreakgeburtstag",
-   "detail": "Infos folgen … Heartbreakgeburtstag",
+   "title": "Heartbreakgeburtstag",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/10483/",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1492,6 +3204,15 @@
    "title": "Teenage Dream",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-11-teenage-dream",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1500,9 +3221,36 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-12-12",
-   "title": "Abschiedskonzert - 10 Jahre SEVENTH FLOOR SEVENTH FLOOR Indi",
-   "detail": "Abschiedskonzert - 10 Jahre SEVENTH FLOOR SEVENTH FLOOR Indie/Punk / Dresden VIRUNUM Indie Pop / Dresden 5RAUMFENSTER Indie Rock / Leipzig",
+   "title": "Abschiedskonzert - 10 Jahre SEVENTH FLOOR",
+   "detail": "SEVENTH FLOOR, VIRUNUM, 5RAUMFENSTER",
    "url": "https://www.chemiefabrik.info/gigs/15040/",
+   "lineup": [
+    {
+     "name": "SEVENTH FLOOR",
+     "info": "Indie/Punk / Dresden"
+    },
+    {
+     "name": "VIRUNUM",
+     "info": "Indie Pop / Dresden"
+    },
+    {
+     "name": "5RAUMFENSTER",
+     "info": "Indie Rock / Leipzig"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/76023"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1516,6 +3264,15 @@
    "title": "NewDEF Jam Vol. 11",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-12-newdef-jam-vol-11",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1527,6 +3284,15 @@
    "title": "Dancing with Myself",
    "detail": "",
    "url": "https://scheune.org/show/5728/dancing-with-myself.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1538,6 +3304,15 @@
    "title": "Kickermontag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-14-kickermontag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1549,6 +3324,15 @@
    "title": "NinaMarie",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-15-ninamarie",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1559,9 +3343,27 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-12-17",
-   "title": "SLOW GREEN THING Heavy Stoner Rock / Dresden Goatless Doom M",
-   "detail": "SLOW GREEN THING Heavy Stoner Rock / Dresden Goatless Doom Metal / Radebronx",
+   "title": "SLOW GREEN THING - GOATLESS",
+   "detail": "SLOW GREEN THING, Goatless",
    "url": "https://www.chemiefabrik.info/gigs/15230/",
+   "lineup": [
+    {
+     "name": "SLOW GREEN THING",
+     "info": "Heavy Stoner Rock / Dresden"
+    },
+    {
+     "name": "Goatless",
+     "info": "Doom Metal / Radebronx"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "12,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "15,00 €",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal",
@@ -1577,6 +3379,15 @@
    "title": "The Lazy Boys",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-17-the-lazy-boys",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1585,9 +3396,35 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-12-18",
-   "title": "Infos folgen … Weihnachten Ohne Familie FIFFI & THE KIDS Pop",
-   "detail": "Infos folgen … Weihnachten Ohne Familie FIFFI & THE KIDS Pop`n`Rock, Punk, Wave / Dresden EMPTY PINT AND THE HOT SHOTS Rocksdeady, 2Tone, Reggae / DD ATRAPPE Ga",
+   "title": "Weihnachten Ohne Familie",
+   "detail": "FIFFI & THE KIDS, EMPTY PINT AND THE HOT SHOTS, ATRAPPE, WAVEPUNX",
    "url": "https://www.chemiefabrik.info/gigs/10484/",
+   "lineup": [
+    {
+     "name": "FIFFI & THE KIDS",
+     "info": "Pop`n`Rock, Punk, Wave / Dresden"
+    },
+    {
+     "name": "EMPTY PINT AND THE HOT SHOTS",
+     "info": "Rocksdeady, 2Tone, Reggae / DD"
+    },
+    {
+     "name": "ATRAPPE",
+     "info": "Garagenpunk / Dresden"
+    },
+    {
+     "name": "WAVEPUNX",
+     "info": "Punk, Wave / Dresden"
+    }
+   ],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1601,6 +3438,15 @@
    "title": "Die Art",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-18-die-art",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1611,9 +3457,36 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-12-19",
-   "title": "+++Lumpenpack in der Nachbarschaft #4+++ SKINSECTS Punk,Oi! ",
-   "detail": "+++Lumpenpack in der Nachbarschaft #4+++ SKINSECTS Punk,Oi! / Dresden Squelette Oi-Punk / Paris Carry No Banners Oi-Punk / Dresden",
+   "title": "Skinsects + Squelette + Carry No Banners",
+   "detail": "SKINSECTS, Squelette, Carry No Banners",
    "url": "https://www.chemiefabrik.info/gigs/10354/",
+   "lineup": [
+    {
+     "name": "SKINSECTS",
+     "info": "Punk,Oi! / Dresden"
+    },
+    {
+     "name": "Squelette",
+     "info": "Oi-Punk / Paris"
+    },
+    {
+     "name": "Carry No Banners",
+     "info": "Oi-Punk / Dresden"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "25,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/de-DE/Event/73954"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1627,6 +3500,15 @@
    "title": "Die Art",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-19-die-art",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1640,6 +3522,15 @@
    "title": "Indie Kisses",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-19-indie-kisses",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1651,6 +3542,15 @@
    "title": "Julius Fischer & Christian Meyer: Weihnachtsschmonzette 2026",
    "detail": "",
    "url": "https://scheune.org/show/5416/julius-fischer-christian-meyer-weihnachtsschmonzette-2026.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1662,6 +3562,15 @@
    "title": "Kickermontag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-21-kickermontag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1670,9 +3579,18 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-12-27",
-   "title": "Infos folgen … Into the Darkness",
-   "detail": "Infos folgen … Into the Darkness",
+   "title": "Into the Darkness",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/15216/",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1684,6 +3602,15 @@
    "title": "mi amo",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-27-mi-amo",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1695,6 +3622,15 @@
    "title": "Kickermontag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-28-kickermontag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1703,9 +3639,44 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-12-29",
-   "title": "Jahresabschluss Park+Riot Punk,Sludge,HC / Leipzig UNITED AN",
-   "detail": "Jahresabschluss Park+Riot Punk,Sludge,HC / Leipzig UNITED AND STRONG Hardcore / Berlin Stray Dogs Hardcore / Berlin SKIRT HC-Punk / Hamburg",
+   "title": "JAHRESABSCHLUSS",
+   "detail": "Park+Riot, UNITED AND STRONG, Stray Dogs, SKIRT",
    "url": "https://www.chemiefabrik.info/gigs/10434/",
+   "lineup": [
+    {
+     "name": "Park+Riot",
+     "info": "Punk,Sludge,HC / Leipzig"
+    },
+    {
+     "name": "UNITED AND STRONG",
+     "info": "Hardcore / Berlin"
+    },
+    {
+     "name": "Stray Dogs",
+     "info": "Hardcore / Berlin"
+    },
+    {
+     "name": "SKIRT",
+     "info": "HC-Punk / Hamburg"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "18,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "22,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73983"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=8334&rewrite=parkriot-united-and-strong-stray-dogs-skirt&controller=product"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "hardcore",
@@ -1721,6 +3692,15 @@
    "title": "Chess Fanatics",
    "detail": "",
    "url": "https://scheune.org/show/5730/chess-fanatics.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1729,9 +3709,44 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-01-08",
-   "title": "DEFIANCE Hardcore / Stuttgart Split Hardcore / Kopenhagen MI",
-   "detail": "DEFIANCE Hardcore / Stuttgart Split Hardcore / Kopenhagen MINUS YOUTH Hardcore / Stuttgart HEATWAVE Hardcore / Leipzig",
+   "title": "Neujahr Mosh Fest - Tag 1",
+   "detail": "DEFIANCE, Split, MINUS YOUTH, HEATWAVE",
    "url": "https://www.chemiefabrik.info/gigs/10458/",
+   "lineup": [
+    {
+     "name": "DEFIANCE",
+     "info": "Hardcore / Stuttgart"
+    },
+    {
+     "name": "Split",
+     "info": "Hardcore / Kopenhagen"
+    },
+    {
+     "name": "MINUS YOUTH",
+     "info": "Hardcore / Stuttgart"
+    },
+    {
+     "name": "HEATWAVE",
+     "info": "Hardcore / Leipzig"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73673"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=3152&id_product_attribute=9654&rewrite=neujahrs-mosh-3&controller=product&fbclid=IwY2xjawSdvlNleHRuA2FlbQIxMABicmlkETFoc0FOWThXZWg1TzFTSm9kc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHq6eVMD6vVY2yc9nOxcrqWbkO6crSEPHk0JitPTBCe1IRlMaCNYIgGdjqhHA_aem_mbtr58pTj0pvhpXni10ysQ#/95-wochenendticket_tagesticket-wochenendticket"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "hardcore"
@@ -1742,9 +3757,44 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-01-09",
-   "title": "Dagger Threat HC,Metal / Hamburg XOXO Hardcore / Zürich Odd ",
-   "detail": "Dagger Threat HC,Metal / Hamburg XOXO Hardcore / Zürich Odd Pace Hardcore / Leipzig Hate Spiral Hardcore / Leipzig",
+   "title": "Neujahr Mosh Fest - Tag 2",
+   "detail": "Dagger Threat, XOXO, Odd Pace, Hate Spiral",
    "url": "https://www.chemiefabrik.info/gigs/10459/",
+   "lineup": [
+    {
+     "name": "Dagger Threat",
+     "info": "HC,Metal / Hamburg"
+    },
+    {
+     "name": "XOXO",
+     "info": "Hardcore / Zürich"
+    },
+    {
+     "name": "Odd Pace",
+     "info": "Hardcore / Leipzig"
+    },
+    {
+     "name": "Hate Spiral",
+     "info": "Hardcore / Leipzig"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73673"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=3152&id_product_attribute=9654&rewrite=neujahrs-mosh-3&controller=product&fbclid=IwY2xjawSdvlNleHRuA2FlbQIxMABicmlkETFoc0FOWThXZWg1TzFTSm9kc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHq6eVMD6vVY2yc9nOxcrqWbkO6crSEPHk0JitPTBCe1IRlMaCNYIgGdjqhHA_aem_mbtr58pTj0pvhpXni10ysQ#/95-wochenendticket_tagesticket-wochenendticket"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal",
@@ -1759,6 +3809,15 @@
    "title": "KAUTA",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-01-14-kauta",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1770,6 +3829,15 @@
    "title": "Sandra Schmidt",
    "detail": "",
    "url": "https://scheune.org/show/5467/sandra-schmidt.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1778,9 +3846,40 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-01-22",
-   "title": "FLIEHENDE STÜRME Aus den Trümmern von ChaosZ - Die Punk-Wave",
-   "detail": "FLIEHENDE STÜRME Aus den Trümmern von ChaosZ - Die Punk-Wave-Instutition / D NOWAVES Wave, No-Wave, Postpunk / Dresden TOTENWALD",
+   "title": "FLIEHENDE STÜRME",
+   "detail": "NOWAVES, TOTENWALD",
    "url": "https://www.chemiefabrik.info/gigs/15043/",
+   "lineup": [
+    {
+     "name": "FLIEHENDE STÜRME",
+     "info": "Aus den Trümmern von ChaosZ - Die Punk-Wave-Instutition / D"
+    },
+    {
+     "name": "NOWAVES",
+     "info": "Wave, No-Wave, Postpunk / Dresden"
+    },
+    {
+     "name": "TOTENWALD",
+     "info": ""
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "25,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73476"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=7633&rewrite=the-real-mckenzies-can&controller=product&fbclid=IwY2xjawSdwVJleHRuA2FlbQIxMABicmlkETFoc0FOWThXZWg1TzFTSm9kc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHi_jJDe9g1d7AZNwCnV24at3gWnLzboJa3sndmEhxYCSIvjF2yyVYT8v8NUl_aem_Z__fUjjE82AUh3IAREZLeg"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1791,9 +3890,44 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-01-23",
-   "title": "Dark Gospel Over Germany KNIFE Speed-Metal / D GAME OVER Thr",
-   "detail": "Dark Gospel Over Germany KNIFE Speed-Metal / D GAME OVER Thrash-Metal / I CATBREATH Crossover Thrash Metal / D GÖLTZSCH Death/Thrash Metal / Leipzig/Dresden, Ge",
+   "title": "KNIFE – GAME OVER – CATBREATH - GÖLTZSCH",
+   "detail": "KNIFE, GAME OVER, CATBREATH, GÖLTZSCH",
    "url": "https://www.chemiefabrik.info/gigs/15115/",
+   "lineup": [
+    {
+     "name": "KNIFE",
+     "info": "Speed-Metal / D"
+    },
+    {
+     "name": "GAME OVER",
+     "info": "Thrash-Metal / I"
+    },
+    {
+     "name": "CATBREATH",
+     "info": "Crossover Thrash Metal / D"
+    },
+    {
+     "name": "GÖLTZSCH",
+     "info": "Death/Thrash Metal / Leipzig/Dresden, Germany"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "25,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77504"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/8562-knife-game-over-catbreath-g%C3%B6ltzsch.html"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal",
@@ -1808,6 +3942,15 @@
    "title": "Transmission - The Sound of Joy Division",
    "detail": "",
    "url": "https://scheune.org/show/5474/transmission-the-sound-of-joy-division.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1819,6 +3962,15 @@
    "title": "Nick & June",
    "detail": "",
    "url": "https://scheune.org/show/5696/nick-june.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1830,6 +3982,15 @@
    "title": "BSK",
    "detail": "",
    "url": "https://scheune.org/show/5545/bsk.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1838,9 +3999,40 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-01-29",
-   "title": "Kaput Krauts Punkrock / Berlin DxBxSx Stonerpunk / Berlin Tr",
-   "detail": "Kaput Krauts Punkrock / Berlin DxBxSx Stonerpunk / Berlin Trümmerraten Punkrock / Hamburg",
+   "title": "KAPUT KRAUTS",
+   "detail": "DxBxSx, Trümmerraten",
    "url": "https://www.chemiefabrik.info/gigs/15015/",
+   "lineup": [
+    {
+     "name": "Kaput Krauts",
+     "info": "Punkrock / Berlin"
+    },
+    {
+     "name": "DxBxSx",
+     "info": "Stonerpunk / Berlin"
+    },
+    {
+     "name": "Trümmerraten",
+     "info": "Punkrock / Hamburg"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "16,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "20,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75036"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=8335&rewrite=kaput-krauts-dxbxsx-truemmerratten&controller=product"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk",
@@ -1855,6 +4047,15 @@
    "title": "Kurkapelle Sonnendeck",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-01-30-kurkapelle-sonnendeck",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1866,6 +4067,15 @@
    "title": "Donkey Kid",
    "detail": "",
    "url": "https://scheune.org/show/5681/donkey-kid.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1874,9 +4084,32 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-02-04",
-   "title": "THE HIRSCH EFFEKT Artcore, Progressive Metal / D",
-   "detail": "THE HIRSCH EFFEKT Artcore, Progressive Metal / D",
+   "title": "THE HIRSCH EFFEKT",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/15096/",
+   "lineup": [
+    {
+     "name": "THE HIRSCH EFFEKT",
+     "info": "Artcore, Progressive Metal / D"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "30,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Reservix",
+     "url": "https://www.reservix.de/tickets-the-hirsch-effekt-live-in-dresden-in-dresden-chemiefabrik-am-4-2-2027/e2574835"
+    },
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75241"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal"
@@ -1887,9 +4120,32 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-02-10",
-   "title": "DARKWAYS Darkwave, Postpunk / ESP CULT NOIR Post-Punk-Wave /",
-   "detail": "DARKWAYS Darkwave, Postpunk / ESP CULT NOIR Post-Punk-Wave / Berlin",
+   "title": "DARKWAYS, CULT NOIR",
+   "detail": "DARKWAYS, CULT NOIR",
    "url": "https://www.chemiefabrik.info/gigs/15141/",
+   "lineup": [
+    {
+     "name": "DARKWAYS",
+     "info": "Darkwave, Postpunk / ESP"
+    },
+    {
+     "name": "CULT NOIR",
+     "info": "Post-Punk-Wave / Berlin"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "23,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "27,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77023"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1903,6 +4159,15 @@
    "title": "Rebecca Papp",
    "detail": "",
    "url": "https://scheune.org/show/5594/rebecca-papp.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1914,6 +4179,15 @@
    "title": "Quichotte",
    "detail": "",
    "url": "https://scheune.org/show/5307/quichotte.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1925,6 +4199,15 @@
    "title": "Willi Weitzel",
    "detail": "",
    "url": "https://scheune.org/show/5637/willi-weitzel.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1936,6 +4219,15 @@
    "title": "Rene El Khazraje (MC Rene)",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-02-18-rene-el-khazraje-mc-rene",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1947,6 +4239,15 @@
    "title": "Stand Up Komitee Hamburg",
    "detail": "",
    "url": "https://scheune.org/show/5295/stand-up-komitee-hamburg.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1955,9 +4256,31 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-02-19",
-   "title": "FOR KIDS WE ARE UNITED V DOSENSTOLZ Deutschpunk / Dresden SH",
-   "detail": "FOR KIDS WE ARE UNITED V DOSENSTOLZ Deutschpunk / Dresden SHOCK GÜZEL Happy HC / Rhein-Main/ Berlin LEWIA Punk und Klavier / Erfurt",
+   "title": "FOR KIDS WE ARE UNITED V",
+   "detail": "DOSENSTOLZ, SHOCK GÜZEL, LEWIA",
    "url": "https://www.chemiefabrik.info/gigs/15052/",
+   "lineup": [
+    {
+     "name": "DOSENSTOLZ",
+     "info": "Deutschpunk / Dresden"
+    },
+    {
+     "name": "SHOCK GÜZEL",
+     "info": "Happy HC / Rhein-Main/ Berlin"
+    },
+    {
+     "name": "LEWIA",
+     "info": "Punk und Klavier / Erfurt"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -1971,6 +4294,15 @@
    "title": "Motuz",
    "detail": "",
    "url": "https://scheune.org/show/5553/motuz.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1982,6 +4314,15 @@
    "title": "MC Windhund",
    "detail": "",
    "url": "https://scheune.org/show/5645/mc-windhund.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1993,6 +4334,15 @@
    "title": "Hinnerk Köhn",
    "detail": "",
    "url": "https://scheune.org/show/5490/hinnerk-khn.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2004,6 +4354,15 @@
    "title": "local.exe w/ yungfsk18",
    "detail": "",
    "url": "https://scheune.org/show/5587/local-exe-w-yungfsk18.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2015,6 +4374,15 @@
    "title": "Luca Vasta",
    "detail": "",
    "url": "https://scheune.org/show/5529/luca-vasta.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2023,9 +4391,40 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-03-04",
-   "title": "OUR MIRAGE Post Hardcore, Metalcore / D OUT OF VISION Metalc",
-   "detail": "OUR MIRAGE Post Hardcore, Metalcore / D OUT OF VISION Metalcore / D LOST IN HOLLYWOOD Metalcore / Hamburg",
+   "title": "OUR MIRAGE",
+   "detail": "OUT OF VISION, LOST IN HOLLYWOOD",
    "url": "https://www.chemiefabrik.info/gigs/15142/",
+   "lineup": [
+    {
+     "name": "OUR MIRAGE",
+     "info": "Post Hardcore, Metalcore / D"
+    },
+    {
+     "name": "OUT OF VISION",
+     "info": "Metalcore / D"
+    },
+    {
+     "name": "LOST IN HOLLYWOOD",
+     "info": "Metalcore / Hamburg"
+    }
+   ],
+   "time": "18:30",
+   "doors": "18:30",
+   "start": "19:30",
+   "vvk": "30,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "35,00 €",
+   "tickets": [
+    {
+     "name": "Reservix",
+     "url": "https://www.reservix.de/tickets-our-mirage-live-in-dresden-in-dresden-chemiefabrik-am-4-3-2027/e2560188"
+    },
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73949"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "metal",
@@ -2041,6 +4440,15 @@
    "title": "The Busters",
    "detail": "",
    "url": "https://scheune.org/show/5561/the-busters.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2049,9 +4457,32 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-03-06",
-   "title": "spielen The ADVERTS, das Useless Album und viel mehr!!! TV S",
-   "detail": "spielen The ADVERTS, das Useless Album und viel mehr!!! TV Smith and the Bored Teenagers 77`s Kultpunk / UK, ESP",
+   "title": "TV SMITH and the BORED TEENAGERS",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/15159/",
+   "lineup": [
+    {
+     "name": "TV Smith and the Bored Teenagers",
+     "info": "77`s Kultpunk / UK, ESP"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "24,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "28,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/76203"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/3946-coogans-bluff-d.html"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -2065,6 +4496,15 @@
    "title": "Antje Schomaker",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-03-09-antje-schomaker",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2076,6 +4516,15 @@
    "title": "Annette Dittert",
    "detail": "",
    "url": "https://scheune.org/show/5706/annette-dittert.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2087,6 +4536,15 @@
    "title": "Waving The Guns",
    "detail": "",
    "url": "https://scheune.org/show/5540/waving-the-guns.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2098,6 +4556,15 @@
    "title": "Poetry Slam",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-03-11-poetry-slam",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2109,6 +4576,15 @@
    "title": "Notenzone",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-03-12-notenzone",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2120,6 +4596,15 @@
    "title": "Yorick Thiede",
    "detail": "",
    "url": "https://scheune.org/show/5299/yorick-thiede.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2131,6 +4616,15 @@
    "title": "The Equipment",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-03-13-the-equipment",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2142,6 +4636,15 @@
    "title": "Luksan Wunder",
    "detail": "",
    "url": "https://scheune.org/show/5300/luksan-wunder.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2153,6 +4656,15 @@
    "title": "Roger & Sixkay und ditu & L One",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-03-25-roger-sixkay-und-ditu-l-one",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2164,6 +4676,15 @@
    "title": "The Intersphere",
    "detail": "",
    "url": "https://scheune.org/show/5597/the-intersphere.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2175,6 +4696,15 @@
    "title": "Team Scheisse",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-04-07-team-scheisse",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -2188,6 +4718,15 @@
    "title": "KATI K",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-04-08-kati-k",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2199,6 +4738,15 @@
    "title": "Jan-Philipp Zymny",
    "detail": "",
    "url": "https://scheune.org/show/5689/jan-philipp-zymny.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2210,6 +4758,15 @@
    "title": "LEVKA",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-04-13-levka",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2218,9 +4775,23 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-04-16",
-   "title": "Infos folgen … THE GOOD THE BAD THE ZUGLY",
-   "detail": "Infos folgen … THE GOOD THE BAD THE ZUGLY",
+   "title": "THE GOOD THE BAD THE ZUGLY",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/15103/",
+   "lineup": [
+    {
+     "name": "THE GOOD THE BAD THE ZUGLY",
+     "info": ""
+    }
+   ],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2229,9 +4800,28 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-04-17",
-   "title": "Der Humppagenerator 2027 ELÄKELAISET",
-   "detail": "Der Humppagenerator 2027 ELÄKELAISET",
+   "title": "ELÄKELAISET",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/10088/",
+   "lineup": [
+    {
+     "name": "ELÄKELAISET",
+     "info": ""
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "26,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "30,00 €",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/elaekelaeiset-chemiefabrik-dresden-21741333/"
+    }
+   ],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2243,6 +4833,15 @@
    "title": "Ian Hooper",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-04-20-ian-hooper",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2254,6 +4853,15 @@
    "title": "Seraphina Kalze",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-04-24-seraphina-kalze",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2262,9 +4870,28 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-04-28",
-   "title": "RAPK Rap / Berlin",
-   "detail": "RAPK Rap / Berlin",
+   "title": "RAPK",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/10063/",
+   "lineup": [
+    {
+     "name": "RAPK",
+     "info": "Rap / Berlin"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "36 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Landstreicher Konzerte",
+     "url": "https://landstreicher-konzerte.de/konzerte/rapk-dd-26"
+    }
+   ],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2276,6 +4903,15 @@
    "title": "TULPE",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-04-30-tulpe",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2284,9 +4920,36 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-05-05",
-   "title": "LOIKAEMIE Oi!Punk, Streetpunk / D NON SERVIUM Oi/Punk / Madr",
-   "detail": "LOIKAEMIE Oi!Punk, Streetpunk / D NON SERVIUM Oi/Punk / Madrid,ESP DAS GELBE VOM Oi! Oi!Punk, / Steigerwald",
+   "title": "LOIKAEMIE",
+   "detail": "NON SERVIUM, DAS GELBE VOM Oi!",
    "url": "https://www.chemiefabrik.info/gigs/10454/",
+   "lineup": [
+    {
+     "name": "LOIKAEMIE",
+     "info": "Oi!Punk, Streetpunk / D"
+    },
+    {
+     "name": "NON SERVIUM",
+     "info": "Oi/Punk / Madrid,ESP"
+    },
+    {
+     "name": "DAS GELBE VOM Oi!",
+     "info": "Oi!Punk, / Steigerwald"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/de-DE/Event/77520"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -2300,6 +4963,15 @@
    "title": "Mace",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-05-08-mace",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2311,6 +4983,15 @@
    "title": "Farewell Youth Fest 2027 • Freitag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-06-18-farewell-youth-fest-2027-freitag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -2324,6 +5005,15 @@
    "title": "Farewell Youth Fest 2027 • Samstag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-06-19-farewell-youth-fest-2027-samstag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -2337,6 +5027,15 @@
    "title": "Farewell Youth Fest 2027 • Sonntag",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-06-20-farewell-youth-fest-2027-sonntag",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -2347,9 +5046,23 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-07-02",
-   "title": "Infos folgen … Open Air Die ART Postpunk, New Wave, Experime",
-   "detail": "Infos folgen … Open Air Die ART Postpunk, New Wave, Experimentell / Leipzig",
+   "title": "Open Air",
+   "detail": "Die ART",
    "url": "https://www.chemiefabrik.info/gigs/15102/",
+   "lineup": [
+    {
+     "name": "Die ART",
+     "info": "Postpunk, New Wave, Experimentell / Leipzig"
+    }
+   ],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -2360,9 +5073,40 @@
   {
    "club": "Chemiefabrik",
    "date": "2027-07-03",
-   "title": "Sommerfest – RUNDE 3! OXO86 SKA-Punk / Bernau bei Berlin BRE",
-   "detail": "Sommerfest – RUNDE 3! OXO86 SKA-Punk / Bernau bei Berlin BRECHRAITZ Punkrock / Jena SPERRZONE Ostpunk / Torgau PIY - Punkrock Karaoke Karaoke / Dresden",
+   "title": "Sommerfest mit OXO86",
+   "detail": "OXO86, BRECHRAITZ, SPERRZONE, PIY - Punkrock Karaoke",
    "url": "https://www.chemiefabrik.info/gigs/10389/",
+   "lineup": [
+    {
+     "name": "OXO86",
+     "info": "SKA-Punk / Bernau bei Berlin"
+    },
+    {
+     "name": "BRECHRAITZ",
+     "info": "Punkrock / Jena"
+    },
+    {
+     "name": "SPERRZONE",
+     "info": "Ostpunk / Torgau"
+    },
+    {
+     "name": "PIY - Punkrock Karaoke",
+     "info": "Karaoke / Dresden"
+    }
+   ],
+   "time": "17:00",
+   "doors": "17:00",
+   "start": "18:00",
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "45,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/76780"
+    }
+   ],
+   "soldout": false,
    "hit": true,
    "hits": [
     "punk"
@@ -2376,6 +5120,15 @@
    "title": "Sing!",
    "detail": "",
    "url": "https://scheune.org/show/5565/sing.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2387,6 +5140,15 @@
    "title": "Danger Dan",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-08-20-danger-dan",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2396,8 +5158,22 @@
    "club": "Chemiefabrik",
    "date": "2027-09-04",
    "title": "DAMAGE FESTIVAL",
-   "detail": "DAMAGE FESTIVAL",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/15187/",
+   "lineup": [],
+   "time": "15:00",
+   "doors": "15:00",
+   "start": "16:00",
+   "vvk": "38,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77103"
+    }
+   ],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2409,6 +5185,15 @@
    "title": "The Beauty of Gemina",
    "detail": "",
    "url": "https://www.groovestation.de/event/2027-11-06-the-beauty-of-gemina",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2420,6 +5205,15 @@
    "title": "Robert Alan",
    "detail": "",
    "url": "https://www.groovestation.de/event/2028-03-09-robert-alan",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2431,6 +5225,15 @@
    "title": "Seraphina Kalze",
    "detail": "",
    "url": "https://www.groovestation.de/event/2028-03-11-seraphina-kalze",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,

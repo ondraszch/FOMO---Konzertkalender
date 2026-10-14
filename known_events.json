@@ -1,194 +1,780 @@
 {
  "Chemiefabrik:10063": {
+  "d": {
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Landstreicher Konzerte",
+     "url": "https://landstreicher-konzerte.de/konzerte/rapk-dd-26"
+    }
+   ],
+   "vvk": "36 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-04-28",
   "title": "RAPK Rap / Berlin"
  },
  "Chemiefabrik:10088": {
+  "d": {
+   "ak": "30,00 €",
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/elaekelaeiset-chemiefabrik-dresden-21741333/"
+    }
+   ],
+   "vvk": "26,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-04-17",
   "title": "Der Humppagenerator 2027 ELÄKELAISET"
  },
  "Chemiefabrik:10106": {
+  "d": {
+   "ak": "24,00 €",
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "21:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/71549"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=7601&rewrite=uli-sailor-d&controller=product"
+    }
+   ],
+   "vvk": "22,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-11-06",
   "title": "ANCST Blackened MxC & Dark Ambient / Berlin Chaver Metal,HC "
  },
  "Chemiefabrik:10161": {
+  "d": {
+   "f": "2026-10-14"
+  },
   "date": "2026-11-28",
   "title": "Infos folgen … Veganer Wintermarkt"
  },
  "Chemiefabrik:10202": {
+  "d": {
+   "ak": "35,00 €",
+   "doors": "18:15",
+   "f": "2026-10-14",
+   "start": "19:00",
+   "tickets": [
+    {
+     "name": "Pogorausch Concerts",
+     "url": "https://www.pogorausch-concerts.de"
+    }
+   ],
+   "vvk": "30,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-10-23",
   "title": "15. Pogorausch Festival THE PROWLERS Oi! Veteranen / CAN, Mo"
  },
  "Chemiefabrik:10203": {
+  "d": {
+   "ak": "40,00 €",
+   "doors": "18:15",
+   "f": "2026-10-14",
+   "start": "19:00",
+   "tickets": [
+    {
+     "name": "Pogorausch Concerts",
+     "url": "https://www.pogorausch-concerts.de"
+    }
+   ],
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-10-24",
   "title": "15. Pogorausch Festival GEWOHNHEITSTRINKER Oi!-Punk / Freibu"
  },
  "Chemiefabrik:10224": {
+  "d": {
+   "doors": "16:30",
+   "f": "2026-10-14",
+   "start": "18:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73495"
+    }
+   ],
+   "vvk": "63,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-10-16",
   "title": "HEAVY PSYCH SOUNDS FEST VALLEY OF THE SUN Heavy Rock/Stonerr"
  },
  "Chemiefabrik:10225": {
+  "d": {
+   "doors": "16:30",
+   "f": "2026-10-14",
+   "start": "17:40",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73495"
+    }
+   ],
+   "vvk": "63,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-10-17",
   "title": "HEAVY PSYCH SOUNDS FEST BELZEBONG Stoner/Doom / Polen HIPPIE"
  },
  "Chemiefabrik:10228": {
+  "d": {
+   "ak": "35,00 €",
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/startseite/3118-juse-ju-d.html"
+    }
+   ],
+   "vvk": "30,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-10-15",
   "title": "JUSE JU HipHop / D"
  },
  "Chemiefabrik:10264": {
+  "d": {
+   "ak": "20,00 €",
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "21:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/71019"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=5057&rewrite=vsk-d&controller=product&fbclid=IwY2xjawSduPdleHRuA2FlbQIxMABicmlkETFoc0FOWThXZWg1TzFTSm9kc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHgB3oo3FzPKRFUxLzG1aFH5D7wVGbdpQ19q0LfeoXWQOk9jxGgbOHtBXXx79_aem_o4w0wpunkPXlaHY5O_2_7g"
+    }
+   ],
+   "vvk": "17,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-11-14",
   "title": "VSK Punkrock / Freiberg/Celle PARKPUNK Punkrock / Regensburg"
  },
  "Chemiefabrik:10277": {
+  "d": {
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "21:00",
+   "tickets": [
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/startseite/1766-asses-of-fire-30-jahre-turbonegro.html"
+    }
+   ],
+   "vvk": "18,80 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-11-21",
   "title": "4. Dresden Death Punk Night /Asses Of Fire - The Turbonegro "
  },
  "Chemiefabrik:10289": {
+  "d": {
+   "ak": "25,00 €",
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/72404"
+    }
+   ],
+   "vvk": "22,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-11-12",
   "title": "DAILY THOMPSON Grunge/Alternative/Desert Rock / Deutschland "
  },
  "Chemiefabrik:10306": {
+  "d": {
+   "ak": "25,00 €",
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "21:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/72232"
+    }
+   ],
+   "vvk": "22,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-11-20",
   "title": "„UNVERKENNBARER SOUND AUS BERLIN\" DIE VERLIERER Punk / Berli"
  },
  "Chemiefabrik:10337": {
+  "d": {
+   "ak": "26,00 €",
+   "doors": "19:30",
+   "f": "2026-10-14",
+   "start": "20:15",
+   "tickets": [
+    {
+     "name": "Pogorausch Concerts",
+     "url": "https://www.pogorausch-concerts.de"
+    }
+   ],
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-10-22",
   "title": "15. Pogorausch Festival - Warm Up Show BONECRUSHER Punk Bull"
  },
  "Chemiefabrik:10341": {
+  "d": {
+   "ak": "20,00 €",
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "21:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75664"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/5711-los-fastidios-i.html"
+    }
+   ],
+   "vvk": "17,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-10-31",
   "title": "LOS FASTIDIOS Antifashist Oi! / Italien The OFFCUTS Ska / Dr"
  },
  "Chemiefabrik:10348": {
+  "d": {
+   "ak": "5,00 €",
+   "doors": "20:30",
+   "f": "2026-10-14",
+   "start": "21:00"
+  },
   "date": "2026-10-30",
   "title": "A Spooktacular Night Volume 5 DJ TEAM THE EXORSISTERS DJ SUB"
  },
  "Chemiefabrik:10354": {
+  "d": {
+   "ak": "25,00 €",
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "21:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/de-DE/Event/73954"
+    }
+   ],
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-12-19",
   "title": "+++Lumpenpack in der Nachbarschaft #4+++ SKINSECTS Punk,Oi! "
  },
  "Chemiefabrik:10360": {
+  "d": {
+   "ak": "28,00 €",
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "21:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/71024"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=2164&rewrite=berliner-weisse-d&controller=product"
+    }
+   ],
+   "vvk": "21,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-11-07",
   "title": "BERLINER WEISSE Oi-Punk / Berlin EAST END CHAOS Punkrock, St"
  },
  "Chemiefabrik:10364": {
+  "d": {
+   "ak": "25,00 €",
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "21:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/71977"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=2922&rewrite=punishable-act-d-record-release&controller=product&fbclid=IwY2xjawREqvdleHRuA2FlbQIxMABicmlkETFtbGs2cnhkdTREbGN3U3lzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHuMEmz6JtjiG7MRqQ_q68swokJ2tEVJY9XpAuwpugGU0mBoVuXQyfIuZCMQA_aem_m8ZeSB86Jz4pbhZPj74t7w"
+    }
+   ],
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-12-04",
   "title": "Punishable Act Hardcore / Berlin New Hate Rising Hardcore / "
  },
  "Chemiefabrik:10389": {
+  "d": {
+   "ak": "45,00 €",
+   "doors": "17:00",
+   "f": "2026-10-14",
+   "start": "18:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/76780"
+    }
+   ],
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-07-03",
   "title": "Sommerfest – RUNDE 3! OXO86 SKA-Punk / Bernau bei Berlin BRE"
  },
  "Chemiefabrik:10425": {
+  "d": {
+   "ak": "35,00 €",
+   "doors": "17:00",
+   "f": "2026-10-14",
+   "start": "18:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73726"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=7632&rewrite=the-real-mckenzies-can&controller=product"
+    }
+   ],
+   "vvk": "30,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-12-05",
   "title": "Tunnelblick Fest No.1 DIE SELEKTION Cold Wave/EBM / Stuttgar"
  },
  "Chemiefabrik:10434": {
+  "d": {
+   "ak": "22,00 €",
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "21:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73983"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=8334&rewrite=parkriot-united-and-strong-stray-dogs-skirt&controller=product"
+    }
+   ],
+   "vvk": "18,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-12-29",
   "title": "Jahresabschluss Park+Riot Punk,Sludge,HC / Leipzig UNITED AN"
  },
  "Chemiefabrik:10454": {
+  "d": {
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/de-DE/Event/77520"
+    }
+   ],
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-05-05",
   "seen": "2026-10-14",
   "title": "LOIKAEMIE Oi!Punk, Streetpunk / D NON SERVIUM Oi/Punk / Madr"
  },
  "Chemiefabrik:10458": {
+  "d": {
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73673"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=3152&id_product_attribute=9654&rewrite=neujahrs-mosh-3&controller=product&fbclid=IwY2xjawSdvlNleHRuA2FlbQIxMABicmlkETFoc0FOWThXZWg1TzFTSm9kc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHq6eVMD6vVY2yc9nOxcrqWbkO6crSEPHk0JitPTBCe1IRlMaCNYIgGdjqhHA_aem_mbtr58pTj0pvhpXni10ysQ#/95-wochenendticket_tagesticket-wochenendticket"
+    }
+   ],
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-01-08",
   "title": "DEFIANCE Hardcore / Stuttgart Split Hardcore / Kopenhagen MI"
  },
  "Chemiefabrik:10459": {
+  "d": {
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73673"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=3152&id_product_attribute=9654&rewrite=neujahrs-mosh-3&controller=product&fbclid=IwY2xjawSdvlNleHRuA2FlbQIxMABicmlkETFoc0FOWThXZWg1TzFTSm9kc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHq6eVMD6vVY2yc9nOxcrqWbkO6crSEPHk0JitPTBCe1IRlMaCNYIgGdjqhHA_aem_mbtr58pTj0pvhpXni10ysQ#/95-wochenendticket_tagesticket-wochenendticket"
+    }
+   ],
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-01-09",
   "title": "Dagger Threat HC,Metal / Hamburg XOXO Hardcore / Zürich Odd "
  },
  "Chemiefabrik:10468": {
+  "d": {
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Vertikal Concerts",
+     "url": "https://www.vertikalconcerts.com/konzerte/heretoir-dd-26"
+    }
+   ],
+   "vvk": "32,90 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-10-20",
   "title": "\"Solastalgia over Europe MMXXVI\" Tour 2026 HERETOIR Post Met"
  },
  "Chemiefabrik:10470": {
+  "d": {
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "20:30"
+  },
   "date": "2026-11-27",
   "title": "+++ Ausverkauft +++ GRUPPA KARL MARX STADT Balkan / Chemnitz"
  },
  "Chemiefabrik:10483": {
+  "d": {
+   "f": "2026-10-14"
+  },
   "date": "2026-12-11",
   "title": "Infos folgen … Heartbreakgeburtstag"
  },
  "Chemiefabrik:10484": {
+  "d": {
+   "f": "2026-10-14"
+  },
   "date": "2026-12-18",
   "title": "Infos folgen … Weihnachten Ohne Familie FIFFI & THE KIDS Pop"
  },
  "Chemiefabrik:15013": {
+  "d": {
+   "ak": "15,00 €",
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00"
+  },
   "date": "2026-11-19",
   "title": "GRIN Heavy Psych/Doom/Sludge / Berlin ASTRAL KOMPAKT Instrum"
  },
  "Chemiefabrik:15015": {
+  "d": {
+   "ak": "20,00 €",
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "21:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75036"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=8335&rewrite=kaput-krauts-dxbxsx-truemmerratten&controller=product"
+    }
+   ],
+   "vvk": "16,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-01-29",
   "title": "Kaput Krauts Punkrock / Berlin DxBxSx Stonerpunk / Berlin Tr"
  },
  "Chemiefabrik:15019": {
+  "d": {
+   "ak": "20,00 €",
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75544"
+    }
+   ],
+   "vvk": "15,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-11-25",
   "title": "SUMA Doom/Sludge/Noise / Schweden DOUBLEWIDE HARD STONED HEA"
  },
  "Chemiefabrik:15030": {
+  "d": {
+   "ak": "28,00 €",
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75302"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=3627&rewrite=the-monsters-ch&controller=product"
+    }
+   ],
+   "vvk": "23,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-10-26",
   "title": "\"OFF THE ROAD\" THE MONSTERS Garage, Punk, Psychobilly, Trash"
  },
  "Chemiefabrik:15039": {
+  "d": {
+   "ak": "12,00 €",
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00"
+  },
   "date": "2026-11-05",
   "title": "TrAnSpArEnt. MolOtow. TOuR. //////////////AKa Rinde AKA RIND"
  },
  "Chemiefabrik:15040": {
+  "d": {
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/76023"
+    }
+   ]
+  },
   "date": "2026-12-12",
   "title": "Abschiedskonzert - 10 Jahre SEVENTH FLOOR SEVENTH FLOOR Indi"
  },
  "Chemiefabrik:15043": {
+  "d": {
+   "ak": "25,00 €",
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "21:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73476"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=7633&rewrite=the-real-mckenzies-can&controller=product&fbclid=IwY2xjawSdwVJleHRuA2FlbQIxMABicmlkETFoc0FOWThXZWg1TzFTSm9kc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHi_jJDe9g1d7AZNwCnV24at3gWnLzboJa3sndmEhxYCSIvjF2yyVYT8v8NUl_aem_Z__fUjjE82AUh3IAREZLeg"
+    }
+   ],
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-01-22",
   "title": "FLIEHENDE STÜRME Aus den Trümmern von ChaosZ - Die Punk-Wave"
  },
  "Chemiefabrik:15045": {
+  "d": {
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Landstreicher Konzerte",
+     "url": "https://landstreicher-konzerte.de/konzerte/sonos-cliq-dd-26"
+    }
+   ],
+   "vvk": "32 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-10-28",
   "title": "Planet Kumpel Tour 2026 $ONO$ CLIQ HipHop, Rap / D"
  },
  "Chemiefabrik:15052": {
+  "d": {
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "21:00"
+  },
   "date": "2027-02-19",
   "title": "FOR KIDS WE ARE UNITED V DOSENSTOLZ Deutschpunk / Dresden SH"
  },
  "Chemiefabrik:15063": {
+  "d": {
+   "ak": "25,00 €",
+   "doors": "18:30",
+   "f": "2026-10-14",
+   "start": "19:30"
+  },
   "date": "2026-11-11",
   "title": "Drawn and Quartered Death Metal / Seattle, USA Noroth Death "
  },
  "Chemiefabrik:15074": {
+  "d": {
+   "ak": "16,00 €",
+   "doors": "18:00",
+   "f": "2026-10-14",
+   "start": "19:00"
+  },
   "date": "2026-11-29",
   "title": "Protex: 1978 gegründet - die ersten Pioniere der Belfast Pun"
  },
  "Chemiefabrik:15084": {
+  "d": {
+   "f": "2026-10-14"
+  },
   "date": "2026-10-18",
   "title": "+++ Leider ersatzlos abgesagt +++ MARK FOGGO leider abgesagt"
  },
  "Chemiefabrik:15086": {
+  "d": {
+   "ak": "35,00 €",
+   "doors": "18:00",
+   "f": "2026-10-14",
+   "start": "19:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/74662"
+    }
+   ],
+   "vvk": "30,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-11-10",
   "title": "NASTY - EUROPE 2026 NASTY Hardcore / Belgien CRAWLSPACE Hard"
  },
  "Chemiefabrik:15087": {
+  "d": {
+   "ak": "25,00 €",
+   "doors": "18:30",
+   "f": "2026-10-14",
+   "start": "19:30",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75536"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/8407-onslaught-uk.html"
+    }
+   ],
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-10-19",
   "title": "\"The Force from Hell\" Tour ONSLAUGHT Thrash Metal / UK THE P"
  },
  "Chemiefabrik:15094": {
+  "d": {
+   "doors": "17:30",
+   "f": "2026-10-14",
+   "start": "18:30"
+  },
   "date": "2026-11-22",
   "title": "Generation Y Punk Doku - \"von Sozialen Medien, Bands und DIY"
  },
  "Chemiefabrik:15096": {
+  "d": {
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Reservix",
+     "url": "https://www.reservix.de/tickets-the-hirsch-effekt-live-in-dresden-in-dresden-chemiefabrik-am-4-2-2027/e2574835"
+    },
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75241"
+    }
+   ],
+   "vvk": "30,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-02-04",
   "title": "THE HIRSCH EFFEKT Artcore, Progressive Metal / D"
  },
  "Chemiefabrik:15102": {
+  "d": {
+   "f": "2026-10-14"
+  },
   "date": "2027-07-02",
   "title": "Infos folgen … Open Air Die ART Postpunk, New Wave, Experime"
  },
  "Chemiefabrik:15103": {
+  "d": {
+   "f": "2026-10-14"
+  },
   "date": "2027-04-16",
   "title": "Infos folgen … THE GOOD THE BAD THE ZUGLY"
  },
  "Chemiefabrik:15115": {
+  "d": {
+   "ak": "25,00 €",
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77504"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/8562-knife-game-over-catbreath-g%C3%B6ltzsch.html"
+    }
+   ],
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-01-23",
   "title": "Dark Gospel Over Germany KNIFE Speed-Metal / D GAME OVER Thr"
  },
@@ -197,42 +783,169 @@
   "title": "INTEGRITY Hardcore Ringworm Hardcore World I Hate Hardcore"
  },
  "Chemiefabrik:15129": {
+  "d": {
+   "ak": "28,00 €",
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/76828"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/8529-murphy-s-law-usa.html"
+    }
+   ],
+   "vvk": "22,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-11-17",
   "title": "MURPHY`S LAW HC, Punk / USA, New York CLOBBER HC, Punk / GB,"
  },
  "Chemiefabrik:15141": {
+  "d": {
+   "ak": "27,00 €",
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77023"
+    }
+   ],
+   "vvk": "23,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-02-10",
   "title": "DARKWAYS Darkwave, Postpunk / ESP CULT NOIR Post-Punk-Wave /"
  },
  "Chemiefabrik:15142": {
+  "d": {
+   "ak": "35,00 €",
+   "doors": "18:30",
+   "f": "2026-10-14",
+   "start": "19:30",
+   "tickets": [
+    {
+     "name": "Reservix",
+     "url": "https://www.reservix.de/tickets-our-mirage-live-in-dresden-in-dresden-chemiefabrik-am-4-3-2027/e2560188"
+    },
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/73949"
+    }
+   ],
+   "vvk": "30,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-03-04",
   "title": "OUR MIRAGE Post Hardcore, Metalcore / D OUT OF VISION Metalc"
  },
  "Chemiefabrik:15151": {
+  "d": {
+   "ak": "40,00 €",
+   "doors": "18:00",
+   "f": "2026-10-14",
+   "start": "19:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/75601"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/startseite/5616-ignite-usa.html"
+    }
+   ],
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-11-18",
   "title": "Europe November `26 IGNITE Melodic Hardcore / USA CANCER BAT"
  },
  "Chemiefabrik:15159": {
+  "d": {
+   "ak": "28,00 €",
+   "doors": "20:00",
+   "f": "2026-10-14",
+   "start": "21:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/76203"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/3946-coogans-bluff-d.html"
+    }
+   ],
+   "vvk": "24,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-03-06",
   "title": "spielen The ADVERTS, das Useless Album und viel mehr!!! TV S"
  },
  "Chemiefabrik:15187": {
+  "d": {
+   "doors": "15:00",
+   "f": "2026-10-14",
+   "start": "16:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77103"
+    }
+   ],
+   "vvk": "38,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2027-09-04",
   "title": "DAMAGE FESTIVAL"
  },
  "Chemiefabrik:15199": {
+  "d": {
+   "f": "2026-10-14"
+  },
   "date": "2026-12-10",
   "title": "Infos folgen … LAUT MUSIKVIDEOS GUCKEN #5"
  },
  "Chemiefabrik:15216": {
+  "d": {
+   "f": "2026-10-14"
+  },
   "date": "2026-12-27",
   "title": "Infos folgen … Into the Darkness"
  },
  "Chemiefabrik:15230": {
+  "d": {
+   "ak": "15,00 €",
+   "doors": "19:00",
+   "f": "2026-10-14",
+   "start": "20:00",
+   "vvk": "12,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-12-17",
   "title": "SLOW GREEN THING Heavy Stoner Rock / Dresden Goatless Doom M"
  },
  "Chemiefabrik:9603": {
+  "d": {
+   "ak": "30,00 €",
+   "doors": "21:00",
+   "f": "2026-10-14",
+   "start": "22:00",
+   "tickets": [
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/index.php?id_product=1624&rewrite=konrad-kuechenmeister-d&controller=product"
+    }
+   ],
+   "vvk": "25,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
   "date": "2026-11-28",
   "title": "Loop-Tour 2026 KONRAD KUECHENMEISTER Loop Entertainment / DD"
  },
