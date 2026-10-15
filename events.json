@@ -1,26 +1,6 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "events": [
-  {
-   "club": "GrooveStation",
-   "date": "2026-10-14",
-   "title": "MiDi w/ Meta Chrom & Trokar",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-14-midi-w-meta-chrom-trokar",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "date": "2026-10-15",
