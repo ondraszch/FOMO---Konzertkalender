@@ -1,80 +1,6 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-16",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "date": "2026-10-15",
-   "title": "JUSE JU",
-   "detail": "Joseph Steinschleuder",
-   "url": "https://www.chemiefabrik.info/gigs/10228/",
-   "lineup": [
-    {
-     "name": "JUSE JU",
-     "info": "HipHop / D"
-    },
-    {
-     "name": "Joseph Steinschleuder",
-     "info": "HipHop / (Ukr/D)"
-    }
-   ],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "30,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "35,00 €",
-   "tickets": [
-    {
-     "name": "SaxTicket",
-     "url": "https://www.saxticket.de/startseite/3118-juse-ju-d.html"
-    }
-   ],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "date": "2026-10-15",
-   "title": "Billard & Bar",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-15-billard-bar",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "date": "2026-10-15",
-   "title": "Sax Royal - Die Dresdner Lesebühne",
-   "detail": "",
-   "url": "https://scheune.org/show/5601/sax-royal-die-dresdner-lesebhne.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "date": "2026-10-16",
@@ -2154,8 +2080,8 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-17",
-   "title": "MURPHY’S LAW + CLOBBER",
-   "detail": "MURPHY`S LAW, CLOBBER",
+   "title": "Subculture Fest mit: MURPHY’S LAW + CLOBBER + mehr",
+   "detail": "MURPHY`S LAW, CLOBBER, Dope End, STAATSSICHERHEIT",
    "url": "https://www.chemiefabrik.info/gigs/15129/",
    "lineup": [
     {
@@ -2165,6 +2091,14 @@
     {
      "name": "CLOBBER",
      "info": "HC, Punk / GB, London"
+    },
+    {
+     "name": "Dope End",
+     "info": "Hardcore / Leipzig"
+    },
+    {
+     "name": "STAATSSICHERHEIT",
+     "info": "Punkrock / Dresden"
     }
    ],
    "time": "19:00",
@@ -2186,6 +2120,7 @@
    "soldout": false,
    "hit": true,
    "hits": [
+    "hardcore",
     "punk"
    ],
    "cancelled": false,
@@ -4901,20 +4836,12 @@
    "club": "Chemiefabrik",
    "date": "2027-05-05",
    "title": "LOIKAEMIE",
-   "detail": "NON SERVIUM, DAS GELBE VOM Oi!",
+   "detail": "",
    "url": "https://www.chemiefabrik.info/gigs/10454/",
    "lineup": [
     {
      "name": "LOIKAEMIE",
      "info": "Oi!Punk, Streetpunk / D"
-    },
-    {
-     "name": "NON SERVIUM",
-     "info": "Oi/Punk / Madrid,ESP"
-    },
-    {
-     "name": "DAS GELBE VOM Oi!",
-     "info": "Oi!Punk, / Steigerwald"
     }
    ],
    "time": "19:00",
