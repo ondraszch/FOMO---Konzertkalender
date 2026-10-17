@@ -98,6 +98,24 @@
     color: var(--text); text-decoration: none; font-size: .85rem;
   }
   .btn.primary { border-color: var(--accent); color: var(--accent); }
+  .tabs { display: flex; gap: 6px; margin: 4px 0 10px; }
+  .tab {
+    flex: 1; padding: 9px 12px; cursor: pointer; font: inherit; font-size: .95rem;
+    background: var(--card); color: var(--muted);
+    border: 1px solid var(--line); border-radius: 8px;
+  }
+  .tab[aria-pressed=true] { color: var(--text); border-color: var(--accent); }
+  .panel[hidden] { display: none; }
+  .radar-intro { color: var(--muted); font-size: .88rem; margin: 6px 0 12px; }
+  .band {
+    display: flex; align-items: center; gap: 10px; justify-content: space-between;
+    padding: 10px 12px; margin-bottom: 8px; background: var(--card);
+    border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 8px;
+  }
+  .band.has { border-left-color: var(--accent); }
+  .band .bname { font-weight: 600; overflow-wrap: anywhere; }
+  .band .bmeta { color: var(--muted); font-size: .82rem; margin-top: 2px; }
+  .words { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 12px; }
   .msg { color: var(--muted); padding: 24px 4px; }
   footer { color: var(--muted); font-size: .78rem; margin-top: 28px; }
 </style>
@@ -107,13 +125,36 @@
   <h1>Konzertkalender</h1>
   <div class="stand" id="stand">Lade Termine …</div>
 
-  <div class="controls">
-    <input type="search" id="q" placeholder="Suchen (Band, Titel, Club)" aria-label="Suchen">
-    <div class="chips" id="chips"></div>
-    <div class="count" id="count"></div>
+  <div class="tabs" id="tabs">
+    <button type="button" class="tab" data-tab="termine" aria-pressed="true">Termine</button>
+    <button type="button" class="tab" data-tab="radar" aria-pressed="false">Radar</button>
   </div>
 
-  <div id="list"></div>
+  <div class="panel" id="panel-termine">
+    <div class="controls">
+      <input type="search" id="q" placeholder="Suchen (Band, Titel, Club)" aria-label="Suchen">
+      <div class="chips" id="chips"></div>
+      <div class="count" id="count"></div>
+    </div>
+
+    <div id="list"></div>
+  </div>
+
+  <div class="panel" id="panel-radar" hidden>
+    <p class="radar-intro">
+      Bands auf deinem Radar. Für sie und für deine Genre-Wörter bekommst du Nachrichten
+      und Markierungen. Änderungen gelten ab dem nächsten Tageslauf.
+    </p>
+    <div id="radar-bands"></div>
+    <div>
+      <a class="btn primary" id="add-band" target="_blank" rel="noopener noreferrer">Band hinzufügen</a>
+    </div>
+    <h2>Genre-Wörter</h2>
+    <div class="words" id="radar-words"></div>
+    <div>
+      <a class="btn" id="edit-genres" target="_blank" rel="noopener noreferrer">Genre-Wörter bearbeiten</a>
+    </div>
+  </div>
 
   <footer>
     Die Termine stammen von den Webseiten der Clubs und werden einmal täglich abgerufen.
@@ -213,6 +254,79 @@
 
     card.appendChild(body);
     return card;
+  }
+
+  var EDIT_BASE = "https://github.com/ondraszch/FOMO---Konzertkalender/edit/main/";
+
+  function parseList(text) {
+    return String(text || "").split(/\r?\n/)
+      .map(function (l) { return l.trim(); })
+      .filter(function (l) { return l && l.charAt(0) !== "#"; });
+  }
+
+  function fetchText(url) {
+    return fetch(url + "?t=" + Date.now(), { cache: "no-store" }).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.text();
+    });
+  }
+
+  function showTab(name) {
+    ["termine", "radar"].forEach(function (t) {
+      $("panel-" + t).hidden = (t !== name);
+    });
+    Array.prototype.forEach.call(document.querySelectorAll(".tab"), function (b) {
+      b.setAttribute("aria-pressed", b.getAttribute("data-tab") === name ? "true" : "false");
+    });
+    if (name === "radar") renderRadar();
+  }
+
+  function renderRadar() {
+    var box = $("radar-bands"), words = $("radar-words");
+    box.replaceChildren(); words.replaceChildren();
+    $("add-band").href = EDIT_BASE + "bands.txt";
+    $("edit-genres").href = EDIT_BASE + "genres.txt";
+
+    fetchText("bands.txt").then(function (txt) {
+      var bands = parseList(txt);
+      if (!bands.length) {
+        box.appendChild(el("div", "msg", "Noch keine Bands auf dem Radar."));
+        return;
+      }
+      bands.forEach(function (name) {
+        var mine = data.filter(function (e) {
+          return !e.cancelled && (e.hits || []).indexOf(name) >= 0;
+        }).sort(function (a, b) { return a.date < b.date ? -1 : 1; });
+
+        var row = el("div", "band" + (mine.length ? " has" : ""));
+        var left = el("div");
+        left.appendChild(el("div", "bname", name));
+        var meta = "Keine kommenden Termine";
+        if (mine.length) {
+          var n = mine[0];
+          meta = mine.length + (mine.length === 1 ? " Termin" : " Termine") +
+                 " \u2013 n\u00e4chster: " + n.date.slice(8, 10) + "." + n.date.slice(5, 7) + ". " + n.club;
+        }
+        left.appendChild(el("div", "bmeta", meta));
+        row.appendChild(left);
+
+        if (mine.length) {
+          var go = el("button", "chip", "Anzeigen");
+          go.type = "button";
+          go.addEventListener("click", function () {
+            state.q = name; $("q").value = name; render(); showTab("termine");
+          });
+          row.appendChild(go);
+        }
+        box.appendChild(row);
+      });
+    }).catch(function () {
+      box.appendChild(el("div", "msg", "Die Radar-Liste konnte nicht geladen werden."));
+    });
+
+    fetchText("genres.txt").then(function (txt) {
+      parseList(txt).forEach(function (w) { words.appendChild(el("span", "tag", w)); });
+    }).catch(function () { /* Genre-Wörter sind optional */ });
   }
 
   function buildChips() {
@@ -325,6 +439,9 @@
   function start() {
     loadState();
     $("q").addEventListener("input", function (ev) { state.q = ev.target.value; render(); });
+    Array.prototype.forEach.call(document.querySelectorAll(".tab"), function (b) {
+      b.addEventListener("click", function () { showTab(b.getAttribute("data-tab")); });
+    });
 
     fetch("events.json?t=" + Date.now(), { cache: "no-store" })
       .then(function (r) {
