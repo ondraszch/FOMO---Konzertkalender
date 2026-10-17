@@ -1,117 +1,6 @@
 {
- "updated": "2026-10-16",
+ "updated": "2026-10-17",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "date": "2026-10-16",
-   "title": "Heavy Psych Sounds Fest #6",
-   "detail": "VALLEY OF THE SUN, DUEL, MR. BISON, LORD ELEPHANT, HIJSS",
-   "url": "https://www.chemiefabrik.info/gigs/10224/",
-   "lineup": [
-    {
-     "name": "VALLEY OF THE SUN",
-     "info": "Heavy Rock/Stonerrock / USA"
-    },
-    {
-     "name": "DUEL",
-     "info": "Heavy Rock/Proto Metal/Stoner Boogie / Austin/TX"
-    },
-    {
-     "name": "MR. BISON",
-     "info": "Prog/Psych Rock / Italien"
-    },
-    {
-     "name": "LORD ELEPHANT",
-     "info": "Stoner/Fuzz/Psych / Italien"
-    },
-    {
-     "name": "HIJSS",
-     "info": "Kraut/Psych/Space Rock / Italien"
-    }
-   ],
-   "time": "16:30",
-   "doors": "16:30",
-   "start": "18:00",
-   "vvk": "63,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "",
-   "tickets": [
-    {
-     "name": "TixforGigs",
-     "url": "https://www.tixforgigs.com/Event/73495"
-    }
-   ],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "metal",
-    "stoner"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "date": "2026-10-16",
-   "title": "Der Weg einer Freiheit",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-16-der-weg-einer-freiheit",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "metal"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "date": "2026-10-16",
-   "title": "hypnosis",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-16-hypnosis",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "date": "2026-10-16",
-   "title": "local.exe",
-   "detail": "",
-   "url": "https://scheune.org/show/5528/local-exe.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "date": "2026-10-17",
@@ -332,7 +221,7 @@
      "info": ""
     }
    ],
-   "time": "19:00",
+   "time": "18:00",
    "doors": "19:00",
    "start": "20:00",
    "vvk": "32,90 €",
@@ -1262,8 +1151,8 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-06",
-   "title": "ANCST",
-   "detail": "Chaver, Necromorph, Welk",
+   "title": "ANCST - CHAVER - NECROMORPH - WELK",
+   "detail": "ANCST, Chaver, Necromorph, Welk",
    "url": "https://www.chemiefabrik.info/gigs/10106/",
    "lineup": [
     {
@@ -1718,7 +1607,7 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-10",
-   "title": "NASTY - EUROPE 2026",
+   "title": "NASTY - GHETTO JUSTICE",
    "detail": "NASTY, CRAWLSPACE, PINTGLASS, GHETTO JUSTICE",
    "url": "https://www.chemiefabrik.info/gigs/15086/",
    "lineup": [
@@ -1802,8 +1691,8 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-11",
-   "title": "DRAWN AND QUARTERED + NOROTH + MOUTH OF MADNESS",
-   "detail": "Drawn and Quartered, Noroth, Mouth of Madness",
+   "title": "DRAWN AND QUARTERED",
+   "detail": "Noroth, Mouth of Madness",
    "url": "https://www.chemiefabrik.info/gigs/15063/",
    "lineup": [
     {
@@ -1857,7 +1746,7 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-12",
-   "title": "Daily Thompson",
+   "title": "DAILY THOMPSON",
    "detail": "Constance Tomb",
    "url": "https://www.chemiefabrik.info/gigs/10289/",
    "lineup": [
@@ -1931,6 +1820,26 @@
    "new": false
   },
   {
+   "club": "Chemiefabrik",
+   "date": "2026-11-13",
+   "title": "90`er Trashparty",
+   "detail": "",
+   "url": "https://www.chemiefabrik.info/gigs/15227/",
+   "lineup": [],
+   "time": "21:00",
+   "doors": "21:00",
+   "start": "21:30",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "5 €",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "GrooveStation",
    "date": "2026-11-13",
    "title": "MilkShake",
@@ -1993,8 +1902,8 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-14",
-   "title": "VSK",
-   "detail": "PARKPUNK, TROTZDEM",
+   "title": "VSK - PARKPUNK - TROTZDEM",
+   "detail": "VSK, PARKPUNK, TROTZDEM",
    "url": "https://www.chemiefabrik.info/gigs/10264/",
    "lineup": [
     {
@@ -2080,7 +1989,7 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-17",
-   "title": "Subculture Fest mit: MURPHY’S LAW + CLOBBER + mehr",
+   "title": "MURPHY’S LAW + CLOBBER + DOPE END",
    "detail": "MURPHY`S LAW, CLOBBER, Dope End, STAATSSICHERHEIT",
    "url": "https://www.chemiefabrik.info/gigs/15129/",
    "lineup": [
@@ -2149,7 +2058,7 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-18",
-   "title": "IGNITE - CANCER BATS - CANCER BATS - TLUF",
+   "title": "IGNITE - CANCER BATS - OUTSPOKEN - TLUF",
    "detail": "IGNITE, CANCER BATS, OUTSPOKEN, 1000 LÖWEN UNTER FEINDEN",
    "url": "https://www.chemiefabrik.info/gigs/15151/",
    "lineup": [
@@ -2449,8 +2358,8 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-25",
-   "title": "SUMA",
-   "detail": "DOUBLEWIDE",
+   "title": "SUMA - DOUBLEWIDE",
+   "detail": "SUMA, DOUBLEWIDE",
    "url": "https://www.chemiefabrik.info/gigs/15019/",
    "lineup": [
     {
@@ -2526,8 +2435,8 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-11-27",
-   "title": "GRUPPA KARL MARX STADT",
-   "detail": "",
+   "title": "GRUPPA KARL MARX STADT - Ausverkauft!",
+   "detail": "GRUPPA KARL MARX STADT",
    "url": "https://www.chemiefabrik.info/gigs/10470/",
    "lineup": [
     {
@@ -2792,7 +2701,7 @@
   {
    "club": "Chemiefabrik",
    "date": "2026-12-04",
-   "title": "Punishable Act",
+   "title": "PUNISHABLE ACT",
    "detail": "New Hate Rising, Out Of Step, Mein Herz in Flammen",
    "url": "https://www.chemiefabrik.info/gigs/10364/",
    "lineup": [
