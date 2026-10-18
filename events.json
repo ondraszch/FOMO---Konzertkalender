@@ -3,6 +3,7 @@
  "events": [
   {
    "club": "Chemiefabrik",
+   "id": "15084",
    "date": "2026-10-18",
    "title": "MARK FOGGO",
    "detail": "",
@@ -28,6 +29,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10267-2026-10-18-groovequiz-disney-spezial@groovestation.de",
    "date": "2026-10-18",
    "title": "GrooveQuiz - Disney Spezial",
    "detail": "",
@@ -48,6 +50,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15087",
    "date": "2026-10-19",
    "title": "ONSLAUGHT",
    "detail": "THE PROPHECY 23, TORANAGA",
@@ -93,6 +96,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10282-2026-10-19-kickermontag@groovestation.de",
    "date": "2026-10-19",
    "title": "Kickermontag",
    "detail": "",
@@ -113,6 +117,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10468",
    "date": "2026-10-20",
    "title": "HERETOIR",
    "detail": "Unreqvited, Nidare",
@@ -153,6 +158,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9395-2026-10-20-matterz@groovestation.de",
    "date": "2026-10-20",
    "title": "Matterz",
    "detail": "",
@@ -173,6 +179,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5684",
    "date": "2026-10-20",
    "title": "Food & Folks",
    "detail": "",
@@ -193,6 +200,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10298-2026-10-21-billard-bar@groovestation.de",
    "date": "2026-10-21",
    "title": "Billard & Bar",
    "detail": "",
@@ -213,6 +221,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5425",
    "date": "2026-10-21",
    "title": "Andy Strauß",
    "detail": "",
@@ -233,6 +242,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10337",
    "date": "2026-10-22",
    "title": "Pogorausch-Festival 2026",
    "detail": "BONECRUSHER, SKINSECTS, TOLEDO PANIC",
@@ -273,6 +283,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10147-2026-10-22-robine@groovestation.de",
    "date": "2026-10-22",
    "title": "Robine",
    "detail": "",
@@ -293,6 +304,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5604",
    "date": "2026-10-22",
    "title": "Fällt aus - Regio Tales",
    "detail": "",
@@ -313,6 +325,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10202",
    "date": "2026-10-23",
    "title": "15. Pogorausch Festival",
    "detail": "THE PROWLERS, GENERATION EXIT, UNDERDOGZ, THE BUZZERS, STREETWISE, 21 GUN SALUTE",
@@ -365,6 +378,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10200-2026-10-23-abramowicz@groovestation.de",
    "date": "2026-10-23",
    "title": "Abramowicz",
    "detail": "",
@@ -385,6 +399,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10266-2026-10-23-farewell-youth-party@groovestation.de",
    "date": "2026-10-23",
    "title": "Farewell Youth Party",
    "detail": "",
@@ -407,6 +422,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5324",
    "date": "2026-10-23",
    "title": "Till Reiners",
    "detail": "",
@@ -427,6 +443,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10203",
    "date": "2026-10-24",
    "title": "Pogorausch-Festival 2026",
    "detail": "GEWOHNHEITSTRINKER, THE LAST RESORT, THE YOUNG ONES, THE CLINCH, CHEAP STUFF, THE HIDDEN KNIVES",
@@ -479,6 +496,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10268-2026-10-24-pop2000@groovestation.de",
    "date": "2026-10-24",
    "title": "POP2000",
    "detail": "",
@@ -499,6 +517,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9385-2026-10-25-leftovers@groovestation.de",
    "date": "2026-10-25",
    "title": "LEFTOVERS",
    "detail": "",
@@ -521,6 +540,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15030",
    "date": "2026-10-26",
    "title": "The MONSTERS",
    "detail": "Electric Eel Shock",
@@ -561,6 +581,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10283-2026-10-26-kickermontag@groovestation.de",
    "date": "2026-10-26",
    "title": "Kickermontag",
    "detail": "",
@@ -581,6 +602,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10299-2026-10-27-billard-bar@groovestation.de",
    "date": "2026-10-27",
    "title": "Billard & Bar",
    "detail": "",
@@ -601,6 +623,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5455",
    "date": "2026-10-27",
    "title": "Dagobert",
    "detail": "",
@@ -621,6 +644,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15045",
    "date": "2026-10-28",
    "title": "$ONO$ CLIQ",
    "detail": "",
@@ -651,6 +675,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10310-2026-10-28-midi-w-marcel-koar-dj-pommes@groovestation.de",
    "date": "2026-10-28",
    "title": "MiDi w/ Marcel Koar & DJ Pommes",
    "detail": "",
@@ -671,6 +696,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5537",
    "date": "2026-10-28",
    "title": "Neu: EINFACH ELSES Late Night Show",
    "detail": "",
@@ -691,6 +717,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10300-2026-10-29-billard-bar@groovestation.de",
    "date": "2026-10-29",
    "title": "Billard & Bar",
    "detail": "",
@@ -711,6 +738,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5441",
    "date": "2026-10-29",
    "title": "ECHT? Der Festivalauftakt der Tschechisch-Deutschen Kulturtage",
    "detail": "",
@@ -731,6 +759,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10348",
    "date": "2026-10-30",
    "title": "A Spooktacular Night Volume 5",
    "detail": "DJ TEAM THE EXORSISTERS, DJ SUBHU-MANNTRASH, DJ GHOUL FOOL",
@@ -764,6 +793,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10306-2026-10-30-endstation-sekt-by-disconnect@groovestation.de",
    "date": "2026-10-30",
    "title": "Endstation Sekt by DISCOnnect",
    "detail": "",
@@ -784,6 +814,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9397-2026-10-30-mc-bomber@groovestation.de",
    "date": "2026-10-30",
    "title": "MC Bomber",
    "detail": "",
@@ -804,6 +835,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10341",
    "date": "2026-10-31",
    "title": "LOS FASTIDIOS",
    "detail": "The OFFCUTS, HAMMERKEEN",
@@ -848,6 +880,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10279-2026-10-31-halloween-special@groovestation.de",
    "date": "2026-10-31",
    "title": "Halloween Special",
    "detail": "",
@@ -868,6 +901,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10284-2026-11-02-kickermontag@groovestation.de",
    "date": "2026-11-02",
    "title": "Kickermontag",
    "detail": "",
@@ -888,6 +922,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5557",
    "date": "2026-11-03",
    "title": "10 Jahre Hotel Matze",
    "detail": "",
@@ -908,6 +943,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5496",
    "date": "2026-11-03",
    "title": "Betreutes Singen",
    "detail": "",
@@ -928,6 +964,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5662",
    "date": "2026-11-03",
    "title": "Chess Fanatics",
    "detail": "",
@@ -948,6 +985,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10301-2026-11-04-billard-bar@groovestation.de",
    "date": "2026-11-04",
    "title": "Billard & Bar",
    "detail": "",
@@ -968,6 +1006,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5303",
    "date": "2026-11-04",
    "title": "Abdul Kader Chahin",
    "detail": "",
@@ -988,6 +1027,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15039",
    "date": "2026-11-05",
    "title": "AKA RINDE + SUGAR KO:MA",
    "detail": "AKA RINDE (Andrej von Dÿse), SUGAR KO:MA",
@@ -1020,6 +1060,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5394",
    "date": "2026-11-05",
    "title": "Livelyrix Poetry Slam",
    "detail": "",
@@ -1040,6 +1081,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5488",
    "date": "2026-11-05",
    "title": "Unser Schmerz ist unsere Kraft",
    "detail": "",
@@ -1060,6 +1102,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10106",
    "date": "2026-11-06",
    "title": "ANCST - CHAVER - NECROMORPH - WELK",
    "detail": "ANCST, Chaver, Necromorph, Welk",
@@ -1109,6 +1152,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10172-2026-11-06-freddy-fischer-his-cosmic-rocktime-band@groovestation.de",
    "date": "2026-11-06",
    "title": "Freddy Fischer & his Cosmic Rocktime Band",
    "detail": "",
@@ -1129,6 +1173,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10272-2026-11-06-i-bet-you-look-good-on-the-dancefloor-w-mauf@groovestation.de",
    "date": "2026-11-06",
    "title": "I bet you look good on the dancefloor w/ !Mauf",
    "detail": "",
@@ -1149,6 +1194,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5665",
    "date": "2026-11-06",
    "title": "Hi Freaks",
    "detail": "",
@@ -1169,6 +1215,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5666",
    "date": "2026-11-06",
    "title": "Zum Dorfkrug",
    "detail": "",
@@ -1189,6 +1236,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10360",
    "date": "2026-11-07",
    "title": "BERLINER WEISSE",
    "detail": "EAST END CHAOS, JAGDSCHEIN",
@@ -1233,6 +1281,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10273-2026-11-07-die-90er-party@groovestation.de",
    "date": "2026-11-07",
    "title": "Die 90er Party",
    "detail": "",
@@ -1253,6 +1302,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5668",
    "date": "2026-11-07",
    "title": "Antritt - Der Fahrradpodcast",
    "detail": "",
@@ -1273,6 +1323,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5672",
    "date": "2026-11-07",
    "title": "Bin ich das Arschloch?",
    "detail": "",
@@ -1293,6 +1344,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5704",
    "date": "2026-11-07",
    "title": "Journalismus machen",
    "detail": "",
@@ -1313,6 +1365,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5664",
    "date": "2026-11-07",
    "title": "Lesen ist schwul - Die Show!",
    "detail": "",
@@ -1333,6 +1386,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5735",
    "date": "2026-11-07",
    "title": "Mit einfachen Mitteln zum eigenen Podcast",
    "detail": "",
@@ -1353,6 +1407,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5701",
    "date": "2026-11-07",
    "title": "Naturerkunden",
    "detail": "",
@@ -1373,6 +1428,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5676",
    "date": "2026-11-07",
    "title": "Neues vom Ballaballa-Balkan",
    "detail": "",
@@ -1393,6 +1449,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5708",
    "date": "2026-11-07",
    "title": "PISSY - der Missy Magazine Podcast",
    "detail": "",
@@ -1413,6 +1470,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5733",
    "date": "2026-11-07",
    "title": "Podcat + Poodle = Party",
    "detail": "",
@@ -1433,6 +1491,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5734",
    "date": "2026-11-07",
    "title": "Stimmbildung - Wie spreche ich richtig?",
    "detail": "",
@@ -1453,6 +1512,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9406-2026-11-08-salo@groovestation.de",
    "date": "2026-11-08",
    "title": "SALÒ",
    "detail": "",
@@ -1476,6 +1536,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10285-2026-11-09-kickermontag@groovestation.de",
    "date": "2026-11-09",
    "title": "Kickermontag",
    "detail": "",
@@ -1496,6 +1557,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5458",
    "date": "2026-11-09",
    "title": "Feature Ring: Spilif",
    "detail": "",
@@ -1516,6 +1578,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15086",
    "date": "2026-11-10",
    "title": "NASTY - GHETTO JUSTICE",
    "detail": "NASTY, CRAWLSPACE, PINTGLASS, GHETTO JUSTICE",
@@ -1560,6 +1623,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10302-2026-11-10-billard-bar@groovestation.de",
    "date": "2026-11-10",
    "title": "Billard & Bar",
    "detail": "",
@@ -1580,6 +1644,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5697",
    "date": "2026-11-10",
    "title": "Be Reel: Social Media & Content Creation für Musiker:innen",
    "detail": "",
@@ -1600,6 +1665,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15063",
    "date": "2026-11-11",
    "title": "DRAWN AND QUARTERED",
    "detail": "Noroth, Mouth of Madness",
@@ -1635,6 +1701,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5602",
    "date": "2026-11-11",
    "title": "Sax Royal - Die Dresdner Lesebühne",
    "detail": "",
@@ -1655,6 +1722,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10289",
    "date": "2026-11-12",
    "title": "DAILY THOMPSON",
    "detail": "Constance Tomb",
@@ -1691,6 +1759,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9396-2026-11-12-bruchbude@groovestation.de",
    "date": "2026-11-12",
    "title": "Bruchbude",
    "detail": "",
@@ -1711,6 +1780,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5220",
    "date": "2026-11-12",
    "title": "Anna Bartling",
    "detail": "",
@@ -1731,6 +1801,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15227",
    "date": "2026-11-13",
    "title": "90`er Trashparty",
    "detail": "",
@@ -1751,6 +1822,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10303-2026-11-13-milkshake@groovestation.de",
    "date": "2026-11-13",
    "title": "MilkShake",
    "detail": "",
@@ -1771,6 +1843,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10206-2026-11-13-so-soon@groovestation.de",
    "date": "2026-11-13",
    "title": "So Soon",
    "detail": "",
@@ -1791,6 +1864,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5504",
    "date": "2026-11-13",
    "title": "Tiere Streicheln Menschen",
    "detail": "",
@@ -1811,6 +1885,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10264",
    "date": "2026-11-14",
    "title": "VSK - PARKPUNK - TROTZDEM",
    "detail": "VSK, PARKPUNK, TROTZDEM",
@@ -1855,6 +1930,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10271-2026-11-14-alternative-block-party@groovestation.de",
    "date": "2026-11-14",
    "title": "Alternative Block Party",
    "detail": "",
@@ -1878,6 +1954,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10286-2026-11-16-kickermontag@groovestation.de",
    "date": "2026-11-16",
    "title": "Kickermontag",
    "detail": "",
@@ -1898,6 +1975,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15129",
    "date": "2026-11-17",
    "title": "MURPHY’S LAW + CLOBBER + DOPE END",
    "detail": "MURPHY`S LAW, CLOBBER, Dope End, STAATSSICHERHEIT",
@@ -1947,6 +2025,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5552",
    "date": "2026-11-17",
    "title": "Unlocked #12",
    "detail": "",
@@ -1967,6 +2046,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15151",
    "date": "2026-11-18",
    "title": "IGNITE - CANCER BATS - OUTSPOKEN - TLUF",
    "detail": "IGNITE, CANCER BATS, OUTSPOKEN, 1000 LÖWEN UNTER FEINDEN",
@@ -2015,6 +2095,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15013",
    "date": "2026-11-19",
    "title": "GRIN + ASTRAL KOMPAKT",
    "detail": "GRIN, ASTRAL KOMPAKT",
@@ -2048,6 +2129,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10228-2026-11-19-facesoul@groovestation.de",
    "date": "2026-11-19",
    "title": "Facesoul",
    "detail": "",
@@ -2068,6 +2150,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5400",
    "date": "2026-11-19",
    "title": "David Lübke",
    "detail": "",
@@ -2088,6 +2171,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10306",
    "date": "2026-11-20",
    "title": "DIE VERLIERER + DIE SCHLUEPPIS",
    "detail": "DIE VERLIERER, DIE SCHLUEPPIS, Aftershow mit:",
@@ -2128,6 +2212,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10269-2026-11-20-female-pop-night@groovestation.de",
    "date": "2026-11-20",
    "title": "Female Pop Night",
    "detail": "",
@@ -2148,6 +2233,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10277",
    "date": "2026-11-21",
    "title": "4. Dresden Death Punk Night",
    "detail": "ASSES OF FIRE",
@@ -2180,6 +2266,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5579",
    "date": "2026-11-21",
    "title": "Eagle-Eye Cherry",
    "detail": "",
@@ -2200,6 +2287,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15094",
    "date": "2026-11-22",
    "title": "Generation Y Punk Doku",
    "detail": "Lesung",
@@ -2227,6 +2315,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10287-2026-11-23-kickermontag@groovestation.de",
    "date": "2026-11-23",
    "title": "Kickermontag",
    "detail": "",
@@ -2247,6 +2336,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10263-2026-11-24-streichelt@groovestation.de",
    "date": "2026-11-24",
    "title": "Streichelt",
    "detail": "",
@@ -2267,6 +2357,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15019",
    "date": "2026-11-25",
    "title": "SUMA - DOUBLEWIDE",
    "detail": "SUMA, DOUBLEWIDE",
@@ -2304,6 +2395,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5304",
    "date": "2026-11-25",
    "title": "Sebastian 23",
    "detail": "",
@@ -2324,6 +2416,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5434",
    "date": "2026-11-26",
    "title": "Árstíðir",
    "detail": "",
@@ -2344,6 +2437,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10470",
    "date": "2026-11-27",
    "title": "GRUPPA KARL MARX STADT - Ausverkauft!",
    "detail": "GRUPPA KARL MARX STADT",
@@ -2369,6 +2463,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "9603",
    "date": "2026-11-28",
    "title": "KONRAD KUECHENMEISTER",
    "detail": "",
@@ -2399,6 +2494,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10161",
    "date": "2026-11-28",
    "title": "Veganer Wintermarkt",
    "detail": "",
@@ -2419,6 +2515,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10234-2026-11-28-cabal-employed-to-serve@groovestation.de",
    "date": "2026-11-28",
    "title": "Cabal & Employed To Serve",
    "detail": "",
@@ -2443,6 +2540,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5423",
    "date": "2026-11-28",
    "title": "Tino Bomelino",
    "detail": "",
@@ -2463,6 +2561,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15074",
    "date": "2026-11-29",
    "title": "PROTEX",
    "detail": "",
@@ -2490,6 +2589,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10288-2026-11-30-kickermontag@groovestation.de",
    "date": "2026-11-30",
    "title": "Kickermontag",
    "detail": "",
@@ -2510,6 +2610,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5444",
    "date": "2026-11-30",
    "title": "Betreutes Singen on Ice",
    "detail": "",
@@ -2530,6 +2631,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5663",
    "date": "2026-12-01",
    "title": "Chess Fanatics",
    "detail": "",
@@ -2550,6 +2652,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5725",
    "date": "2026-12-01",
    "title": "Food & Folks",
    "detail": "",
@@ -2570,6 +2673,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10304-2026-12-02-poetry-slam@groovestation.de",
    "date": "2026-12-02",
    "title": "Poetry Slam",
    "detail": "",
@@ -2590,6 +2694,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5395",
    "date": "2026-12-03",
    "title": "Livelyrix Poetry Slam",
    "detail": "",
@@ -2610,6 +2715,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10364",
    "date": "2026-12-04",
    "title": "PUNISHABLE ACT",
    "detail": "New Hate Rising, Out Of Step, Mein Herz in Flammen",
@@ -2658,6 +2764,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5567",
    "date": "2026-12-04",
    "title": "La Boum - Das große Wunschkonzert",
    "detail": "",
@@ -2678,6 +2785,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10425",
    "date": "2026-12-05",
    "title": "Tunnelblick Fest No.1",
    "detail": "DIE SELEKTION, Die Tödin, Das Kinn, DIAF, Elende Leiber, Kostenfalle",
@@ -2734,6 +2842,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5563",
    "date": "2026-12-05",
    "title": "25 Jahre Banda Comunale",
    "detail": "",
@@ -2754,6 +2863,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5629",
    "date": "2026-12-06",
    "title": "Glitzerkids - Die Kinderdisko",
    "detail": "",
@@ -2774,6 +2884,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10289-2026-12-07-kickermontag@groovestation.de",
    "date": "2026-12-07",
    "title": "Kickermontag",
    "detail": "",
@@ -2794,6 +2905,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9515-2026-12-07-paulk@groovestation.de",
    "date": "2026-12-07",
    "title": "PaulK",
    "detail": "",
@@ -2814,6 +2926,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9597-2026-12-08-ell@groovestation.de",
    "date": "2026-12-08",
    "title": "ELL",
    "detail": "",
@@ -2834,6 +2947,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5470",
    "date": "2026-12-08",
    "title": "Spite House + Prize Horse + Wrong Man",
    "detail": "",
@@ -2854,6 +2968,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15199",
    "date": "2026-12-10",
    "title": "LAUT MUSIKVIDEOS GUCKEN #5",
    "detail": "",
@@ -2874,6 +2989,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5396",
    "date": "2026-12-10",
    "title": "Ana Lucia",
    "detail": "",
@@ -2894,6 +3010,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5603",
    "date": "2026-12-10",
    "title": "Sax Royal - Die Dresdner Lesebühne",
    "detail": "",
@@ -2914,6 +3031,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10483",
    "date": "2026-12-11",
    "title": "Heartbreakgeburtstag",
    "detail": "",
@@ -2934,6 +3052,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10274-2026-12-11-teenage-dream@groovestation.de",
    "date": "2026-12-11",
    "title": "Teenage Dream",
    "detail": "",
@@ -2954,6 +3073,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15040",
    "date": "2026-12-12",
    "title": "Abschiedskonzert - 10 Jahre SEVENTH FLOOR",
    "detail": "SEVENTH FLOOR, VIRUNUM, 5RAUMFENSTER",
@@ -2994,6 +3114,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10270-2026-12-12-newdef-jam-vol-11@groovestation.de",
    "date": "2026-12-12",
    "title": "NewDEF Jam Vol. 11",
    "detail": "",
@@ -3014,6 +3135,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5728",
    "date": "2026-12-12",
    "title": "Dancing with Myself",
    "detail": "",
@@ -3034,6 +3156,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10290-2026-12-14-kickermontag@groovestation.de",
    "date": "2026-12-14",
    "title": "Kickermontag",
    "detail": "",
@@ -3054,6 +3177,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10312-2026-12-15-ninamarie@groovestation.de",
    "date": "2026-12-15",
    "title": "NinaMarie",
    "detail": "",
@@ -3076,6 +3200,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15230",
    "date": "2026-12-17",
    "title": "SLOW GREEN THING - GOATLESS",
    "detail": "SLOW GREEN THING, Goatless",
@@ -3109,6 +3234,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10208-2026-12-17-the-lazy-boys@groovestation.de",
    "date": "2026-12-17",
    "title": "The Lazy Boys",
    "detail": "",
@@ -3129,6 +3255,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10484",
    "date": "2026-12-18",
    "title": "Weihnachten Ohne Familie",
    "detail": "FIFFI & THE KIDS, EMPTY PINT AND THE HOT SHOTS, ATRAPPE, WAVEPUNX",
@@ -3168,6 +3295,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9598-2026-12-18-die-art@groovestation.de",
    "date": "2026-12-18",
    "title": "Die Art",
    "detail": "",
@@ -3190,6 +3318,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10354",
    "date": "2026-12-19",
    "title": "Skinsects + Squelette + Carry No Banners",
    "detail": "SKINSECTS, Squelette, Carry No Banners",
@@ -3230,6 +3359,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9599-2026-12-19-die-art@groovestation.de",
    "date": "2026-12-19",
    "title": "Die Art",
    "detail": "",
@@ -3252,6 +3382,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10275-2026-12-19-indie-kisses@groovestation.de",
    "date": "2026-12-19",
    "title": "Indie Kisses",
    "detail": "",
@@ -3272,6 +3403,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5416",
    "date": "2026-12-19",
    "title": "Julius Fischer & Christian Meyer: Weihnachtsschmonzette 2026",
    "detail": "",
@@ -3292,6 +3424,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10291-2026-12-21-kickermontag@groovestation.de",
    "date": "2026-12-21",
    "title": "Kickermontag",
    "detail": "",
@@ -3312,6 +3445,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15216",
    "date": "2026-12-27",
    "title": "Into the Darkness",
    "detail": "",
@@ -3332,6 +3466,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10311-2026-12-27-mi-amo@groovestation.de",
    "date": "2026-12-27",
    "title": "mi amo",
    "detail": "",
@@ -3352,6 +3487,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10292-2026-12-28-kickermontag@groovestation.de",
    "date": "2026-12-28",
    "title": "Kickermontag",
    "detail": "",
@@ -3372,6 +3508,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10434",
    "date": "2026-12-29",
    "title": "JAHRESABSCHLUSS",
    "detail": "Park+Riot, UNITED AND STRONG, Stray Dogs, SKIRT",
@@ -3422,6 +3559,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5730",
    "date": "2027-01-05",
    "title": "Chess Fanatics",
    "detail": "",
@@ -3442,6 +3580,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10458",
    "date": "2027-01-08",
    "title": "Neujahr Mosh Fest - Tag 1",
    "detail": "DEFIANCE, Split, MINUS YOUTH, HEATWAVE",
@@ -3490,6 +3629,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10459",
    "date": "2027-01-09",
    "title": "Neujahr Mosh Fest - Tag 2",
    "detail": "Dagger Threat, XOXO, Odd Pace, Hate Spiral",
@@ -3539,6 +3679,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9595-2027-01-14-kauta@groovestation.de",
    "date": "2027-01-14",
    "title": "KAUTA",
    "detail": "",
@@ -3559,6 +3700,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5467",
    "date": "2027-01-21",
    "title": "Sandra Schmidt",
    "detail": "",
@@ -3579,6 +3721,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15043",
    "date": "2027-01-22",
    "title": "FLIEHENDE STÜRME",
    "detail": "NOWAVES, TOTENWALD",
@@ -3623,6 +3766,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15115",
    "date": "2027-01-23",
    "title": "KNIFE – GAME OVER – CATBREATH - GÖLTZSCH",
    "detail": "KNIFE, GAME OVER, CATBREATH, GÖLTZSCH",
@@ -3672,6 +3816,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5474",
    "date": "2027-01-23",
    "title": "Transmission - The Sound of Joy Division",
    "detail": "",
@@ -3692,6 +3837,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5696",
    "date": "2027-01-27",
    "title": "Nick & June",
    "detail": "",
@@ -3712,6 +3858,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5545",
    "date": "2027-01-28",
    "title": "BSK",
    "detail": "",
@@ -3732,6 +3879,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15015",
    "date": "2027-01-29",
    "title": "KAPUT KRAUTS",
    "detail": "DxBxSx, Trümmerraten",
@@ -3777,6 +3925,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10205-2027-01-30-kurkapelle-sonnendeck@groovestation.de",
    "date": "2027-01-30",
    "title": "Kurkapelle Sonnendeck",
    "detail": "",
@@ -3797,6 +3946,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5681",
    "date": "2027-01-30",
    "title": "Donkey Kid",
    "detail": "",
@@ -3817,6 +3967,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15096",
    "date": "2027-02-04",
    "title": "THE HIRSCH EFFEKT",
    "detail": "",
@@ -3853,6 +4004,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15141",
    "date": "2027-02-10",
    "title": "DARKWAYS, CULT NOIR",
    "detail": "DARKWAYS, CULT NOIR",
@@ -3889,6 +4041,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5594",
    "date": "2027-02-10",
    "title": "Rebecca Papp",
    "detail": "",
@@ -3909,6 +4062,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5307",
    "date": "2027-02-12",
    "title": "Quichotte",
    "detail": "",
@@ -3929,6 +4083,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5637",
    "date": "2027-02-14",
    "title": "Willi Weitzel",
    "detail": "",
@@ -3949,6 +4104,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10276-2027-02-18-rene-el-khazraje-mc-rene@groovestation.de",
    "date": "2027-02-18",
    "title": "Rene El Khazraje (MC Rene)",
    "detail": "",
@@ -3969,6 +4125,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5295",
    "date": "2027-02-18",
    "title": "Stand Up Komitee Hamburg",
    "detail": "",
@@ -3989,6 +4146,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15052",
    "date": "2027-02-19",
    "title": "FOR KIDS WE ARE UNITED V",
    "detail": "DOSENSTOLZ, SHOCK GÜZEL, LEWIA",
@@ -4024,6 +4182,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5553",
    "date": "2027-02-19",
    "title": "Motuz",
    "detail": "",
@@ -4044,6 +4203,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5645",
    "date": "2027-02-20",
    "title": "MC Windhund",
    "detail": "",
@@ -4064,6 +4224,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5490",
    "date": "2027-02-24",
    "title": "Hinnerk Köhn",
    "detail": "",
@@ -4084,6 +4245,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5587",
    "date": "2027-02-26",
    "title": "local.exe w/ yungfsk18",
    "detail": "",
@@ -4104,6 +4266,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5529",
    "date": "2027-02-27",
    "title": "Luca Vasta",
    "detail": "",
@@ -4124,6 +4287,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15142",
    "date": "2027-03-04",
    "title": "OUR MIRAGE",
    "detail": "OUT OF VISION, LOST IN HOLLYWOOD",
@@ -4170,6 +4334,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5561",
    "date": "2027-03-05",
    "title": "The Busters",
    "detail": "",
@@ -4190,6 +4355,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15159",
    "date": "2027-03-06",
    "title": "TV SMITH and the BORED TEENAGERS",
    "detail": "",
@@ -4226,6 +4392,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10258-2027-03-09-antje-schomaker@groovestation.de",
    "date": "2027-03-09",
    "title": "Antje Schomaker",
    "detail": "",
@@ -4246,6 +4413,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5706",
    "date": "2027-03-10",
    "title": "Annette Dittert",
    "detail": "",
@@ -4266,6 +4434,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5540",
    "date": "2027-03-10",
    "title": "Waving The Guns",
    "detail": "",
@@ -4286,6 +4455,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10199-2027-03-11-poetry-slam@groovestation.de",
    "date": "2027-03-11",
    "title": "Poetry Slam",
    "detail": "",
@@ -4306,6 +4476,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9586-2027-03-12-notenzone@groovestation.de",
    "date": "2027-03-12",
    "title": "Notenzone",
    "detail": "",
@@ -4326,6 +4497,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5299",
    "date": "2027-03-12",
    "title": "Yorick Thiede",
    "detail": "",
@@ -4346,6 +4518,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9587-2027-03-13-the-equipment@groovestation.de",
    "date": "2027-03-13",
    "title": "The Equipment",
    "detail": "",
@@ -4366,6 +4539,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5300",
    "date": "2027-03-13",
    "title": "Luksan Wunder",
    "detail": "",
@@ -4386,6 +4560,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10313-2027-03-25-roger-sixkay-und-ditu-l-one@groovestation.de",
    "date": "2027-03-25",
    "title": "Roger & Sixkay und ditu & L One",
    "detail": "",
@@ -4406,6 +4581,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5597",
    "date": "2027-04-03",
    "title": "The Intersphere",
    "detail": "",
@@ -4426,6 +4602,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9505-2027-04-07-team-scheisse@groovestation.de",
    "date": "2027-04-07",
    "title": "Team Scheisse",
    "detail": "",
@@ -4448,6 +4625,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9516-2027-04-08-kati-k@groovestation.de",
    "date": "2027-04-08",
    "title": "KATI K",
    "detail": "",
@@ -4468,6 +4646,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5689",
    "date": "2027-04-09",
    "title": "Jan-Philipp Zymny",
    "detail": "",
@@ -4488,6 +4667,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9517-2027-04-13-levka@groovestation.de",
    "date": "2027-04-13",
    "title": "LEVKA",
    "detail": "",
@@ -4508,6 +4688,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15103",
    "date": "2027-04-16",
    "title": "THE GOOD THE BAD THE ZUGLY",
    "detail": "",
@@ -4533,6 +4714,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10088",
    "date": "2027-04-17",
    "title": "ELÄKELAISET",
    "detail": "",
@@ -4563,6 +4745,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10212-2027-04-20-ian-hooper@groovestation.de",
    "date": "2027-04-20",
    "title": "Ian Hooper",
    "detail": "",
@@ -4583,6 +4766,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9588-2027-04-24-seraphina-kalze@groovestation.de",
    "date": "2027-04-24",
    "title": "Seraphina Kalze",
    "detail": "",
@@ -4603,6 +4787,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10063",
    "date": "2027-04-28",
    "title": "RAPK",
    "detail": "",
@@ -4633,6 +4818,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10229-2027-04-30-tulpe@groovestation.de",
    "date": "2027-04-30",
    "title": "TULPE",
    "detail": "",
@@ -4653,6 +4839,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10454",
    "date": "2027-05-05",
    "title": "LOIKAEMIE",
    "detail": "",
@@ -4685,6 +4872,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10308-2027-05-08-mace@groovestation.de",
    "date": "2027-05-08",
    "title": "Mace",
    "detail": "",
@@ -4705,6 +4893,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10202-2027-06-18-farewell-youth-fest-2027-freitag@groovestation.de",
    "date": "2027-06-18",
    "title": "Farewell Youth Fest 2027 • Freitag",
    "detail": "",
@@ -4727,6 +4916,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10203-2027-06-19-farewell-youth-fest-2027-samstag@groovestation.de",
    "date": "2027-06-19",
    "title": "Farewell Youth Fest 2027 • Samstag",
    "detail": "",
@@ -4749,6 +4939,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10204-2027-06-20-farewell-youth-fest-2027-sonntag@groovestation.de",
    "date": "2027-06-20",
    "title": "Farewell Youth Fest 2027 • Sonntag",
    "detail": "",
@@ -4771,6 +4962,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15102",
    "date": "2027-07-02",
    "title": "Open Air",
    "detail": "Die ART",
@@ -4798,6 +4990,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "10389",
    "date": "2027-07-03",
    "title": "Sommerfest mit OXO86",
    "detail": "OXO86, BRECHRAITZ, SPERRZONE, PIY - Punkrock Karaoke",
@@ -4842,6 +5035,7 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5565",
    "date": "2027-08-05",
    "title": "Sing!",
    "detail": "",
@@ -4862,6 +5056,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10257-2027-08-20-danger-dan@groovestation.de",
    "date": "2027-08-20",
    "title": "Danger Dan",
    "detail": "",
@@ -4882,6 +5077,7 @@
   },
   {
    "club": "Chemiefabrik",
+   "id": "15187",
    "date": "2027-09-04",
    "title": "DAMAGE FESTIVAL",
    "detail": "",
@@ -4907,6 +5103,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10211-2027-11-06-the-beauty-of-gemina@groovestation.de",
    "date": "2027-11-06",
    "title": "The Beauty of Gemina",
    "detail": "",
@@ -4927,6 +5124,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "9600-2028-03-09-robert-alan@groovestation.de",
    "date": "2028-03-09",
    "title": "Robert Alan",
    "detail": "",
@@ -4947,6 +5145,7 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10307-2028-03-11-seraphina-kalze@groovestation.de",
    "date": "2028-03-11",
    "title": "Seraphina Kalze",
    "detail": "",
