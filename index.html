@@ -126,6 +126,11 @@
   button.btn { background: transparent; font: inherit; font-size: .85rem; cursor: pointer; }
   .tag.local { border-style: dashed; white-space: nowrap; font-weight: 400; font-size: .72rem; }
   .band .actions { display: flex; gap: 6px; flex-shrink: 0; }
+  .tag.ticket { border-color: var(--new); color: var(--new); }
+  .tag.gone { border-color: #c79a2b; color: #d9b04a; }
+  .factsline { color: var(--muted); font-size: .85rem; margin-top: 4px; }
+  .rowactions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .chip[aria-pressed=true].plain { background: var(--card); border-color: var(--new); color: var(--new); }
   .msg { color: var(--muted); padding: 24px 4px; }
   footer { color: var(--muted); font-size: .78rem; margin-top: 28px; }
 </style>
@@ -137,6 +142,7 @@
 
   <div class="tabs" id="tabs">
     <button type="button" class="tab" data-tab="termine" aria-pressed="true">Termine</button>
+    <button type="button" class="tab" id="tab-kalender" data-tab="kalender" aria-pressed="false">Kalender</button>
     <button type="button" class="tab" data-tab="radar" aria-pressed="false">Radar</button>
   </div>
 
@@ -148,6 +154,13 @@
     </div>
 
     <div id="list"></div>
+  </div>
+
+  <div class="panel" id="panel-kalender" hidden>
+    <p class="radar-intro">
+      Deine vorgemerkten Konzerte. Die Einträge liegen nur in diesem Browser auf diesem Gerät.
+    </p>
+    <div id="cal-list"></div>
   </div>
 
   <div class="panel" id="panel-radar" hidden>
@@ -189,7 +202,8 @@
   var DOW = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"];
 
   var data = [];
-  var state = { hidden: [], onlyHits: false, q: "", localBands: [] };
+  var state = { hidden: [], onlyHits: false, q: "", localBands: [], saved: {} };
+  var liveByKey = {};
   var serverBands = [];
 
   function $(id) { return document.getElementById(id); }
@@ -320,13 +334,190 @@
   }
 
   function showTab(name) {
-    ["termine", "radar"].forEach(function (t) {
+    ["termine", "kalender", "radar"].forEach(function (t) {
       $("panel-" + t).hidden = (t !== name);
     });
     Array.prototype.forEach.call(document.querySelectorAll(".tab"), function (b) {
       b.setAttribute("aria-pressed", b.getAttribute("data-tab") === name ? "true" : "false");
     });
+    if (name === "termine") render();
+    if (name === "kalender") renderCalendar();
     if (name === "radar") renderRadar();
+  }
+
+  var SAVED_KEY = "konzertkalender-merkliste";
+
+  function pad2(n) { return (n < 10 ? "0" : "") + n; }
+
+  function todayIso() {
+    var d = new Date();
+    return d.getFullYear() + "-" + pad2(d.getMonth() + 1) + "-" + pad2(d.getDate());
+  }
+
+  function evKey(e) {
+    return e.club + "|" + (e.id || e.url || (e.title + "|" + e.date));
+  }
+
+  function loadSaved() {
+    try {
+      var raw = localStorage.getItem(SAVED_KEY);
+      if (raw) {
+        var obj = JSON.parse(raw);
+        if (obj && typeof obj === "object" && !Array.isArray(obj)) {
+          Object.keys(obj).forEach(function (k) {
+            var v = obj[k];
+            if (v && typeof v.title === "string" && typeof v.date === "string") state.saved[k] = v;
+          });
+        }
+      }
+    } catch (err) { /* ohne Speicher weiterarbeiten */ }
+  }
+
+  function saveSaved() {
+    try { localStorage.setItem(SAVED_KEY, JSON.stringify(state.saved)); } catch (err) { /* ignorieren */ }
+  }
+
+  function snapshot(e) {
+    var names = Array.isArray(e.lineup) ? e.lineup.map(function (a) { return a.name; }).join(", ") : "";
+    return {
+      club: e.club, date: e.date, title: e.title, url: e.url || "",
+      doors: e.doors || "", start: e.start || "", time: e.time || "",
+      vvk: e.vvk || "", vvk_note: e.vvk_note || "", ak: e.ak || "",
+      lineup: names.slice(0, 300), ticket: false, saved: todayIso()
+    };
+  }
+
+  function indexLive() {
+    liveByKey = {};
+    data.forEach(function (e) { liveByKey[evKey(e)] = e; });
+  }
+
+  function updateCount() {
+    var today = todayIso();
+    var n = Object.keys(state.saved).filter(function (k) { return state.saved[k].date >= today; }).length;
+    $("tab-kalender").textContent = "Kalender" + (n ? " (" + n + ")" : "");
+  }
+
+  function saveButton(e) {
+    var key = evKey(e);
+    var b = el("button", "chip", "");
+    b.type = "button";
+    function paint() {
+      var on = !!state.saved[key];
+      b.textContent = on ? "\u2605 Vorgemerkt" : "\u2606 Vormerken";
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+    }
+    paint();
+    b.addEventListener("click", function () {
+      if (state.saved[key]) {
+        if (state.saved[key].ticket &&
+            !window.confirm("F\u00fcr diesen Termin ist \u201eTicket gekauft\u201c markiert. Wirklich entfernen?")) return;
+        delete state.saved[key];
+      } else {
+        state.saved[key] = snapshot(e);
+      }
+      saveSaved(); paint(); updateCount();
+    });
+    return b;
+  }
+
+  function factsLine(s) {
+    var parts = [];
+    if (s.doors) parts.push("Einlass " + s.doors + " Uhr");
+    if (s.start) parts.push("Beginn " + s.start + " Uhr");
+    if (!s.doors && !s.start && s.time) parts.push("Zeit: " + s.time + " Uhr");
+    if (s.vvk) parts.push("Vorverkauf " + s.vvk + (s.vvk_note ? " " + s.vvk_note : ""));
+    if (s.ak) parts.push("Abendkasse " + s.ak);
+    return parts.join(" \u00b7 ");
+  }
+
+  function calRow(key, s, past) {
+    var d = new Date(s.date + "T00:00:00");
+    var live = liveByKey[key];
+    var row = el("div", "ev" + (live && live.cancelled ? " cancelled" : ""));
+
+    var date = el("div", "date");
+    date.appendChild(el("span", "dow", DOW[d.getDay()]));
+    date.appendChild(el("span", "day", String(d.getDate())));
+    date.appendChild(el("span", "mon", MON_SHORT[d.getMonth()]));
+    row.appendChild(date);
+
+    var info = el("div", "info");
+    var title;
+    if (isHttp(s.url)) {
+      title = el("a", "title", s.title);
+      title.href = s.url; title.target = "_blank"; title.rel = "noopener noreferrer";
+    } else {
+      title = el("div", "title", s.title);
+    }
+    info.appendChild(title);
+    if (s.lineup) info.appendChild(el("div", "detail", s.lineup));
+
+    var meta = el("div", "meta");
+    meta.appendChild(el("span", "tag", s.club));
+    if (s.ticket) meta.appendChild(el("span", "tag ticket", "Ticket gekauft"));
+    if (live && live.cancelled) meta.appendChild(el("span", "tag cancel", "abgesagt"));
+    if (!past && !live && data.length) meta.appendChild(el("span", "tag gone", "nicht mehr in der Liste des Clubs"));
+    info.appendChild(meta);
+
+    var facts = factsLine(s);
+    if (facts) info.appendChild(el("div", "factsline", facts));
+
+    var actions = el("div", "rowactions");
+    if (!past) {
+      var tk = el("button", "chip plain", s.ticket ? "\u2713 Ticket gekauft" : "Ticket gekauft?");
+      tk.type = "button";
+      tk.setAttribute("aria-pressed", s.ticket ? "true" : "false");
+      tk.addEventListener("click", function () {
+        s.ticket = !s.ticket; saveSaved(); renderCalendar();
+      });
+      actions.appendChild(tk);
+    }
+    var rm = el("button", "chip", "Entfernen");
+    rm.type = "button";
+    rm.addEventListener("click", function () {
+      if (!window.confirm("\u201e" + s.title + "\u201c aus deinem Kalender entfernen?")) return;
+      delete state.saved[key]; saveSaved(); updateCount(); renderCalendar();
+    });
+    actions.appendChild(rm);
+    info.appendChild(actions);
+
+    row.appendChild(info);
+    return row;
+  }
+
+  function renderCalendar() {
+    var box = $("cal-list");
+    box.replaceChildren();
+    var today = todayIso();
+    var items = Object.keys(state.saved).map(function (k) { return { key: k, s: state.saved[k] }; });
+    if (!items.length) {
+      box.appendChild(el("div", "msg", "Noch nichts vorgemerkt. Tippe in der Terminliste auf \u201e\u2606 Vormerken\u201c."));
+      return;
+    }
+    function byDate(a, b) {
+      if (a.s.date !== b.s.date) return a.s.date < b.s.date ? -1 : 1;
+      return a.s.title.localeCompare(b.s.title, "de", { sensitivity: "base" });
+    }
+    var upcoming = items.filter(function (x) { return x.s.date >= today; }).sort(byDate);
+    var past = items.filter(function (x) { return x.s.date < today; }).sort(byDate);
+
+    if (!upcoming.length) box.appendChild(el("div", "msg", "Keine kommenden vorgemerkten Konzerte."));
+    var lastMonth = "";
+    upcoming.forEach(function (x) {
+      var mk = x.s.date.slice(0, 7);
+      if (mk !== lastMonth) {
+        lastMonth = mk;
+        var d = new Date(x.s.date + "T00:00:00");
+        box.appendChild(el("h2", "", MONTHS[d.getMonth()] + " " + d.getFullYear()));
+      }
+      box.appendChild(calRow(x.key, x.s, false));
+    });
+
+    if (past.length) {
+      box.appendChild(el("h2", "", "Vorbei"));
+      past.forEach(function (x) { box.appendChild(calRow(x.key, x.s, true)); });
+    }
   }
 
   function bandRow(name, matches, local) {
@@ -547,11 +738,16 @@
       if (e.cancelled) meta.appendChild(el("span", "tag cancel", "abgesagt"));
       if (e.soldout) meta.appendChild(el("span", "tag sold", "ausverkauft"));
       if (e.new) meta.appendChild(el("span", "tag new", "neu"));
+      var sv = state.saved[evKey(e)];
+      if (sv && sv.ticket) meta.appendChild(el("span", "tag ticket", "Ticket gekauft"));
       (e.hits || []).forEach(function (h) { meta.appendChild(el("span", "tag hit", h)); });
       lm.forEach(function (h) {
         if ((e.hits || []).indexOf(h) < 0) meta.appendChild(el("span", "tag hit local", h));
       });
       info.appendChild(meta);
+      var acts = el("div", "rowactions");
+      acts.appendChild(saveButton(e));
+      info.appendChild(acts);
       var card = buildCard(e);
       if (card) info.appendChild(card);
 
@@ -568,6 +764,8 @@
   function start() {
     loadState();
     loadLocal();
+    loadSaved();
+    updateCount();
     $("band-add").addEventListener("click", addLocalBand);
     $("band-input").addEventListener("keydown", function (ev) { if (ev.key === "Enter") addLocalBand(); });
     $("copy-bands").addEventListener("click", copyLocal);
@@ -583,6 +781,7 @@
       })
       .then(function (json) {
         data = Array.isArray(json.events) ? json.events : [];
+        indexLive();
         $("stand").textContent = "Stand: " + formatUpdated(json.updated);
         buildChips();
         render();
