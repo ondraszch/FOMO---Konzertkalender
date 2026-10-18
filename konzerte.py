@@ -322,6 +322,7 @@ def main(today=None):
         is_new = bool(seen) and (today - dt.date.fromisoformat(seen)).days <= NEW_DAYS
         out.append({
             "club": e["club"],
+            "id": e["id"],
             "date": e["date"],
             "title": e["title"],
             "detail": e.get("detail", "")[:160],
