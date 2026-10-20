@@ -1,73 +1,6 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "15087",
-   "date": "2026-10-19",
-   "title": "ONSLAUGHT",
-   "detail": "THE PROPHECY 23, TORANAGA",
-   "url": "https://www.chemiefabrik.info/gigs/15087/",
-   "lineup": [
-    {
-     "name": "ONSLAUGHT",
-     "info": "Thrash Metal / UK"
-    },
-    {
-     "name": "THE PROPHECY 23",
-     "info": "Thrash Metal, Death Metal / D"
-    },
-    {
-     "name": "TORANAGA",
-     "info": "Thrash Metal / UK"
-    }
-   ],
-   "time": "18:30",
-   "doors": "18:30",
-   "start": "19:30",
-   "vvk": "20,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "25,00 €",
-   "tickets": [
-    {
-     "name": "TixforGigs",
-     "url": "https://www.tixforgigs.com/Event/75536"
-    },
-    {
-     "name": "SaxTicket",
-     "url": "https://www.saxticket.de/alle-tickets/8407-onslaught-uk.html"
-    }
-   ],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "metal",
-    "thrash"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10282-2026-10-19-kickermontag@groovestation.de",
-   "date": "2026-10-19",
-   "title": "Kickermontag",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-19-kickermontag",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "10468",
@@ -89,7 +22,7 @@
      "info": ""
     }
    ],
-   "time": "18:00",
+   "time": "18:30",
    "doors": "19:00",
    "start": "20:00",
    "vvk": "32,90 €",
@@ -2100,6 +2033,27 @@
    ],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "GrooveStation",
+   "id": "10324-2026-11-19-billard-bar@groovestation.de",
+   "date": "2026-11-19",
+   "title": "Billard & Bar",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2026-11-19-billard-bar",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "GrooveStation",
