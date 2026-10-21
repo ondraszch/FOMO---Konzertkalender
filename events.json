@@ -1,89 +1,6 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "10468",
-   "date": "2026-10-20",
-   "title": "HERETOIR",
-   "detail": "Unreqvited, Nidare",
-   "url": "https://www.chemiefabrik.info/gigs/10468/",
-   "lineup": [
-    {
-     "name": "HERETOIR",
-     "info": "Post Metal / D"
-    },
-    {
-     "name": "Unreqvited",
-     "info": ""
-    },
-    {
-     "name": "Nidare",
-     "info": ""
-    }
-   ],
-   "time": "18:30",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "32,90 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "",
-   "tickets": [
-    {
-     "name": "Vertikal Concerts",
-     "url": "https://www.vertikalconcerts.com/konzerte/heretoir-dd-26"
-    }
-   ],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "metal"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "9395-2026-10-20-matterz@groovestation.de",
-   "date": "2026-10-20",
-   "title": "Matterz",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-20-matterz",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5684",
-   "date": "2026-10-20",
-   "title": "Food & Folks",
-   "detail": "",
-   "url": "https://scheune.org/show/5684/food-folks.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "GrooveStation",
    "id": "10298-2026-10-21-billard-bar@groovestation.de",
@@ -1910,7 +1827,7 @@
    "start": "20:00",
    "vvk": "22,00 €",
    "vvk_note": "zzgl. Gebühren",
-   "ak": "28,00 €",
+   "ak": "25,00 €",
    "tickets": [
     {
      "name": "TixforGigs",
@@ -2158,6 +2075,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5583",
+   "date": "2026-11-20",
+   "title": "Storno der Liebe",
+   "detail": "",
+   "url": "https://scheune.org/show/5583/storno-der-liebe.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Chemiefabrik",
@@ -3275,7 +3213,12 @@
    "vvk": "12,00 €",
    "vvk_note": "zzgl. Gebühren",
    "ak": "15,00 €",
-   "tickets": [],
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77003"
+    }
+   ],
    "soldout": false,
    "hit": true,
    "hits": [
@@ -3332,9 +3275,9 @@
      "info": "Punk, Wave / Dresden"
     }
    ],
-   "time": "",
-   "doors": "",
-   "start": "",
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
    "vvk": "",
    "vvk_note": "",
    "ak": "",
@@ -4223,7 +4166,7 @@
    "club": "Chemiefabrik",
    "id": "15052",
    "date": "2027-02-19",
-   "title": "FOR KIDS WE ARE UNITED V",
+   "title": "For Kids We Are United 𝗩",
    "detail": "DOSENSTOLZ, SHOCK GÜZEL, LEWIA",
    "url": "https://www.chemiefabrik.info/gigs/15052/",
    "lineup": [
@@ -4760,6 +4703,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5546",
+   "date": "2027-04-14",
+   "title": "Moop Mama",
+   "detail": "",
+   "url": "https://scheune.org/show/5546/moop-mama.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Chemiefabrik",
