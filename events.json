@@ -1,48 +1,6 @@
 {
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "events": [
-  {
-   "club": "GrooveStation",
-   "id": "10298-2026-10-21-billard-bar@groovestation.de",
-   "date": "2026-10-21",
-   "title": "Billard & Bar",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-21-billard-bar",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5425",
-   "date": "2026-10-21",
-   "title": "Andy Strauß",
-   "detail": "",
-   "url": "https://scheune.org/show/5425/andy-strauss.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "10337",
@@ -1522,6 +1480,27 @@
    ],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "GrooveStation",
+   "id": "10326-2026-11-11-midi-w-acid-adams-bambi@groovestation.de",
+   "date": "2026-11-11",
+   "title": "MiDi w/ Acid Adams & Bambi",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2026-11-11-midi-w-acid-adams-bambi",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Scheune",
@@ -3556,6 +3535,27 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10325-2026-12-29-tumba-ito@groovestation.de",
+   "date": "2026-12-29",
+   "title": "Tumba-ito",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2026-12-29-tumba-ito",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
+   "club": "GrooveStation",
    "id": "10321-2026-12-31-silvester@groovestation.de",
    "date": "2026-12-31",
    "title": "Silvester",
@@ -4902,12 +4902,16 @@
    "id": "10454",
    "date": "2027-05-05",
    "title": "LOIKAEMIE",
-   "detail": "",
+   "detail": "DAS GELBE VOM Oi!",
    "url": "https://www.chemiefabrik.info/gigs/10454/",
    "lineup": [
     {
      "name": "LOIKAEMIE",
      "info": "Oi!Punk, Streetpunk / D"
+    },
+    {
+     "name": "DAS GELBE VOM Oi!",
+     "info": "Oi!Punk, / Steigerwald"
     }
    ],
    "time": "19:00",
@@ -4928,7 +4932,7 @@
     "punk"
    ],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
