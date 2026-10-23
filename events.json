@@ -1,89 +1,6 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "10337",
-   "date": "2026-10-22",
-   "title": "Pogorausch-Festival 2026",
-   "detail": "BONECRUSHER, SKINSECTS, TOLEDO PANIC",
-   "url": "https://www.chemiefabrik.info/gigs/10337/",
-   "lineup": [
-    {
-     "name": "BONECRUSHER",
-     "info": "Punk Bulldozer, Streetpunk / USA, Californian"
-    },
-    {
-     "name": "SKINSECTS",
-     "info": "Punk,Oi! / Dresden"
-    },
-    {
-     "name": "TOLEDO PANIC",
-     "info": "Oi! / Streetpunk / USA"
-    }
-   ],
-   "time": "19:30",
-   "doors": "19:30",
-   "start": "20:15",
-   "vvk": "20,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "26,00 €",
-   "tickets": [
-    {
-     "name": "Pogorausch Concerts",
-     "url": "https://www.pogorausch-concerts.de"
-    }
-   ],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10147-2026-10-22-robine@groovestation.de",
-   "date": "2026-10-22",
-   "title": "Robine",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-22-robine",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5604",
-   "date": "2026-10-22",
-   "title": "Fällt aus - Regio Tales",
-   "detail": "",
-   "url": "https://scheune.org/show/5604/fllt-aus-regio-tales.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": true,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "10202",
@@ -4926,7 +4843,7 @@
      "url": "https://www.tixforgigs.com/de-DE/Event/77520"
     }
    ],
-   "soldout": false,
+   "soldout": true,
    "hit": true,
    "hits": [
     "punk"
