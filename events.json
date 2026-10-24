@@ -1,124 +1,6 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "10202",
-   "date": "2026-10-23",
-   "title": "15. Pogorausch Festival",
-   "detail": "THE PROWLERS, GENERATION EXIT, UNDERDOGZ, THE BUZZERS, STREETWISE, 21 GUN SALUTE",
-   "url": "https://www.chemiefabrik.info/gigs/10202/",
-   "lineup": [
-    {
-     "name": "THE PROWLERS",
-     "info": "Oi! Veteranen / CAN, Montreal"
-    },
-    {
-     "name": "GENERATION EXIT",
-     "info": "Streetpunk'n'Roll / USA"
-    },
-    {
-     "name": "UNDERDOGZ",
-     "info": "Dirty Dogs / Berlin"
-    },
-    {
-     "name": "THE BUZZERS",
-     "info": "Oi! / CAN, Vancouver"
-    },
-    {
-     "name": "STREETWISE",
-     "info": "Streetpunk / Baskenland"
-    },
-    {
-     "name": "21 GUN SALUTE",
-     "info": "Oi! / Streetpunk / USA"
-    }
-   ],
-   "time": "18:15",
-   "doors": "18:15",
-   "start": "19:00",
-   "vvk": "30,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "35,00 €",
-   "tickets": [
-    {
-     "name": "Pogorausch Concerts",
-     "url": "https://www.pogorausch-concerts.de"
-    }
-   ],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10200-2026-10-23-abramowicz@groovestation.de",
-   "date": "2026-10-23",
-   "title": "Abramowicz",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-23-abramowicz",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10266-2026-10-23-farewell-youth-party@groovestation.de",
-   "date": "2026-10-23",
-   "title": "Farewell Youth Party",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-23-farewell-youth-party",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5324",
-   "date": "2026-10-23",
-   "title": "Till Reiners",
-   "detail": "",
-   "url": "https://scheune.org/show/5324/till-reiners.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "10203",
@@ -3567,7 +3449,7 @@
    "id": "10459",
    "date": "2027-01-09",
    "title": "Neujahr Mosh Fest - Tag 2",
-   "detail": "Dagger Threat, XOXO, Odd Pace, Hate Spiral",
+   "detail": "Dagger Threat, XOXO, BLOSSOM DECAY, Odd Pace, Hate Spiral",
    "url": "https://www.chemiefabrik.info/gigs/10459/",
    "lineup": [
     {
@@ -3577,6 +3459,10 @@
     {
      "name": "XOXO",
      "info": "Hardcore / Zürich"
+    },
+    {
+     "name": "BLOSSOM DECAY",
+     "info": "Hardcore / Dresden"
     },
     {
      "name": "Odd Pace",
