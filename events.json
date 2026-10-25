@@ -1,80 +1,6 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "10203",
-   "date": "2026-10-24",
-   "title": "Pogorausch-Festival 2026",
-   "detail": "GEWOHNHEITSTRINKER, THE LAST RESORT, THE YOUNG ONES, THE CLINCH, CHEAP STUFF, THE HIDDEN KNIVES",
-   "url": "https://www.chemiefabrik.info/gigs/10203/",
-   "lineup": [
-    {
-     "name": "GEWOHNHEITSTRINKER",
-     "info": "Oi!-Punk / Freiburg"
-    },
-    {
-     "name": "THE LAST RESORT",
-     "info": "Oi! Legende / GB"
-    },
-    {
-     "name": "THE YOUNG ONES",
-     "info": "Classic Oi! / NL"
-    },
-    {
-     "name": "THE CLINCH",
-     "info": "Oi! / AUS/Melbourne"
-    },
-    {
-     "name": "CHEAP STUFF",
-     "info": "Punkrock, Streetpunk / Weinböhla/Dresden"
-    },
-    {
-     "name": "THE HIDDEN KNIVES",
-     "info": "Garage Punk, Power Pop / München"
-    }
-   ],
-   "time": "18:15",
-   "doors": "18:15",
-   "start": "19:00",
-   "vvk": "35,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "40,00 €",
-   "tickets": [
-    {
-     "name": "Pogorausch Concerts",
-     "url": "https://www.pogorausch-concerts.de"
-    }
-   ],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10268-2026-10-24-pop2000@groovestation.de",
-   "date": "2026-10-24",
-   "title": "POP2000",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-24-pop2000",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "GrooveStation",
    "id": "9385-2026-10-25-leftovers@groovestation.de",
@@ -1051,6 +977,27 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5747",
+   "date": "2026-11-07",
+   "title": "Pilz-Exkursion",
+   "detail": "",
+   "url": "https://scheune.org/show/5747/pilz-exkursion.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
+   "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5733",
    "date": "2026-11-07",
    "title": "Podcat + Poodle = Party",
@@ -1420,7 +1367,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
