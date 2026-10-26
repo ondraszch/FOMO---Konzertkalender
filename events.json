@@ -1,29 +1,6 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "events": [
-  {
-   "club": "GrooveStation",
-   "id": "9385-2026-10-25-leftovers@groovestation.de",
-   "date": "2026-10-25",
-   "title": "LEFTOVERS",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-25-leftovers",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "15030",
