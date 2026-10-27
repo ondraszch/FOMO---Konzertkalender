@@ -534,6 +534,29 @@
   "date": "2027-01-29",
   "title": "Kaput Krauts Punkrock / Berlin DxBxSx Stonerpunk / Berlin Tr"
  },
+ "Chemiefabrik:15016": {
+  "d": {
+   "ak": "25,00 €",
+   "doors": "19:30",
+   "f": "2026-10-27",
+   "start": "20:30",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77763"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/7062-soifass-d.html"
+    }
+   ],
+   "vvk": "22,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
+  "date": "2027-02-26",
+  "seen": "2026-10-27",
+  "title": "SOIFASS - MIKE AND THE ASS FUKKERS - STARTS - HABGIER"
+ },
  "Chemiefabrik:15019": {
   "d": {
    "ak": "20,00 €",
@@ -921,6 +944,24 @@
   "date": "2026-12-27",
   "title": "Infos folgen … Into the Darkness"
  },
+ "Chemiefabrik:15226": {
+  "d": {
+   "doors": "19:00",
+   "f": "2026-10-27",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Vertical Concerts",
+     "url": "https://vertikalconcerts.com/konzerte/villagers-of-ioannina-city-dd-27"
+    }
+   ],
+   "vvk": "40,90 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
+  "date": "2027-03-22",
+  "seen": "2026-10-27",
+  "title": "VILLAGERS OF IOANNINA CITY"
+ },
  "Chemiefabrik:15227": {
   "d": {
    "ak": "5 €",
@@ -1257,6 +1298,11 @@
   "seen": "2026-10-19",
   "title": "Carla Ahad"
  },
+ "GrooveStation:10323-2027-10-21-tonbandgeraet@groovestation.de": {
+  "date": "2027-10-21",
+  "seen": "2026-10-27",
+  "title": "Tonbandgerät"
+ },
  "GrooveStation:10324-2026-11-19-billard-bar@groovestation.de": {
   "date": "2026-11-19",
   "seen": "2026-10-20",
@@ -1271,6 +1317,11 @@
   "date": "2026-11-11",
   "seen": "2026-10-22",
   "title": "MiDi w/ Acid Adams & Bambi"
+ },
+ "GrooveStation:10328-2026-11-25-midi-x-sachsentrance@groovestation.de": {
+  "date": "2026-11-25",
+  "seen": "2026-10-27",
+  "title": "MiDi x Sachsentrance"
  },
  "GrooveStation:9385-2026-10-25-leftovers@groovestation.de": {
   "date": "2026-10-25",

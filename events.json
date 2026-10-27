@@ -1,68 +1,6 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "15030",
-   "date": "2026-10-26",
-   "title": "The MONSTERS",
-   "detail": "Electric Eel Shock",
-   "url": "https://www.chemiefabrik.info/gigs/15030/",
-   "lineup": [
-    {
-     "name": "THE MONSTERS",
-     "info": "Garage, Punk, Psychobilly, Trash / CH"
-    },
-    {
-     "name": "Electric Eel Shock",
-     "info": "Garage/Punk-Rock / Japan"
-    }
-   ],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "23,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "28,00 €",
-   "tickets": [
-    {
-     "name": "TixforGigs",
-     "url": "https://www.tixforgigs.com/Event/75302"
-    },
-    {
-     "name": "SaxTicket",
-     "url": "https://www.saxticket.de/index.php?id_product=3627&rewrite=the-monsters-ch&controller=product"
-    }
-   ],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10283-2026-10-26-kickermontag@groovestation.de",
-   "date": "2026-10-26",
-   "title": "Kickermontag",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-26-kickermontag",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "GrooveStation",
    "id": "10299-2026-10-27-billard-bar@groovestation.de",
@@ -110,12 +48,20 @@
    "id": "15045",
    "date": "2026-10-28",
    "title": "$ONO$ CLIQ",
-   "detail": "",
+   "detail": "TZK, MILLI",
    "url": "https://www.chemiefabrik.info/gigs/15045/",
    "lineup": [
     {
      "name": "$ONO$ CLIQ",
      "info": "HipHop, Rap / D"
+    },
+    {
+     "name": "TZK",
+     "info": ""
+    },
+    {
+     "name": "MILLI",
+     "info": ""
     }
    ],
    "time": "19:00",
@@ -402,7 +348,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -1851,7 +1797,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -1983,6 +1929,27 @@
    "new": false
   },
   {
+   "club": "GrooveStation",
+   "id": "10328-2026-11-25-midi-x-sachsentrance@groovestation.de",
+   "date": "2026-11-25",
+   "title": "MiDi x Sachsentrance",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2026-11-25-midi-x-sachsentrance",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5304",
    "date": "2026-11-25",
@@ -2069,7 +2036,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Chemiefabrik",
@@ -2167,7 +2134,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -2279,7 +2246,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -2433,7 +2400,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -2846,7 +2813,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -3296,7 +3263,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -3989,6 +3956,55 @@
    "new": false
   },
   {
+   "club": "Chemiefabrik",
+   "id": "15016",
+   "date": "2027-02-26",
+   "title": "SOIFASS - MIKE AND THE ASS FUKKERS - STARTS - HABGIER",
+   "detail": "SOIFASS, MIKE & the ASSFUCKERS, STARTS, HABGIER",
+   "url": "https://www.chemiefabrik.info/gigs/15016/",
+   "lineup": [
+    {
+     "name": "SOIFASS",
+     "info": "Streetrock / Berlin"
+    },
+    {
+     "name": "MIKE & the ASSFUCKERS",
+     "info": "Punkrock / Torgau"
+    },
+    {
+     "name": "STARTS",
+     "info": "Ostpunk seit 1999 / Torgau"
+    },
+    {
+     "name": "HABGIER",
+     "info": "Punk / Neubrandenburg"
+    }
+   ],
+   "time": "19:30",
+   "doors": "19:30",
+   "start": "20:30",
+   "vvk": "22,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "25,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77763"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/7062-soifass-d.html"
+    }
+   ],
+   "soldout": false,
+   "hit": true,
+   "hits": [
+    "punk"
+   ],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5587",
    "date": "2027-02-26",
@@ -4304,6 +4320,39 @@
    "new": false
   },
   {
+   "club": "Chemiefabrik",
+   "id": "15226",
+   "date": "2027-03-22",
+   "title": "VILLAGERS OF IOANNINA CITY",
+   "detail": "",
+   "url": "https://www.chemiefabrik.info/gigs/15226/",
+   "lineup": [
+    {
+     "name": "VILLAGERS OF IOANNINA CITY",
+     "info": "Heavy Rock, Progressive Heavy Metal, Folk / Griechenland"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "40,90 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Vertical Concerts",
+     "url": "https://vertikalconcerts.com/konzerte/villagers-of-ioannina-city-dd-27"
+    }
+   ],
+   "soldout": false,
+   "hit": true,
+   "hits": [
+    "metal"
+   ],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "GrooveStation",
    "id": "10313-2027-03-25-roger-sixkay-und-ditu-l-one@groovestation.de",
    "date": "2027-03-25",
@@ -4528,7 +4577,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -4871,9 +4920,26 @@
    "id": "15187",
    "date": "2027-09-04",
    "title": "DAMAGE FESTIVAL",
-   "detail": "",
+   "detail": "TYRANN, SABIRE, ZEPTER, RUNNER",
    "url": "https://www.chemiefabrik.info/gigs/15187/",
-   "lineup": [],
+   "lineup": [
+    {
+     "name": "TYRANN",
+     "info": "Heavy Metal / Stockholm/Schweden"
+    },
+    {
+     "name": "SABIRE",
+     "info": "Acid Heavy Metal / Stockholm/Schweden"
+    },
+    {
+     "name": "ZEPTER",
+     "info": "Heavy/Speed Metal / Linz/Österreich"
+    },
+    {
+     "name": "RUNNER",
+     "info": "Heavy Metal / Marburg/Deutschland"
+    }
+   ],
    "time": "15:00",
    "doors": "15:00",
    "start": "16:00",
@@ -4887,10 +4953,33 @@
     }
    ],
    "soldout": false,
+   "hit": true,
+   "hits": [
+    "metal"
+   ],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "GrooveStation",
+   "id": "10323-2027-10-21-tonbandgeraet@groovestation.de",
+   "date": "2027-10-21",
+   "title": "Tonbandgerät",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2027-10-21-tonbandgeraet",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": false
+   "new": true
   },
   {
    "club": "GrooveStation",
