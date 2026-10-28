@@ -1,48 +1,6 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "events": [
-  {
-   "club": "GrooveStation",
-   "id": "10299-2026-10-27-billard-bar@groovestation.de",
-   "date": "2026-10-27",
-   "title": "Billard & Bar",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-27-billard-bar",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5455",
-   "date": "2026-10-27",
-   "title": "Dagobert",
-   "detail": "",
-   "url": "https://scheune.org/show/5455/dagobert.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "15045",
@@ -1618,7 +1576,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -2860,6 +2818,27 @@
    "new": false
   },
   {
+   "club": "GrooveStation",
+   "id": "10329-2026-12-15-sandra-claus@groovestation.de",
+   "date": "2026-12-15",
+   "title": "Sandra Claus",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2026-12-15-sandra-claus",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Chemiefabrik",
    "id": "15230",
    "date": "2026-12-17",
@@ -3794,6 +3773,27 @@
    "new": false
   },
   {
+   "club": "GrooveStation",
+   "id": "10327-2027-02-13-t9-aka-torky-doz9@groovestation.de",
+   "date": "2027-02-13",
+   "title": "T9 aka Torky & doZ9",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2027-02-13-t9-aka-torky-doz9",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5637",
    "date": "2027-02-14",
@@ -4693,15 +4693,10 @@
    "time": "19:00",
    "doors": "19:00",
    "start": "20:00",
-   "vvk": "35,00 €",
-   "vvk_note": "zzgl. Gebühren",
+   "vvk": "",
+   "vvk_note": "",
    "ak": "",
-   "tickets": [
-    {
-     "name": "TixforGigs",
-     "url": "https://www.tixforgigs.com/de-DE/Event/77520"
-    }
-   ],
+   "tickets": [],
    "soldout": true,
    "hit": true,
    "hits": [
