@@ -1,87 +1,6 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "15045",
-   "date": "2026-10-28",
-   "title": "$ONO$ CLIQ",
-   "detail": "TZK, MILLI",
-   "url": "https://www.chemiefabrik.info/gigs/15045/",
-   "lineup": [
-    {
-     "name": "$ONO$ CLIQ",
-     "info": "HipHop, Rap / D"
-    },
-    {
-     "name": "TZK",
-     "info": ""
-    },
-    {
-     "name": "MILLI",
-     "info": ""
-    }
-   ],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "32 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "",
-   "tickets": [
-    {
-     "name": "Landstreicher Konzerte",
-     "url": "https://landstreicher-konzerte.de/konzerte/sonos-cliq-dd-26"
-    }
-   ],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10310-2026-10-28-midi-w-marcel-koar-dj-pommes@groovestation.de",
-   "date": "2026-10-28",
-   "title": "MiDi w/ Marcel Koar & DJ Pommes",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-28-midi-w-marcel-koar-dj-pommes",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5537",
-   "date": "2026-10-28",
-   "title": "Neu: EINFACH ELSES Late Night Show",
-   "detail": "",
-   "url": "https://scheune.org/show/5537/neu-einfach-elses-late-night-show.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "GrooveStation",
    "id": "10300-2026-10-29-billard-bar@groovestation.de",
@@ -1701,7 +1620,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Chemiefabrik",
@@ -4499,7 +4418,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Chemiefabrik",
