@@ -1,48 +1,6 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "events": [
-  {
-   "club": "GrooveStation",
-   "id": "10300-2026-10-29-billard-bar@groovestation.de",
-   "date": "2026-10-29",
-   "title": "Billard & Bar",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-29-billard-bar",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5441",
-   "date": "2026-10-29",
-   "title": "ECHT? Der Festivalauftakt der Tschechisch-Deutschen Kulturtage",
-   "detail": "",
-   "url": "https://scheune.org/show/5441/echt-der-festivalauftakt-der-tschechisch-deutschen-kulturtage.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "10348",
@@ -519,6 +477,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5749",
+   "date": "2026-11-06",
+   "title": "Meet-Up für Podcaster*innen und Sprecher*innen",
+   "detail": "",
+   "url": "https://scheune.org/show/5749/meet-up-fr-podcaster-innen-und-sprecher-innen.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Scheune",
@@ -1046,7 +1025,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -1210,6 +1189,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5750",
+   "date": "2026-11-13",
+   "title": "Hausführung durch die scheune",
+   "detail": "",
+   "url": "https://scheune.org/show/5750/hausfhrung-durch-die-scheune.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Scheune",
@@ -1540,6 +1540,27 @@
    "new": false
   },
   {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5751",
+   "date": "2026-11-19",
+   "title": "Hausführung durch die scheune",
+   "detail": "",
+   "url": "https://scheune.org/show/5751/hausfhrung-durch-die-scheune.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Chemiefabrik",
    "id": "10306",
    "date": "2026-11-20",
@@ -1846,6 +1867,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5752",
+   "date": "2026-11-26",
+   "title": "Hausführung durch die scheune",
+   "detail": "",
+   "url": "https://scheune.org/show/5752/hausfhrung-durch-die-scheune.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Scheune",
@@ -3011,10 +3053,27 @@
    "club": "Chemiefabrik",
    "id": "15216",
    "date": "2026-12-27",
-   "title": "Into the Darkness",
-   "detail": "",
+   "title": "Into Violent Darkness",
+   "detail": "Death Worship, Schafott, Witching Hour, Xulub Mitnal",
    "url": "https://www.chemiefabrik.info/gigs/15216/",
-   "lineup": [],
+   "lineup": [
+    {
+     "name": "Death Worship",
+     "info": "Black/Death Metal / Can/Ger"
+    },
+    {
+     "name": "Schafott",
+     "info": "Black/Thrash Metal / Ger"
+    },
+    {
+     "name": "Witching Hour",
+     "info": "Thrash Metal / Ger"
+    },
+    {
+     "name": "Xulub Mitnal",
+     "info": "Black Metal / Mex/ Ger"
+    }
+   ],
    "time": "",
    "doors": "",
    "start": "",
@@ -3023,8 +3082,11 @@
    "ak": "",
    "tickets": [],
    "soldout": false,
-   "hit": false,
-   "hits": [],
+   "hit": true,
+   "hits": [
+    "metal",
+    "thrash"
+   ],
    "cancelled": false,
    "new": false
   },
@@ -3140,7 +3202,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -3307,6 +3369,59 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Chemiefabrik",
+   "id": "15098",
+   "date": "2027-01-16",
+   "title": "Heute ist alles Noch besser!",
+   "detail": "Sniffing glue, Stuhlkreis, Dead Years, World Instinct, Kien, FAHRRAD & The BICYCLES, No laughing matter",
+   "url": "https://www.chemiefabrik.info/gigs/15098/",
+   "lineup": [
+    {
+     "name": "Sniffing glue",
+     "info": "HardcorePunk / Düsseldorf"
+    },
+    {
+     "name": "Stuhlkreis",
+     "info": "Post Punk/ Post NDW / Graz"
+    },
+    {
+     "name": "Dead Years",
+     "info": "Post Punk / Bielefeld"
+    },
+    {
+     "name": "World Instinct",
+     "info": "Hardcore / Rhineland"
+    },
+    {
+     "name": "Kien",
+     "info": "Post Punk / Prag"
+    },
+    {
+     "name": "FAHRRAD & The BICYCLES",
+     "info": "Punk / Dresden"
+    },
+    {
+     "name": "No laughing matter",
+     "info": "Hardcore / Burghausen"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "20,00 €",
+   "tickets": [],
+   "soldout": false,
+   "hit": true,
+   "hits": [
+    "hardcore",
+    "punk"
+   ],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Scheune",
@@ -3732,6 +3847,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5605",
+   "date": "2027-02-17",
+   "title": "Einfach Else Late Night Show",
+   "detail": "",
+   "url": "https://scheune.org/show/5605/einfach-else-late-night-show.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "GrooveStation",
@@ -4520,6 +4656,46 @@
    "new": false
   },
   {
+   "club": "Chemiefabrik",
+   "id": "15009",
+   "date": "2027-04-24",
+   "title": "13 JAHRE THE PISSED ONES!",
+   "detail": "The PISSED ONES, JOHNNY WOLGA, VALY AND THE VODKAS, FOXY FINCH CLUB",
+   "url": "https://www.chemiefabrik.info/gigs/15009/",
+   "lineup": [
+    {
+     "name": "The PISSED ONES",
+     "info": "Oktober '76 Punkrock / Dresden"
+    },
+    {
+     "name": "JOHNNY WOLGA",
+     "info": "!iO / Oranienburg"
+    },
+    {
+     "name": "VALY AND THE VODKAS",
+     "info": "Punk / Dresden"
+    },
+    {
+     "name": "FOXY FINCH CLUB",
+     "info": "Rock'n'Roll / Punk / Berlin"
+    }
+   ],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": true,
+   "hits": [
+    "punk"
+   ],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "GrooveStation",
    "id": "9588-2027-04-24-seraphina-kalze@groovestation.de",
    "date": "2027-04-24",
@@ -4644,6 +4820,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "GrooveStation",
+   "id": "10330-2027-06-02-kauta@groovestation.de",
+   "date": "2027-06-02",
+   "title": "KAUTA",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2027-06-02-kauta",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "GrooveStation",
@@ -4834,7 +5031,7 @@
    "id": "15187",
    "date": "2027-09-04",
    "title": "DAMAGE FESTIVAL",
-   "detail": "TYRANN, SABIRE, ZEPTER, RUNNER",
+   "detail": "TYRANN, SABIRE, ZEPTER, RUNNER, ACID BLADE",
    "url": "https://www.chemiefabrik.info/gigs/15187/",
    "lineup": [
     {
@@ -4852,6 +5049,10 @@
     {
      "name": "RUNNER",
      "info": "Heavy Metal / Marburg/Deutschland"
+    },
+    {
+     "name": "ACID BLADE",
+     "info": "Heavy Metal / Dresden"
     }
    ],
    "time": "15:00",

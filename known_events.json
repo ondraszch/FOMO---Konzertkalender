@@ -494,6 +494,14 @@
   "date": "2026-12-18",
   "title": "Infos folgen … Weihnachten Ohne Familie FIFFI & THE KIDS Pop"
  },
+ "Chemiefabrik:15009": {
+  "d": {
+   "f": "2026-10-30"
+  },
+  "date": "2027-04-24",
+  "seen": "2026-10-30",
+  "title": "13 JAHRE THE PISSED ONES!"
+ },
  "Chemiefabrik:15013": {
   "d": {
    "ak": "15,00 €",
@@ -758,6 +766,17 @@
   },
   "date": "2027-02-04",
   "title": "THE HIRSCH EFFEKT Artcore, Progressive Metal / D"
+ },
+ "Chemiefabrik:15098": {
+  "d": {
+   "ak": "20,00 €",
+   "doors": "19:00",
+   "f": "2026-10-30",
+   "start": "20:00"
+  },
+  "date": "2027-01-16",
+  "seen": "2026-10-30",
+  "title": "Heute ist alles Noch besser!"
  },
  "Chemiefabrik:15102": {
   "d": {
@@ -1325,6 +1344,11 @@
   "seen": "2026-10-28",
   "title": "Sandra Claus"
  },
+ "GrooveStation:10330-2027-06-02-kauta@groovestation.de": {
+  "date": "2027-06-02",
+  "seen": "2026-10-30",
+  "title": "KAUTA"
+ },
  "GrooveStation:9385-2026-10-25-leftovers@groovestation.de": {
   "date": "2026-10-25",
   "title": "LEFTOVERS"
@@ -1603,6 +1627,11 @@
   "date": "2026-10-22",
   "title": "Fällt aus - Regio Tales"
  },
+ "Scheune:Scheune-Veranstaltungen-5605": {
+  "date": "2027-02-17",
+  "seen": "2026-10-30",
+  "title": "Einfach Else Late Night Show"
+ },
  "Scheune:Scheune-Veranstaltungen-5629": {
   "date": "2026-12-06",
   "title": "Glitzerkids - Die Kinderdisko"
@@ -1711,5 +1740,25 @@
   "date": "2026-11-07",
   "seen": "2026-10-25",
   "title": "Pilz-Exkursion"
+ },
+ "Scheune:Scheune-Veranstaltungen-5749": {
+  "date": "2026-11-06",
+  "seen": "2026-10-30",
+  "title": "Meet-Up für Podcaster*innen und Sprecher*innen"
+ },
+ "Scheune:Scheune-Veranstaltungen-5750": {
+  "date": "2026-11-13",
+  "seen": "2026-10-30",
+  "title": "Hausführung durch die scheune"
+ },
+ "Scheune:Scheune-Veranstaltungen-5751": {
+  "date": "2026-11-19",
+  "seen": "2026-10-30",
+  "title": "Hausführung durch die scheune"
+ },
+ "Scheune:Scheune-Veranstaltungen-5752": {
+  "date": "2026-11-26",
+  "seen": "2026-10-30",
+  "title": "Hausführung durch die scheune"
  }
 }
