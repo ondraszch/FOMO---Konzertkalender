@@ -1,82 +1,6 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "10348",
-   "date": "2026-10-30",
-   "title": "A Spooktacular Night Volume 5",
-   "detail": "DJ TEAM THE EXORSISTERS, DJ SUBHU-MANNTRASH, DJ GHOUL FOOL",
-   "url": "https://www.chemiefabrik.info/gigs/10348/",
-   "lineup": [
-    {
-     "name": "DJ TEAM THE EXORSISTERS",
-     "info": ""
-    },
-    {
-     "name": "DJ SUBHU-MANNTRASH",
-     "info": ""
-    },
-    {
-     "name": "DJ GHOUL FOOL",
-     "info": ""
-    }
-   ],
-   "time": "20:30",
-   "doors": "20:30",
-   "start": "21:00",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "5,00 €",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10306-2026-10-30-endstation-sekt-by-disconnect@groovestation.de",
-   "date": "2026-10-30",
-   "title": "Endstation Sekt by DISCOnnect",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-30-endstation-sekt-by-disconnect",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "9397-2026-10-30-mc-bomber@groovestation.de",
-   "date": "2026-10-30",
-   "title": "MC Bomber",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-10-30-mc-bomber",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "10341",
@@ -1869,6 +1793,38 @@
    "new": false
   },
   {
+   "club": "Chemiefabrik",
+   "id": "15274",
+   "date": "2026-11-26",
+   "title": "+ Barraumshow +",
+   "detail": "CEL RAY, ROSA C",
+   "url": "https://www.chemiefabrik.info/gigs/15274/",
+   "lineup": [
+    {
+     "name": "CEL RAY",
+     "info": "USA"
+    },
+    {
+     "name": "ROSA C",
+     "info": "Grunge, Glam, Punk / Dresden"
+    }
+   ],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": true,
+   "hits": [
+    "punk"
+   ],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5752",
    "date": "2026-11-26",
@@ -3053,7 +3009,7 @@
    "club": "Chemiefabrik",
    "id": "15216",
    "date": "2026-12-27",
-   "title": "Into Violent Darkness",
+   "title": "Into the Darkness 7",
    "detail": "Death Worship, Schafott, Witching Hour, Xulub Mitnal",
    "url": "https://www.chemiefabrik.info/gigs/15216/",
    "lineup": [
@@ -3074,7 +3030,7 @@
      "info": "Black Metal / Mex/ Ger"
     }
    ],
-   "time": "",
+   "time": "19:00",
    "doors": "",
    "start": "",
    "vvk": "",
@@ -4430,6 +4386,27 @@
   },
   {
    "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5639",
+   "date": "2027-04-02",
+   "title": "Jean-Philippe Kindler",
+   "detail": "",
+   "url": "https://scheune.org/show/5639/jean-philippe-kindler.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
+   "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5597",
    "date": "2027-04-03",
    "title": "The Intersphere",
@@ -4659,8 +4636,8 @@
    "club": "Chemiefabrik",
    "id": "15009",
    "date": "2027-04-24",
-   "title": "13 JAHRE THE PISSED ONES!",
-   "detail": "The PISSED ONES, JOHNNY WOLGA, VALY AND THE VODKAS, FOXY FINCH CLUB",
+   "title": "THE PISSED ONES",
+   "detail": "JOHNNY WOLGA, VALY AND THE VODKAS, FOXY FINCH CLUB",
    "url": "https://www.chemiefabrik.info/gigs/15009/",
    "lineup": [
     {
@@ -4680,7 +4657,7 @@
      "info": "Rock'n'Roll / Punk / Berlin"
     }
    ],
-   "time": "",
+   "time": "19:00",
    "doors": "",
    "start": "",
    "vvk": "",
@@ -4820,6 +4797,37 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Chemiefabrik",
+   "id": "15294",
+   "date": "2027-05-16",
+   "title": "LOS FASTIDIOS",
+   "detail": "",
+   "url": "https://www.chemiefabrik.info/gigs/15294/",
+   "lineup": [
+    {
+     "name": "LOS FASTIDIOS",
+     "info": "Antifashist Oi! / Italien"
+    }
+   ],
+   "time": "17:00",
+   "doors": "17:00",
+   "start": "18:00",
+   "vvk": "15,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "17,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77943"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "GrooveStation",

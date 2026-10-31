@@ -977,7 +977,7 @@
   "d": {
    "ak": "5 €",
    "doors": "21:00",
-   "f": "2026-10-24",
+   "f": "2026-10-31",
    "start": "21:30"
   },
   "date": "2026-11-13",
@@ -1001,6 +1001,33 @@
   },
   "date": "2026-12-17",
   "title": "SLOW GREEN THING Heavy Stoner Rock / Dresden Goatless Doom M"
+ },
+ "Chemiefabrik:15274": {
+  "d": {
+   "f": "2026-10-31"
+  },
+  "date": "2026-11-26",
+  "seen": "2026-10-31",
+  "title": "+ Barraumshow +"
+ },
+ "Chemiefabrik:15294": {
+  "d": {
+   "ak": "17,00 €",
+   "doors": "17:00",
+   "f": "2026-10-31",
+   "start": "18:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77943"
+    }
+   ],
+   "vvk": "15,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
+  "date": "2027-05-16",
+  "seen": "2026-10-31",
+  "title": "LOS FASTIDIOS"
  },
  "Chemiefabrik:9603": {
   "d": {
@@ -1639,6 +1666,11 @@
  "Scheune:Scheune-Veranstaltungen-5637": {
   "date": "2027-02-14",
   "title": "Willi Weitzel"
+ },
+ "Scheune:Scheune-Veranstaltungen-5639": {
+  "date": "2027-04-02",
+  "seen": "2026-10-31",
+  "title": "Jean-Philippe Kindler"
  },
  "Scheune:Scheune-Veranstaltungen-5645": {
   "date": "2027-02-20",
