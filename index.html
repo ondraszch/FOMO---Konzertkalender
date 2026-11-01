@@ -131,6 +131,21 @@
   .factsline { color: var(--muted); font-size: .85rem; margin-top: 4px; }
   .rowactions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
   .chip[aria-pressed=true].plain { background: var(--card); border-color: var(--new); color: var(--new); }
+  .form { display: grid; gap: 8px; }
+  .form input[type=text], .form input[type=date], .form input[type=time], .form input[type=url] {
+    width: 100%; padding: 10px 12px; font: inherit; color-scheme: dark;
+    background: var(--card); color: var(--text);
+    border: 1px solid var(--line); border-radius: 8px;
+  }
+  .form label.check { display: flex; align-items: center; gap: 8px; font-size: .9rem; }
+  details.addbox { margin: 0 0 12px; }
+  details.addbox summary {
+    display: inline-block; cursor: pointer; list-style: none;
+    padding: 8px 14px; border: 1px solid var(--accent); border-radius: 999px;
+    color: var(--accent); font-size: .9rem;
+  }
+  details.addbox summary::-webkit-details-marker { display: none; }
+  details.addbox[open] summary { margin-bottom: 10px; }
   .msg { color: var(--muted); padding: 24px 4px; }
   footer { color: var(--muted); font-size: .78rem; margin-top: 28px; }
 </style>
@@ -160,6 +175,22 @@
     <p class="radar-intro">
       Deine vorgemerkten Konzerte. Die Einträge liegen nur in diesem Browser auf diesem Gerät.
     </p>
+    <details class="addbox" id="manual-box">
+      <summary id="manual-summary">+ Eigenen Termin hinzufügen</summary>
+      <div class="form">
+        <input type="text" id="m-title" maxlength="100" placeholder="Band / Titel *" aria-label="Band oder Titel">
+        <input type="date" id="m-date" aria-label="Datum">
+        <input type="text" id="m-place" maxlength="60" placeholder="Ort / Club (z. B. Leipzig, Hellraiser)" aria-label="Ort oder Club">
+        <input type="time" id="m-time" aria-label="Uhrzeit (optional)">
+        <input type="url" id="m-url" maxlength="300" placeholder="Link (optional)" aria-label="Link">
+        <label class="check"><input type="checkbox" id="m-ticket"> Ticket gekauft</label>
+        <div class="rowactions">
+          <button type="button" class="chip" id="m-save">Speichern</button>
+          <button type="button" class="chip" id="m-cancel" hidden>Abbrechen</button>
+        </div>
+        <div class="small" id="m-msg" role="status"></div>
+      </div>
+    </details>
     <div id="cal-list"></div>
   </div>
 
@@ -202,7 +233,7 @@
   var DOW = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"];
 
   var data = [];
-  var state = { hidden: [], onlyHits: false, q: "", localBands: [], saved: {} };
+  var state = { onlyHits: false, q: "", localBands: [], saved: {} };
   var liveByKey = {};
   var serverBands = [];
 
@@ -213,7 +244,6 @@
       var raw = localStorage.getItem("konzertkalender-filter");
       if (raw) {
         var s = JSON.parse(raw);
-        if (Array.isArray(s.hidden)) state.hidden = s.hidden;
         state.onlyHits = !!s.onlyHits;
       }
     } catch (e) { /* ohne Speicher weiterarbeiten */ }
@@ -222,7 +252,7 @@
   function saveState() {
     try {
       localStorage.setItem("konzertkalender-filter",
-        JSON.stringify({ hidden: state.hidden, onlyHits: state.onlyHits }));
+        JSON.stringify({ onlyHits: state.onlyHits }));
     } catch (e) { /* ignorieren */ }
   }
 
@@ -454,10 +484,11 @@
     if (s.lineup) info.appendChild(el("div", "detail", s.lineup));
 
     var meta = el("div", "meta");
-    meta.appendChild(el("span", "tag", s.club));
+    if (s.club) meta.appendChild(el("span", "tag", s.club));
+    if (s.manual) meta.appendChild(el("span", "tag local", "manuell"));
     if (s.ticket) meta.appendChild(el("span", "tag ticket", "Ticket gekauft"));
     if (live && live.cancelled) meta.appendChild(el("span", "tag cancel", "abgesagt"));
-    if (!past && !live && data.length) meta.appendChild(el("span", "tag gone", "nicht mehr in der Liste des Clubs"));
+    if (!past && !live && !s.manual && data.length) meta.appendChild(el("span", "tag gone", "nicht mehr in der Liste des Clubs"));
     info.appendChild(meta);
 
     var facts = factsLine(s);
@@ -473,6 +504,12 @@
       });
       actions.appendChild(tk);
     }
+    if (s.manual) {
+      var ed = el("button", "chip", "Bearbeiten");
+      ed.type = "button";
+      ed.addEventListener("click", function () { startEdit(key); });
+      actions.appendChild(ed);
+    }
     var rm = el("button", "chip", "Entfernen");
     rm.type = "button";
     rm.addEventListener("click", function () {
@@ -484,6 +521,63 @@
 
     row.appendChild(info);
     return row;
+  }
+
+  var editingKey = null;
+
+  function resetForm() {
+    ["m-title", "m-date", "m-place", "m-time", "m-url"].forEach(function (id) { $(id).value = ""; });
+    $("m-ticket").checked = false;
+    $("m-msg").textContent = "";
+    $("m-cancel").hidden = true;
+    $("m-save").textContent = "Speichern";
+    $("manual-summary").textContent = "+ Eigenen Termin hinzuf\u00fcgen";
+    editingKey = null;
+  }
+
+  function startEdit(key) {
+    var s = state.saved[key];
+    if (!s) return;
+    editingKey = key;
+    $("m-title").value = s.title || "";
+    $("m-date").value = s.date || "";
+    $("m-place").value = s.club || "";
+    $("m-time").value = s.time || "";
+    $("m-url").value = s.url || "";
+    $("m-ticket").checked = !!s.ticket;
+    $("m-msg").textContent = "";
+    $("m-cancel").hidden = false;
+    $("m-save").textContent = "\u00c4nderung speichern";
+    $("manual-summary").textContent = "Termin bearbeiten";
+    $("manual-box").open = true;
+    $("manual-box").scrollIntoView({ block: "start" });
+  }
+
+  function clean(v, max) {
+    return String(v || "").replace(/[\u0000-\u001f\u007f]/g, " ").replace(/\s+/g, " ").trim().slice(0, max);
+  }
+
+  function saveManual() {
+    var msg = $("m-msg");
+    var title = clean($("m-title").value, 100);
+    var date = $("m-date").value;
+    var url = clean($("m-url").value, 300);
+    if (title.length < 2) { msg.textContent = "Bitte Band oder Titel eingeben."; return; }
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) { msg.textContent = "Bitte ein Datum w\u00e4hlen."; return; }
+    if (url && !isHttp(url)) { msg.textContent = "Der Link muss mit http:// oder https:// beginnen."; return; }
+    var old = editingKey ? state.saved[editingKey] : null;
+    var key = editingKey || ("manuell|" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6));
+    state.saved[key] = {
+      club: clean($("m-place").value, 60), date: date, title: title, url: url,
+      doors: "", start: "", time: $("m-time").value || "",
+      vvk: "", vvk_note: "", ak: "", lineup: "",
+      ticket: $("m-ticket").checked, manual: true,
+      saved: old ? old.saved : todayIso()
+    };
+    saveSaved(); updateCount();
+    resetForm();
+    $("manual-box").open = false;
+    renderCalendar();
   }
 
   function renderCalendar() {
@@ -649,7 +743,7 @@
     var box = $("chips");
     box.replaceChildren();
 
-    var hitBtn = el("button", "chip", "Nur meine Treffer");
+    var hitBtn = el("button", "chip", "My taste");
     hitBtn.type = "button";
     hitBtn.setAttribute("aria-pressed", state.onlyHits ? "true" : "false");
     hitBtn.addEventListener("click", function () {
@@ -657,22 +751,6 @@
       saveState(); buildChips(); render();
     });
     box.appendChild(hitBtn);
-
-    var clubs = [];
-    data.forEach(function (e) { if (clubs.indexOf(e.club) < 0) clubs.push(e.club); });
-    clubs.sort(function (a, b) { return a.localeCompare(b, "de", { sensitivity: "base" }); });
-    clubs.forEach(function (club) {
-      var off = state.hidden.indexOf(club) >= 0;
-      var b = el("button", "chip" + (off ? " off" : ""), club);
-      b.type = "button";
-      b.setAttribute("aria-pressed", off ? "false" : "true");
-      b.addEventListener("click", function () {
-        var i = state.hidden.indexOf(club);
-        if (i >= 0) state.hidden.splice(i, 1); else state.hidden.push(club);
-        saveState(); buildChips(); render();
-      });
-      box.appendChild(b);
-    });
   }
 
   function render() {
@@ -681,7 +759,6 @@
     var q = state.q.trim().toLowerCase();
 
     var shown = data.filter(function (e) {
-      if (state.hidden.indexOf(e.club) >= 0) return false;
       if (state.onlyHits && !(e.hit || localMatches(e).length)) return false;
       if (q) {
         var hay = (e.title + " " + (e.detail || "") + " " + e.club).toLowerCase();
@@ -766,6 +843,8 @@
     loadLocal();
     loadSaved();
     updateCount();
+    $("m-save").addEventListener("click", saveManual);
+    $("m-cancel").addEventListener("click", function () { resetForm(); $("manual-box").open = false; });
     $("band-add").addEventListener("click", addLocalBand);
     $("band-input").addEventListener("keydown", function (ev) { if (ev.key === "Enter") addLocalBand(); });
     $("copy-bands").addEventListener("click", copyLocal);
