@@ -98,9 +98,9 @@
     color: var(--text); text-decoration: none; font-size: .85rem;
   }
   .btn.primary { border-color: var(--accent); color: var(--accent); }
-  .tabs { display: flex; gap: 6px; margin: 4px 0 10px; }
+  .tabs { display: flex; gap: 4px; margin: 4px 0 10px; }
   .tab {
-    flex: 1; padding: 9px 12px; cursor: pointer; font: inherit; font-size: .95rem;
+    flex: 1; padding: 9px 4px; cursor: pointer; font: inherit; font-size: .88rem;
     background: var(--card); color: var(--muted);
     border: 1px solid var(--line); border-radius: 8px;
   }
@@ -146,6 +146,7 @@
   }
   details.addbox summary::-webkit-details-marker { display: none; }
   details.addbox[open] summary { margin-bottom: 10px; }
+  .stats { color: var(--muted); font-size: .9rem; margin: 0 0 10px; }
   .msg { color: var(--muted); padding: 24px 4px; }
   footer { color: var(--muted); font-size: .78rem; margin-top: 28px; }
 </style>
@@ -158,6 +159,7 @@
   <div class="tabs" id="tabs">
     <button type="button" class="tab" data-tab="termine" aria-pressed="true">Termine</button>
     <button type="button" class="tab" id="tab-kalender" data-tab="kalender" aria-pressed="false">Kalender</button>
+    <button type="button" class="tab" id="tab-besucht" data-tab="besucht" aria-pressed="false">Besucht</button>
     <button type="button" class="tab" data-tab="radar" aria-pressed="false">Radar</button>
   </div>
 
@@ -175,23 +177,28 @@
     <p class="radar-intro">
       Deine vorgemerkten Konzerte. Die Einträge liegen nur in diesem Browser auf diesem Gerät.
     </p>
-    <details class="addbox" id="manual-box">
-      <summary id="manual-summary">+ Eigenen Termin hinzufügen</summary>
-      <div class="form">
-        <input type="text" id="m-title" maxlength="100" placeholder="Band / Titel *" aria-label="Band oder Titel">
-        <input type="date" id="m-date" aria-label="Datum">
-        <input type="text" id="m-place" maxlength="60" placeholder="Ort / Club (z. B. Leipzig, Hellraiser)" aria-label="Ort oder Club">
-        <input type="time" id="m-time" aria-label="Uhrzeit (optional)">
-        <input type="url" id="m-url" maxlength="300" placeholder="Link (optional)" aria-label="Link">
-        <label class="check"><input type="checkbox" id="m-ticket"> Ticket gekauft</label>
-        <div class="rowactions">
-          <button type="button" class="chip" id="m-save">Speichern</button>
-          <button type="button" class="chip" id="m-cancel" hidden>Abbrechen</button>
-        </div>
-        <div class="small" id="m-msg" role="status"></div>
-      </div>
-    </details>
+    <div id="form-cal"></div>
     <div id="cal-list"></div>
+  </div>
+
+  <div class="panel" id="panel-besucht" hidden>
+    <p class="radar-intro">
+      Konzerte, bei denen du warst. Die Einträge liegen nur in diesem Browser auf diesem Gerät.
+    </p>
+    <div class="stats" id="vis-stats"></div>
+    <div id="form-vis"></div>
+    <div id="vis-list"></div>
+    <h2>Sicherung</h2>
+    <p class="radar-intro">
+      Alle persönlichen Daten (Kalender, Besucht, lokale Radar-Bands) als Datei sichern oder aus einer
+      Sicherung wiederherstellen. Die Datei enthält persönliche Angaben, lege sie nicht öffentlich ab.
+    </p>
+    <div>
+      <button type="button" class="btn" id="backup-save">Sicherung speichern</button>
+      <button type="button" class="btn" id="backup-load">Sicherung einlesen</button>
+      <input type="file" id="backup-file" accept="application/json,.json" hidden>
+    </div>
+    <div class="small" id="backup-msg" role="status"></div>
   </div>
 
   <div class="panel" id="panel-radar" hidden>
@@ -364,7 +371,7 @@
   }
 
   function showTab(name) {
-    ["termine", "kalender", "radar"].forEach(function (t) {
+    ["termine", "kalender", "besucht", "radar"].forEach(function (t) {
       $("panel-" + t).hidden = (t !== name);
     });
     Array.prototype.forEach.call(document.querySelectorAll(".tab"), function (b) {
@@ -372,10 +379,12 @@
     });
     if (name === "termine") render();
     if (name === "kalender") renderCalendar();
+    if (name === "besucht") renderVisited();
     if (name === "radar") renderRadar();
   }
 
   var SAVED_KEY = "konzertkalender-merkliste";
+  var BAD_KEYS = { "__proto__": 1, "constructor": 1, "prototype": 1 };
 
   function pad2(n) { return (n < 10 ? "0" : "") + n; }
 
@@ -396,7 +405,7 @@
         if (obj && typeof obj === "object" && !Array.isArray(obj)) {
           Object.keys(obj).forEach(function (k) {
             var v = obj[k];
-            if (v && typeof v.title === "string" && typeof v.date === "string") state.saved[k] = v;
+            if (!BAD_KEYS[k] && v && typeof v.title === "string" && typeof v.date === "string") state.saved[k] = v;
           });
         }
       }
@@ -423,9 +432,13 @@
   }
 
   function updateCount() {
-    var today = todayIso();
-    var n = Object.keys(state.saved).filter(function (k) { return state.saved[k].date >= today; }).length;
-    $("tab-kalender").textContent = "Kalender" + (n ? " (" + n + ")" : "");
+    var today = todayIso(), up = 0, vis = 0;
+    Object.keys(state.saved).forEach(function (k) {
+      var s = state.saved[k];
+      if (s.visited) vis++; else if (s.date >= today) up++;
+    });
+    $("tab-kalender").textContent = "Kalender" + (up ? " (" + up + ")" : "");
+    $("tab-besucht").textContent = "Besucht" + (vis ? " (" + vis + ")" : "");
   }
 
   function saveButton(e) {
@@ -461,26 +474,38 @@
     return parts.join(" \u00b7 ");
   }
 
-  function calRow(key, s, past) {
-    var d = new Date(s.date + "T00:00:00");
-    var live = liveByKey[key];
-    var row = el("div", "ev" + (live && live.cancelled ? " cancelled" : ""));
+  var calForm = null, visForm = null;
 
+  function clean(v, max) {
+    return String(v || "").replace(/[\u0000-\u001f\u007f]/g, " ").replace(/\s+/g, " ").trim().slice(0, max);
+  }
+
+  function dateBlock(s) {
+    var d = new Date(s.date + "T00:00:00");
     var date = el("div", "date");
     date.appendChild(el("span", "dow", DOW[d.getDay()]));
     date.appendChild(el("span", "day", String(d.getDate())));
     date.appendChild(el("span", "mon", MON_SHORT[d.getMonth()]));
-    row.appendChild(date);
+    return date;
+  }
+
+  function titleEl(s) {
+    if (isHttp(s.url)) {
+      var a = el("a", "title", s.title);
+      a.href = s.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      return a;
+    }
+    return el("div", "title", s.title);
+  }
+
+  function calRow(key, s, past) {
+    var live = liveByKey[key];
+    var today = todayIso();
+    var row = el("div", "ev" + (live && live.cancelled ? " cancelled" : ""));
+    row.appendChild(dateBlock(s));
 
     var info = el("div", "info");
-    var title;
-    if (isHttp(s.url)) {
-      title = el("a", "title", s.title);
-      title.href = s.url; title.target = "_blank"; title.rel = "noopener noreferrer";
-    } else {
-      title = el("div", "title", s.title);
-    }
-    info.appendChild(title);
+    info.appendChild(titleEl(s));
     if (s.lineup) info.appendChild(el("div", "detail", s.lineup));
 
     var meta = el("div", "meta");
@@ -495,6 +520,14 @@
     if (facts) info.appendChild(el("div", "factsline", facts));
 
     var actions = el("div", "rowactions");
+    if (s.date <= today) {
+      var yes = el("button", "chip", "Ja, war dort");
+      yes.type = "button";
+      yes.addEventListener("click", function () {
+        s.visited = true; saveSaved(); updateCount(); renderCalendar();
+      });
+      actions.appendChild(yes);
+    }
     if (!past) {
       var tk = el("button", "chip plain", s.ticket ? "\u2713 Ticket gekauft" : "Ticket gekauft?");
       tk.type = "button";
@@ -507,10 +540,10 @@
     if (s.manual) {
       var ed = el("button", "chip", "Bearbeiten");
       ed.type = "button";
-      ed.addEventListener("click", function () { startEdit(key); });
+      ed.addEventListener("click", function () { calForm.startEdit(key); });
       actions.appendChild(ed);
     }
-    var rm = el("button", "chip", "Entfernen");
+    var rm = el("button", "chip", past ? "Nicht dabei" : "Entfernen");
     rm.type = "button";
     rm.addEventListener("click", function () {
       if (!window.confirm("\u201e" + s.title + "\u201c aus deinem Kalender entfernen?")) return;
@@ -523,68 +556,165 @@
     return row;
   }
 
-  var editingKey = null;
+  function visRow(key, s) {
+    var row = el("div", "ev");
+    row.appendChild(dateBlock(s));
 
-  function resetForm() {
-    ["m-title", "m-date", "m-place", "m-time", "m-url"].forEach(function (id) { $(id).value = ""; });
-    $("m-ticket").checked = false;
-    $("m-msg").textContent = "";
-    $("m-cancel").hidden = true;
-    $("m-save").textContent = "Speichern";
-    $("manual-summary").textContent = "+ Eigenen Termin hinzuf\u00fcgen";
-    editingKey = null;
+    var info = el("div", "info");
+    info.appendChild(titleEl(s));
+    if (s.lineup) info.appendChild(el("div", "detail", s.lineup));
+    var meta = el("div", "meta");
+    if (s.club) meta.appendChild(el("span", "tag", s.club));
+    if (s.manual) meta.appendChild(el("span", "tag local", "manuell"));
+    info.appendChild(meta);
+    if (s.note) info.appendChild(el("div", "factsline", s.note));
+
+    var actions = el("div", "rowactions");
+    var nb = el("button", "chip", s.note ? "Notiz \u00e4ndern" : "Notiz");
+    nb.type = "button";
+    nb.addEventListener("click", function () {
+      var v = window.prompt("Notiz zu \u201e" + s.title + "\u201c:", s.note || "");
+      if (v === null) return;
+      s.note = clean(v, 200); saveSaved(); renderVisited();
+    });
+    actions.appendChild(nb);
+    if (s.manual) {
+      var ed = el("button", "chip", "Bearbeiten");
+      ed.type = "button";
+      ed.addEventListener("click", function () { visForm.startEdit(key); });
+      actions.appendChild(ed);
+    }
+    var rm = el("button", "chip", "Entfernen");
+    rm.type = "button";
+    rm.addEventListener("click", function () {
+      if (!window.confirm("\u201e" + s.title + "\u201c aus \u201eBesucht\u201c entfernen?")) return;
+      delete state.saved[key]; saveSaved(); updateCount(); renderVisited();
+    });
+    actions.appendChild(rm);
+    info.appendChild(actions);
+
+    row.appendChild(info);
+    return row;
   }
 
-  function startEdit(key) {
-    var s = state.saved[key];
-    if (!s) return;
-    editingKey = key;
-    $("m-title").value = s.title || "";
-    $("m-date").value = s.date || "";
-    $("m-place").value = s.club || "";
-    $("m-time").value = s.time || "";
-    $("m-url").value = s.url || "";
-    $("m-ticket").checked = !!s.ticket;
-    $("m-msg").textContent = "";
-    $("m-cancel").hidden = false;
-    $("m-save").textContent = "\u00c4nderung speichern";
-    $("manual-summary").textContent = "Termin bearbeiten";
-    $("manual-box").open = true;
-    $("manual-box").scrollIntoView({ block: "start" });
-  }
+  function createForm(cfg) {
+    var box = el("details", "addbox");
+    var summary = el("summary", "", cfg.summary);
+    box.appendChild(summary);
+    var form = el("div", "form");
 
-  function clean(v, max) {
-    return String(v || "").replace(/[\u0000-\u001f\u007f]/g, " ").replace(/\s+/g, " ").trim().slice(0, max);
-  }
+    function field(type, ph, label, max) {
+      var i = document.createElement("input");
+      i.type = type;
+      if (ph) i.placeholder = ph;
+      i.setAttribute("aria-label", label);
+      if (max) i.maxLength = max;
+      return i;
+    }
+    var fTitle = field("text", "Band / Titel *", "Band oder Titel", 100);
+    var fDate = field("date", "", "Datum");
+    var fPlace = field("text", "Ort / Club (z. B. Leipzig, Hellraiser)", "Ort oder Club", 60);
+    var fTime = field("time", "", "Uhrzeit (optional)");
+    var fUrl = field("url", "Link (optional)", "Link", 300);
+    var fNote = field("text", "Notiz (optional)", "Notiz", 200);
+    var fTicket = document.createElement("input");
+    fTicket.type = "checkbox";
+    var lab = el("label", "check");
+    lab.appendChild(fTicket);
+    lab.appendChild(document.createTextNode(" Ticket gekauft"));
 
-  function saveManual() {
-    var msg = $("m-msg");
-    var title = clean($("m-title").value, 100);
-    var date = $("m-date").value;
-    var url = clean($("m-url").value, 300);
-    if (title.length < 2) { msg.textContent = "Bitte Band oder Titel eingeben."; return; }
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) { msg.textContent = "Bitte ein Datum w\u00e4hlen."; return; }
-    if (url && !isHttp(url)) { msg.textContent = "Der Link muss mit http:// oder https:// beginnen."; return; }
-    var old = editingKey ? state.saved[editingKey] : null;
-    var key = editingKey || ("manuell|" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6));
-    state.saved[key] = {
-      club: clean($("m-place").value, 60), date: date, title: title, url: url,
-      doors: "", start: "", time: $("m-time").value || "",
-      vvk: "", vvk_note: "", ak: "", lineup: "",
-      ticket: $("m-ticket").checked, manual: true,
-      saved: old ? old.saved : todayIso()
-    };
-    saveSaved(); updateCount();
-    resetForm();
-    $("manual-box").open = false;
-    renderCalendar();
+    form.appendChild(fTitle);
+    form.appendChild(fDate);
+    form.appendChild(fPlace);
+    if (!cfg.visited) form.appendChild(fTime);
+    form.appendChild(fUrl);
+    if (cfg.visited) form.appendChild(fNote); else form.appendChild(lab);
+
+    var acts = el("div", "rowactions");
+    var save = el("button", "chip", "Speichern");
+    save.type = "button";
+    var cancel = el("button", "chip", "Abbrechen");
+    cancel.type = "button";
+    cancel.hidden = true;
+    acts.appendChild(save);
+    acts.appendChild(cancel);
+    form.appendChild(acts);
+    var msg = el("div", "small");
+    msg.setAttribute("role", "status");
+    form.appendChild(msg);
+    box.appendChild(form);
+
+    var editing = null;
+
+    function reset() {
+      [fTitle, fPlace, fTime, fUrl, fNote].forEach(function (f) { f.value = ""; });
+      fDate.value = cfg.visited ? todayIso() : "";
+      if (cfg.visited) fDate.max = todayIso();
+      fTicket.checked = false;
+      msg.textContent = "";
+      cancel.hidden = true;
+      save.textContent = "Speichern";
+      summary.textContent = cfg.summary;
+      editing = null;
+    }
+    reset();
+
+    function startEdit(key) {
+      var s = state.saved[key];
+      if (!s) return;
+      editing = key;
+      fTitle.value = s.title || "";
+      fDate.value = s.date || "";
+      fPlace.value = s.club || "";
+      fTime.value = s.time || "";
+      fUrl.value = s.url || "";
+      fNote.value = s.note || "";
+      fTicket.checked = !!s.ticket;
+      msg.textContent = "";
+      cancel.hidden = false;
+      save.textContent = "\u00c4nderung speichern";
+      summary.textContent = "Termin bearbeiten";
+      box.open = true;
+      box.scrollIntoView({ block: "start" });
+    }
+
+    save.addEventListener("click", function () {
+      var title = clean(fTitle.value, 100);
+      var date = fDate.value;
+      var url = clean(fUrl.value, 300);
+      if (title.length < 2) { msg.textContent = "Bitte Band oder Titel eingeben."; return; }
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) { msg.textContent = "Bitte ein Datum w\u00e4hlen."; return; }
+      if (cfg.visited && date > todayIso()) { msg.textContent = "Besuchte Konzerte k\u00f6nnen nicht in der Zukunft liegen."; return; }
+      if (url && !isHttp(url)) { msg.textContent = "Der Link muss mit http:// oder https:// beginnen."; return; }
+      var old = editing ? state.saved[editing] : null;
+      var key = editing || ("manuell|" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6));
+      state.saved[key] = {
+        club: clean(fPlace.value, 60), date: date, title: title, url: url,
+        doors: "", start: "", time: cfg.visited ? "" : (fTime.value || ""),
+        vvk: "", vvk_note: "", ak: "", lineup: "",
+        ticket: cfg.visited ? !!(old && old.ticket) : fTicket.checked,
+        manual: true,
+        visited: cfg.visited ? true : !!(old && old.visited),
+        note: cfg.visited ? clean(fNote.value, 200) : (old ? (old.note || "") : ""),
+        saved: old ? old.saved : todayIso()
+      };
+      saveSaved(); updateCount();
+      reset();
+      box.open = false;
+      cfg.after();
+    });
+    cancel.addEventListener("click", function () { reset(); box.open = false; });
+
+    return { root: box, startEdit: startEdit };
   }
 
   function renderCalendar() {
     var box = $("cal-list");
     box.replaceChildren();
     var today = todayIso();
-    var items = Object.keys(state.saved).map(function (k) { return { key: k, s: state.saved[k] }; });
+    var items = Object.keys(state.saved)
+      .map(function (k) { return { key: k, s: state.saved[k] }; })
+      .filter(function (x) { return !x.s.visited; });
     if (!items.length) {
       box.appendChild(el("div", "msg", "Noch nichts vorgemerkt. Tippe in der Terminliste auf \u201e\u2606 Vormerken\u201c."));
       return;
@@ -596,6 +726,10 @@
     var upcoming = items.filter(function (x) { return x.s.date >= today; }).sort(byDate);
     var past = items.filter(function (x) { return x.s.date < today; }).sort(byDate);
 
+    if (past.length) {
+      box.appendChild(el("h2", "", "Vorbei \u2013 warst du dort?"));
+      past.forEach(function (x) { box.appendChild(calRow(x.key, x.s, true)); });
+    }
     if (!upcoming.length) box.appendChild(el("div", "msg", "Keine kommenden vorgemerkten Konzerte."));
     var lastMonth = "";
     upcoming.forEach(function (x) {
@@ -607,11 +741,101 @@
       }
       box.appendChild(calRow(x.key, x.s, false));
     });
+  }
 
-    if (past.length) {
-      box.appendChild(el("h2", "", "Vorbei"));
-      past.forEach(function (x) { box.appendChild(calRow(x.key, x.s, true)); });
-    }
+  function renderVisited() {
+    var box = $("vis-list");
+    box.replaceChildren();
+    var items = Object.keys(state.saved)
+      .map(function (k) { return { key: k, s: state.saved[k] }; })
+      .filter(function (x) { return x.s.visited; })
+      .sort(function (a, b) {
+        if (a.s.date !== b.s.date) return a.s.date < b.s.date ? 1 : -1;
+        return a.s.title.localeCompare(b.s.title, "de", { sensitivity: "base" });
+      });
+    $("vis-stats").textContent = items.length
+      ? items.length + (items.length === 1 ? " Konzert besucht" : " Konzerte besucht")
+      : "Noch keine besuchten Konzerte.";
+    var years = {}, order = [];
+    items.forEach(function (x) {
+      var y = x.s.date.slice(0, 4);
+      if (!years[y]) { years[y] = []; order.push(y); }
+      years[y].push(x);
+    });
+    order.forEach(function (y) {
+      box.appendChild(el("h2", "", y + " (" + years[y].length + ")"));
+      years[y].forEach(function (x) { box.appendChild(visRow(x.key, x.s)); });
+    });
+  }
+
+  function sanitizeEntry(v) {
+    if (!v || typeof v !== "object") return null;
+    var date = (typeof v.date === "string" && /^\d{4}-\d{2}-\d{2}$/.test(v.date)) ? v.date : null;
+    var title = clean(v.title, 100);
+    if (!date || title.length < 2) return null;
+    var url = clean(v.url, 300);
+    if (url && !isHttp(url)) url = "";
+    return {
+      club: clean(v.club, 60), date: date, title: title, url: url,
+      doors: clean(v.doors, 8), start: clean(v.start, 8), time: clean(v.time, 8),
+      vvk: clean(v.vvk, 30), vvk_note: clean(v.vvk_note, 30), ak: clean(v.ak, 30),
+      lineup: clean(v.lineup, 300), ticket: !!v.ticket, manual: !!v.manual,
+      visited: !!v.visited, note: clean(v.note, 200),
+      saved: (typeof v.saved === "string" && /^\d{4}-\d{2}-\d{2}$/.test(v.saved)) ? v.saved : todayIso()
+    };
+  }
+
+  function exportBackup() {
+    var payload = {
+      app: "konzertkalender", version: 1, exported: todayIso(),
+      saved: state.saved, localBands: state.localBands
+    };
+    var blob = new Blob([JSON.stringify(payload, null, 1)], { type: "application/json" });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = "konzertkalender-sicherung-" + todayIso() + ".json";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
+    $("backup-msg").textContent = "Sicherung erstellt. Bewahre die Datei privat auf.";
+  }
+
+  function importBackup(file) {
+    var msg = $("backup-msg");
+    if (!file) return;
+    if (file.size > 2000000) { msg.textContent = "Die Datei ist zu gro\u00df."; return; }
+    var reader = new FileReader();
+    reader.onerror = function () { msg.textContent = "Die Datei konnte nicht gelesen werden."; };
+    reader.onload = function () {
+      var obj;
+      try { obj = JSON.parse(String(reader.result)); } catch (err) { obj = null; }
+      if (!obj || obj.app !== "konzertkalender" || typeof obj.saved !== "object" || !obj.saved) {
+        msg.textContent = "Das ist keine g\u00fcltige Sicherung des Konzertkalenders.";
+        return;
+      }
+      var incoming = [];
+      Object.keys(obj.saved).forEach(function (k) {
+        if (BAD_KEYS[k] || k.length > 200) return;
+        var clean1 = sanitizeEntry(obj.saved[k]);
+        if (clean1) incoming.push({ key: k, entry: clean1 });
+      });
+      var bands = Array.isArray(obj.localBands) ? obj.localBands : [];
+      if (!window.confirm(incoming.length + " Eintr\u00e4ge einlesen? Vorhandene Eintr\u00e4ge mit gleichem Schl\u00fcssel werden \u00fcberschrieben, alle anderen bleiben.")) return;
+      incoming.forEach(function (x) { state.saved[x.key] = x.entry; });
+      var added = 0;
+      bands.forEach(function (b) {
+        var name = clean(b, 60);
+        if (name.length < 2 || state.localBands.length >= 200) return;
+        var low = name.toLowerCase();
+        if (state.localBands.some(function (o) { return o.toLowerCase() === low; })) return;
+        state.localBands.push(name); added++;
+      });
+      saveSaved(); saveLocal(); updateCount(); renderVisited();
+      msg.textContent = incoming.length + " Eintr\u00e4ge und " + added + " neue lokale Bands \u00fcbernommen.";
+    };
+    reader.readAsText(file);
   }
 
   function bandRow(name, matches, local) {
@@ -843,8 +1067,16 @@
     loadLocal();
     loadSaved();
     updateCount();
-    $("m-save").addEventListener("click", saveManual);
-    $("m-cancel").addEventListener("click", function () { resetForm(); $("manual-box").open = false; });
+    calForm = createForm({ visited: false, summary: "+ Eigenen Termin hinzuf\u00fcgen", after: function () { renderCalendar(); } });
+    $("form-cal").appendChild(calForm.root);
+    visForm = createForm({ visited: true, summary: "+ Besuchtes Konzert nachtragen", after: function () { renderVisited(); } });
+    $("form-vis").appendChild(visForm.root);
+    $("backup-save").addEventListener("click", exportBackup);
+    $("backup-load").addEventListener("click", function () { $("backup-file").click(); });
+    $("backup-file").addEventListener("change", function (ev) {
+      importBackup(ev.target.files && ev.target.files[0]);
+      ev.target.value = "";
+    });
     $("band-add").addEventListener("click", addLocalBand);
     $("band-input").addEventListener("keydown", function (ev) { if (ev.key === "Enter") addLocalBand(); });
     $("copy-bands").addEventListener("click", copyLocal);
