@@ -11,6 +11,7 @@ from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
+from clubs_extra import parse_beatpol, parse_puschkin
 
 ROOT = Path(__file__).resolve().parent
 STATE_FILE = ROOT / "known_events.json"
@@ -227,6 +228,10 @@ SOURCES = [
 ]
 
 
+SOURCES.append(("Beatpol", lambda: parse_beatpol(get("https://beatpol.de/"))))
+SOURCES.append(("Club Puschkin", lambda: parse_puschkin(get("https://www.clubpuschkin.de/veranstaltungen/"))))
+
+
 def find_hits(text, genres, bands):
     low = text.lower()
     hits = [g for g in genres if g.lower() in low]
@@ -303,7 +308,7 @@ def main(today=None):
         cancelled = any(w in low for w in CANCEL_WORDS)
         is_hit = bool(hits) and not cancelled
         entry = known.get(key)
-        extra = details.get(key) or (entry or {}).get("d") or {}
+        extra = details.get(key) or e.get("extra") or (entry or {}).get("d") or {}
         if entry is None:
             entry = {"title": e["title"], "date": e["date"]}
             known[key] = entry
