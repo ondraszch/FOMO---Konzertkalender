@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "events": [
   {
    "club": "GrooveStation",
@@ -631,7 +631,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
