@@ -23,6 +23,27 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "shelter-boy-d",
+   "date": "2026-11-03",
+   "title": "SHELTER BOY (D)",
+   "detail": "Ostpol (kleiner Saal)",
+   "url": "https://beatpol.de/shelter-boy-d/",
+   "lineup": [],
+   "time": "19:30",
+   "doors": "19:30",
+   "start": "20:30",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": true,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "GrooveStation",
    "id": "10314-2026-11-03-groovequiz@groovestation.de",
    "date": "2026-11-03",
@@ -149,6 +170,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "spike-the-gimme-gimmes-usa",
+   "date": "2026-11-05",
+   "title": "SPIKE & THE GIMME GIMMES (USA)",
+   "detail": "",
+   "url": "https://beatpol.de/spike-the-gimme-gimmes-usa/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/spike-and-the-gimme-gimmes-spike-the-gimme-gimmes-take-the-fall-tour-beatpol-21551947/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Chemiefabrik",
    "id": "15039",
    "date": "2026-11-05",
@@ -217,6 +264,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "monolord-s",
+   "date": "2026-11-06",
+   "title": "MONOLORD (S)",
+   "detail": "",
+   "url": "https://beatpol.de/monolord-s/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/monolord-dresden-GLEMZ7"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -379,6 +452,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "the-obsessed-usa",
+   "date": "2026-11-07",
+   "title": "THE OBSESSED (USA)",
+   "detail": "",
+   "url": "https://beatpol.de/the-obsessed-usa/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/the-obsessed-usa-dresden-4M9QRR"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Chemiefabrik",
    "id": "10360",
    "date": "2026-11-07",
@@ -420,6 +519,52 @@
    "hits": [
     "punk"
    ],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Club Puschkin",
+   "id": "hard-with-friends-hard-safari",
+   "date": "2026-11-07",
+   "title": "Hard with Friends - HARD SAFARI",
+   "detail": "Party",
+   "url": "https://www.clubpuschkin.de/events/hard-with-friends-hard-safari/",
+   "lineup": [
+    {
+     "name": "Lil Berlin",
+     "info": ""
+    },
+    {
+     "name": "RoKun",
+     "info": ""
+    },
+    {
+     "name": "Marlix",
+     "info": ""
+    },
+    {
+     "name": "Hydrosphears",
+     "info": ""
+    },
+    {
+     "name": "Xenoczy",
+     "info": ""
+    },
+    {
+     "name": "Synaptix",
+     "info": ""
+    }
+   ],
+   "time": "22:00",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
    "cancelled": false,
    "new": false
   },
@@ -669,6 +814,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "david-eugene-edwards-usa",
+   "date": "2026-11-08",
+   "title": "DAVID EUGENE EDWARDS (USA)",
+   "detail": "",
+   "url": "https://beatpol.de/david-eugene-edwards-usa/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/david-eugene-edwards-tour-2026-beatpol-21669533/"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -1007,6 +1178,27 @@
    "new": false
   },
   {
+   "club": "Club Puschkin",
+   "id": "enkay-zwischen-den-stuehlen-tour-2026",
+   "date": "2026-11-13",
+   "title": "ENKAY | Zwischen den Stühlen Tour 2026 (hochverlegt in die Tante JU)",
+   "detail": "Konzerte",
+   "url": "https://www.clubpuschkin.de/events/enkay-zwischen-den-stuehlen-tour-2026/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "GrooveStation",
    "id": "10303-2026-11-13-milkshake@groovestation.de",
    "date": "2026-11-13",
@@ -1091,6 +1283,27 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "itchy-d",
+   "date": "2026-11-14",
+   "title": "ITCHY (D)",
+   "detail": "",
+   "url": "https://beatpol.de/itchy-d/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": true,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Chemiefabrik",
    "id": "10264",
    "date": "2026-11-14",
@@ -1136,6 +1349,27 @@
    "new": false
   },
   {
+   "club": "Club Puschkin",
+   "id": "dari",
+   "date": "2026-11-14",
+   "title": "Dari",
+   "detail": "Konzerte",
+   "url": "https://www.clubpuschkin.de/events/dari/",
+   "lineup": [],
+   "time": "20:00",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "GrooveStation",
    "id": "10271-2026-11-14-alternative-block-party@groovestation.de",
    "date": "2026-11-14",
@@ -1160,6 +1394,27 @@
    "new": false
   },
   {
+   "club": "Club Puschkin",
+   "id": "dominik-hartz",
+   "date": "2026-11-15",
+   "title": "Dominik Hartz",
+   "detail": "Konzerte",
+   "url": "https://www.clubpuschkin.de/events/dominik-hartz/",
+   "lineup": [],
+   "time": "20:00",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": true,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "GrooveStation",
    "id": "10286-2026-11-16-kickermontag@groovestation.de",
    "date": "2026-11-16",
@@ -1178,6 +1433,27 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "black-sabbitch-usa-2",
+   "date": "2026-11-17",
+   "title": "BLACK SABBITCH (USA) (verlegt auf 20.04.2027)",
+   "detail": "",
+   "url": "https://beatpol.de/black-sabbitch-usa-2/",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": true,
    "new": false
   },
   {
@@ -1502,6 +1778,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "die-liga-der-gewoehnlichen-gentlemen-d",
+   "date": "2026-11-21",
+   "title": "DIE LIGA DER GEWÖHNLICHEN GENTLEMEN (D)",
+   "detail": "",
+   "url": "https://beatpol.de/die-liga-der-gewoehnlichen-gentlemen-d/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/die-liga-gewohnlichen-dresden-JPVPUN"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Chemiefabrik",
    "id": "10277",
    "date": "2026-11-21",
@@ -1626,6 +1928,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "jas-d",
+   "date": "2026-11-24",
+   "title": "JAS (D)",
+   "detail": "",
+   "url": "https://beatpol.de/jas-d/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/artist/jas/jas-so-schoen-verloren-tour-2026-4012522/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "GrooveStation",
    "id": "10263-2026-11-24-streichelt@groovestation.de",
    "date": "2026-11-24",
@@ -1640,6 +1968,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "conny-ochs-d-3",
+   "date": "2026-11-25",
+   "title": "CONNY OCHS (D)",
+   "detail": "Ostpol (kleiner Saal)",
+   "url": "https://beatpol.de/conny-ochs-d-3/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/conny-ochs-dresden-EXO56JM"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -1801,6 +2155,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "the-ocean-d-2",
+   "date": "2026-11-27",
+   "title": "THE OCEAN (D)",
+   "detail": "",
+   "url": "https://beatpol.de/the-ocean-d-2/",
+   "lineup": [],
+   "time": "18:30",
+   "doors": "18:30",
+   "start": "19:30",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/the-ocean-dresden-XVESDO"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Chemiefabrik",
    "id": "10470",
    "date": "2026-11-27",
@@ -1841,6 +2221,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "mothers-finest-uk",
+   "date": "2026-11-28",
+   "title": "MOTHER’S FINEST (UK)",
+   "detail": "",
+   "url": "https://beatpol.de/mothers-finest-uk/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/mothers-finest-beatpol-22145731/"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -1967,6 +2373,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "anda-morts-a",
+   "date": "2026-11-29",
+   "title": "ANDA MORTS (A)",
+   "detail": "",
+   "url": "https://beatpol.de/anda-morts-a/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Saxticket",
+     "url": "https://www.saxticket.de/startseite/6989-anda-morts-a.html"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Chemiefabrik",
    "id": "15074",
    "date": "2026-11-29",
@@ -1991,6 +2423,32 @@
    "hits": [
     "punk"
    ],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "oskar-haag-a",
+   "date": "2026-11-30",
+   "title": "OSKAR HAAG (A)",
+   "detail": "Ostpol (kleiner Saal)",
+   "url": "https://beatpol.de/oskar-haag-a/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/oskar-haag-dresden-LUVUZ1"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
    "cancelled": false,
    "new": false
   },
@@ -2100,6 +2558,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "enno-bunger-d",
+   "date": "2026-12-02",
+   "title": "ENNO BUNGER (D)",
+   "detail": "",
+   "url": "https://beatpol.de/enno-bunger-d/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Saxticket",
+     "url": "https://www.saxticket.de/index.php?id_product=3202&rewrite=enno-bunger-d&controller=product"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "GrooveStation",
    "id": "10304-2026-12-02-poetry-slam@groovestation.de",
    "date": "2026-12-02",
@@ -2135,6 +2619,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "wednesday-13-usa-the-birthday-massacre-can",
+   "date": "2026-12-04",
+   "title": "WEDNESDAY 13 (USA) + THE BIRTHDAY MASSACRE (CAN)",
+   "detail": "",
+   "url": "https://beatpol.de/wednesday-13-usa-the-birthday-massacre-can/",
+   "lineup": [],
+   "time": "18:00",
+   "doors": "18:00",
+   "start": "19:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/wednesday-13-the-birthday-massacre-beatpol-21752702/"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -2227,6 +2737,27 @@
    "ak": "",
    "tickets": [],
    "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "5702-2",
+   "date": "2026-12-05",
+   "title": "BEATPOL KICKS! Party mit DJ !MAUF",
+   "detail": "",
+   "url": "https://beatpol.de/5702-2/",
+   "lineup": [],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": true,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2416,6 +2947,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "sarah-lesch-d-2",
+   "date": "2026-12-10",
+   "title": "SARAH LESCH (D)",
+   "detail": "",
+   "url": "https://beatpol.de/sarah-lesch-d-2/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Sarahlesch",
+     "url": "https://shop.sarahlesch.de/product/95658/sarah-lesch-beatpol-dresden-am-10-12-2026"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Chemiefabrik",
    "id": "15199",
    "date": "2026-12-10",
@@ -2479,6 +3036,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "greenleaf-s",
+   "date": "2026-12-11",
+   "title": "GREENLEAF (S)",
+   "detail": "",
+   "url": "https://beatpol.de/greenleaf-s/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/greenleaf-dresden-VDRH0K"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Chemiefabrik",
    "id": "10483",
    "date": "2026-12-11",
@@ -2510,6 +3093,27 @@
    "time": "",
    "doors": "",
    "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "kadavar-d",
+   "date": "2026-12-12",
+   "title": "KADAVAR (D)",
+   "detail": "",
+   "url": "https://beatpol.de/kadavar-d/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
    "vvk": "",
    "vvk_note": "",
    "ak": "",
@@ -2557,6 +3161,30 @@
    "hit": true,
    "hits": [
     "punk"
+   ],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Club Puschkin",
+   "id": "darvaza-merrimack-helleruin-detresse",
+   "date": "2026-12-12",
+   "title": "Darvaza + Merrimack + Helleruin + Détresse",
+   "detail": "Konzerte",
+   "url": "https://www.clubpuschkin.de/events/darvaza-merrimack-helleruin-detresse/",
+   "lineup": [],
+   "time": "20:00",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": true,
+   "hits": [
+    "metal",
+    "blackmetal"
    ],
    "cancelled": false,
    "new": false
@@ -2750,6 +3378,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "dubioza-kolektiv-bih",
+   "date": "2026-12-18",
+   "title": "DUBIOZA KOLEKTIV (BIH)",
+   "detail": "",
+   "url": "https://beatpol.de/dubioza-kolektiv-bih/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/dubioza-kolektiv-beatpol-21660161/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Chemiefabrik",
    "id": "10484",
    "date": "2026-12-18",
@@ -2809,6 +3463,32 @@
    "hits": [
     "punk"
    ],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "erdmoebel-d",
+   "date": "2026-12-19",
+   "title": "ERDMÖBEL (D)",
+   "detail": "",
+   "url": "https://beatpol.de/erdmoebel-d/",
+   "lineup": [],
+   "time": "19:30",
+   "doors": "19:30",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/erdmoebel-weihnachtstour-2025-beatpol-20281544/?affiliate=GMD&utm_source=google&utm_medium=cpc&utm_campaign=ar_Clubkonzerte&utm_agid=181321932719&utm_term=erdm%C3%B6bel%20dresden&creative=762378211605&device=c&placement=&gad_source=1&gad_campaignid=854342580&gbraid=0AAAAAD8gI54XuM3BJqhlOd3AO8CDL8fei&gclid=CjwKCAiA55rJBhByEiwAFkY1QIhTdPe9oejArUTO-OYp2jeATchjbjHV21hgG_m9lXIHqAxQTdg-mBoC01kQAvD_BwE"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
    "cancelled": false,
    "new": false
   },
@@ -3261,6 +3941,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "mutabor-d-4",
+   "date": "2027-01-15",
+   "title": "MUTABOR (D)",
+   "detail": "",
+   "url": "https://beatpol.de/mutabor-d-4/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/artist/mutabor/mutabor-4028321/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Chemiefabrik",
    "id": "15098",
    "date": "2027-01-16",
@@ -3539,6 +4245,27 @@
    "new": false
   },
   {
+   "club": "Club Puschkin",
+   "id": "kupfergold",
+   "date": "2027-01-30",
+   "title": "Kupfergold",
+   "detail": "Konzerte",
+   "url": "https://www.clubpuschkin.de/events/kupfergold/",
+   "lineup": [],
+   "time": "20:00",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "GrooveStation",
    "id": "10205-2027-01-30-kurkapelle-sonnendeck@groovestation.de",
    "date": "2027-01-30",
@@ -3574,6 +4301,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "mono-jap",
+   "date": "2027-01-31",
+   "title": "MONO (JAP)",
+   "detail": "",
+   "url": "https://beatpol.de/mono-jap/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/mono-snowdrop-european-tour-2027-beatpol-21523090/"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -3676,6 +4429,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "naft-b-2",
+   "date": "2027-02-12",
+   "title": "NAFT (B)",
+   "detail": "",
+   "url": "https://beatpol.de/naft-b-2/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5307",
    "date": "2027-02-12",
@@ -3760,6 +4539,32 @@
    "new": true
   },
   {
+   "club": "Beatpol",
+   "id": "the-molotovs-uk",
+   "date": "2027-02-18",
+   "title": "THE MOLOTOVS (UK)",
+   "detail": "",
+   "url": "https://beatpol.de/the-molotovs-uk/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/the-molotovs-beatpol-22346708/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "GrooveStation",
    "id": "10276-2027-02-18-rene-el-khazraje-mc-rene@groovestation.de",
    "date": "2027-02-18",
@@ -3796,6 +4601,27 @@
    "ak": "",
    "tickets": [],
    "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "the-rasmus-fin",
+   "date": "2027-02-19",
+   "title": "THE RASMUS (FIN)",
+   "detail": "",
+   "url": "https://beatpol.de/the-rasmus-fin/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": true,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -3859,6 +4685,27 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "les-yeux-dla-tete-f-4",
+   "date": "2027-02-20",
+   "title": "LES YEUX D’LA TÊTE (F)",
+   "detail": "",
+   "url": "https://beatpol.de/les-yeux-dla-tete-f-4/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5645",
    "date": "2027-02-20",
@@ -3880,6 +4727,84 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "ryan-sheridan-ie",
+   "date": "2027-02-21",
+   "title": "RYAN SHERIDAN (IE)",
+   "detail": "",
+   "url": "https://beatpol.de/ryan-sheridan-ie/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/ryan-sheridan-beatpol-22151106/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "honig-d-meursault-uk",
+   "date": "2027-02-23",
+   "title": "HONIG (D) + MEURSAULT (UK)",
+   "detail": "Ostpol (kleiner Saal)",
+   "url": "https://beatpol.de/honig-d-meursault-uk/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/honig-meursault-dresden-5IZPJM"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "paulwetz-d",
+   "date": "2027-02-24",
+   "title": "PAULWETZ (D)",
+   "detail": "",
+   "url": "https://beatpol.de/paulwetz-d/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/paulwetz-tour-2027-beatpol-21071296/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5490",
    "date": "2027-02-24",
@@ -3894,6 +4819,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "glasperlenspiel-d-2",
+   "date": "2027-02-26",
+   "title": "GLASPERLENSPIEL (D)",
+   "detail": "",
+   "url": "https://beatpol.de/glasperlenspiel-d-2/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/glasperlenspiel-club-tour-2027-beatpol-22026312/"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -3992,6 +4943,110 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "senta-d",
+   "date": "2027-02-28",
+   "title": "SENTA (D)",
+   "detail": "",
+   "url": "https://beatpol.de/senta-d/",
+   "lineup": [],
+   "time": "15:00",
+   "doors": "15:00",
+   "start": "16:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/senta-ich-bin-stark-tour-konzerte-fuer-kinder-und-familien-beatpol-21813082/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "colour-haze-d-3",
+   "date": "2027-03-01",
+   "title": "COLOUR HAZE (D)",
+   "detail": "",
+   "url": "https://beatpol.de/colour-haze-d-3/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/colour-haze-dresden-QWADJC"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "endless-wellness-a",
+   "date": "2027-03-02",
+   "title": "ENDLESS WELLNESS (A)",
+   "detail": "",
+   "url": "https://beatpol.de/endless-wellness-a/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/endless-wellness-eine-tour-kommt-selten-allein-nochmal-de-tour-beatpol-22234086/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "to-athena-ch-2",
+   "date": "2027-03-04",
+   "title": "TO ATHENA (CH)",
+   "detail": "",
+   "url": "https://beatpol.de/to-athena-ch-2/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/to-athena-dresden-F5MJJY"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Chemiefabrik",
    "id": "15142",
    "date": "2027-03-04",
@@ -4035,6 +5090,32 @@
     "hardcore",
     "metalcore"
    ],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "die-seilschaft-d",
+   "date": "2027-03-05",
+   "title": "DIE SEILSCHAFT (D)",
+   "detail": "",
+   "url": "https://beatpol.de/die-seilschaft-d/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/die-seilschaft-d-dresden-QGTXLU"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
    "cancelled": false,
    "new": false
   },
@@ -4181,6 +5262,51 @@
    "new": false
   },
   {
+   "club": "Chemiefabrik",
+   "id": "15132",
+   "date": "2027-03-12",
+   "title": "PESTPOCKEN • RAWSIDE • DORFTERROR",
+   "detail": "PESTPOCKEN, RAWSIDE, Dorfterror",
+   "url": "https://www.chemiefabrik.info/gigs/15132/",
+   "lineup": [
+    {
+     "name": "PESTPOCKEN",
+     "info": "Punkrock / Gießen"
+    },
+    {
+     "name": "RAWSIDE",
+     "info": "HC-Punk / Coburg"
+    },
+    {
+     "name": "Dorfterror",
+     "info": "Punkrock / Oberbillig"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "25,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "28,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77025"
+    },
+    {
+     "name": "SaxTickets",
+     "url": "https://www.saxticket.de/alle-tickets/7081-bestocken-d.html"
+    }
+   ],
+   "soldout": false,
+   "hit": true,
+   "hits": [
+    "punk"
+   ],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "GrooveStation",
    "id": "9586-2027-03-12-notenzone@groovestation.de",
    "date": "2027-03-12",
@@ -4265,6 +5391,58 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "pokey-lafarge-his-band",
+   "date": "2027-03-21",
+   "title": "POKEY LAFARGE & HIS BAND",
+   "detail": "",
+   "url": "https://beatpol.de/pokey-lafarge-his-band/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/pokey-lafarge-rent-money-tour-2027-beatpol-21864848/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "fat-dog-uk",
+   "date": "2027-03-22",
+   "title": "FAT DOG (UK)",
+   "detail": "",
+   "url": "https://beatpol.de/fat-dog-uk/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/fat-dog-cancel-me-im-tired-european-tour-2027-beatpol-22217404/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Chemiefabrik",
    "id": "15226",
    "date": "2027-03-22",
@@ -4298,6 +5476,32 @@
    "new": true
   },
   {
+   "club": "Beatpol",
+   "id": "anna-erhard-d",
+   "date": "2027-03-23",
+   "title": "ANNA ERHARD (D)",
+   "detail": "Ostpol (kleiner Saal)",
+   "url": "https://beatpol.de/anna-erhard-d/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/anna-erhard-1000-sheep-tour-2027-ostpol-22188434/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "GrooveStation",
    "id": "10313-2027-03-25-roger-sixkay-und-ditu-l-one@groovestation.de",
    "date": "2027-03-25",
@@ -4312,6 +5516,110 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "de-staat-nl",
+   "date": "2027-03-27",
+   "title": "DE STAAT (NL)",
+   "detail": "",
+   "url": "https://beatpol.de/de-staat-nl/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/de-staat-dresden-E2A6M5A"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "acht-eimer-huehnerherzen-d-3",
+   "date": "2027-03-31",
+   "title": "ACHT EIMER HÜHNERHERZEN (D)",
+   "detail": "",
+   "url": "https://beatpol.de/acht-eimer-huehnerherzen-d-3/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/acht-eimer-huehnerherzen-hearts-on-fire-2027-beatpol-21938727/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "voodoo-beach-d",
+   "date": "2027-03-31",
+   "title": "VOODOO BEACH (D)",
+   "detail": "Ostpol (kleiner Saal)",
+   "url": "https://beatpol.de/voodoo-beach-d/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/voodoo-beach-dresden-E5BPEVX"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "soen-s",
+   "date": "2027-04-01",
+   "title": "SOEN (S)",
+   "detail": "",
+   "url": "https://beatpol.de/soen-s/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/soen-reliance-europe-2027-beatpol-22187592/"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -4384,6 +5692,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "josh",
+   "date": "2027-04-08",
+   "title": "JOSH.",
+   "detail": "",
+   "url": "https://beatpol.de/josh/",
+   "lineup": [],
+   "time": "18:30",
+   "doors": "18:30",
+   "start": "19:30",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/josh-vertikal-tour-2027-beatpol-21618564/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "GrooveStation",
    "id": "9516-2027-04-08-kati-k@groovestation.de",
    "date": "2027-04-08",
@@ -4405,6 +5739,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "michelle-david-the-true-tones-usa-nl",
+   "date": "2027-04-09",
+   "title": "MICHELLE DAVID & THE TRUE-TONES (USA/NL)",
+   "detail": "",
+   "url": "https://beatpol.de/michelle-david-the-true-tones-usa-nl/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/michelle-david-true-dresden-8O8KX9"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5689",
    "date": "2027-04-09",
@@ -4419,6 +5779,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "nouvelle-vague-f",
+   "date": "2027-04-10",
+   "title": "NOUVELLE VAGUE (F)",
+   "detail": "",
+   "url": "https://beatpol.de/nouvelle-vague-f/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/nouvelle-vague-a-date-with-depeche-mode-beatpol-22293328/"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -4461,6 +5847,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "blackout-problems-d-3",
+   "date": "2027-04-15",
+   "title": "BLACKOUT PROBLEMS (D)",
+   "detail": "",
+   "url": "https://beatpol.de/blackout-problems-d-3/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/blackout-problems-heal-tour-2027-beatpol-22283133/"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -4539,6 +5951,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "black-sabbitch-usa",
+   "date": "2027-04-20",
+   "title": "BLACK SABBITCH (USA)",
+   "detail": "",
+   "url": "https://beatpol.de/black-sabbitch-usa/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/black-sabbitch-dresden-N2T40R"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -4628,6 +6066,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "motorpsycho-no",
+   "date": "2027-04-25",
+   "title": "MOTORPSYCHO (NO)",
+   "detail": "",
+   "url": "https://beatpol.de/motorpsycho-no/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/motorpsycho-taking-troendelag-to-the-people-tour-2027-beatpol-22275362/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "Chemiefabrik",
    "id": "10063",
    "date": "2027-04-28",
@@ -4659,6 +6123,55 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "the-walking-who-aus",
+   "date": "2027-04-30",
+   "title": "THE WALKING WHO (AUS)",
+   "detail": "Ostpol (kleiner Saal)",
+   "url": "https://beatpol.de/the-walking-who-aus/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/the-walking-who-dresden-3VC4UO"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "GrooveStation",
+   "id": "10331-2027-04-30-pascow@groovestation.de",
+   "date": "2027-04-30",
+   "title": "Pascow",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2027-04-30-pascow",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": true,
+   "hits": [
+    "punk"
+   ],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "GrooveStation",
    "id": "10229-2027-04-30-tulpe@groovestation.de",
    "date": "2027-04-30",
@@ -4673,6 +6186,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "make-a-move-d-3",
+   "date": "2027-05-01",
+   "title": "MAKE A MOVE (D)",
+   "detail": "",
+   "url": "https://beatpol.de/make-a-move-d-3/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/make-move-dresden-MJXHS5"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -4726,6 +6265,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "fortuna-ehrenfeld-d-3",
+   "date": "2027-05-14",
+   "title": "FORTUNA EHRENFELD (D)",
+   "detail": "",
+   "url": "https://beatpol.de/fortuna-ehrenfeld-d-3/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/fortuna-ehrenfeld-dresden-E5SKOUC"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -5039,6 +6604,32 @@
    "new": true
   },
   {
+   "club": "Beatpol",
+   "id": "d-troit-dk",
+   "date": "2027-11-05",
+   "title": "D/TROIT (DK)",
+   "detail": "",
+   "url": "https://beatpol.de/d-troit-dk/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/dtroit-beatpol-22031456/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
    "club": "GrooveStation",
    "id": "10211-2027-11-06-the-beauty-of-gemina@groovestation.de",
    "date": "2027-11-06",
@@ -5053,6 +6644,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "skuppin-d",
+   "date": "2027-11-16",
+   "title": "SKUPPIN (D)",
+   "detail": "",
+   "url": "https://beatpol.de/skuppin-d/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/skuppin-musee-tour-2027-dresden-E1A3GMH"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
