@@ -726,7 +726,7 @@
  "Chemiefabrik:10063": {
   "d": {
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00",
    "tickets": [
     {
@@ -744,7 +744,7 @@
   "d": {
    "ak": "30,00 €",
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00",
    "tickets": [
     {
@@ -760,9 +760,9 @@
  },
  "Chemiefabrik:10106": {
   "d": {
-   "ak": "24,00 €",
+   "ak": "25,00 €",
    "doors": "20:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "21:00",
    "tickets": [
     {
@@ -782,7 +782,7 @@
  },
  "Chemiefabrik:10161": {
   "d": {
-   "f": "2026-10-28"
+   "f": "2026-11-04"
   },
   "date": "2026-11-28",
   "title": "Infos folgen … Veganer Wintermarkt"
@@ -879,7 +879,7 @@
   "d": {
    "ak": "20,00 €",
    "doors": "20:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "21:00",
    "tickets": [
     {
@@ -900,7 +900,7 @@
  "Chemiefabrik:10277": {
   "d": {
    "doors": "20:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "21:00",
    "tickets": [
     {
@@ -918,7 +918,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00",
    "tickets": [
     {
@@ -936,7 +936,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "20:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "21:00",
    "tickets": [
     {
@@ -1004,7 +1004,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "20:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "21:00",
    "tickets": [
     {
@@ -1022,7 +1022,7 @@
   "d": {
    "ak": "28,00 €",
    "doors": "20:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "21:00",
    "tickets": [
     {
@@ -1044,7 +1044,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "20:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "21:00",
    "tickets": [
     {
@@ -1066,7 +1066,7 @@
   "d": {
    "ak": "45,00 €",
    "doors": "17:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "18:00",
    "tickets": [
     {
@@ -1084,7 +1084,7 @@
   "d": {
    "ak": "35,00 €",
    "doors": "17:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "18:00",
    "tickets": [
     {
@@ -1106,7 +1106,7 @@
   "d": {
    "ak": "22,00 €",
    "doors": "20:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "21:00",
    "tickets": [
     {
@@ -1127,7 +1127,7 @@
  "Chemiefabrik:10454": {
   "d": {
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00"
   },
   "date": "2027-05-05",
@@ -1137,7 +1137,7 @@
  "Chemiefabrik:10458": {
   "d": {
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00",
    "tickets": [
     {
@@ -1158,7 +1158,7 @@
  "Chemiefabrik:10459": {
   "d": {
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00",
    "tickets": [
     {
@@ -1196,7 +1196,7 @@
  "Chemiefabrik:10470": {
   "d": {
    "doors": "20:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:30"
   },
   "date": "2026-11-27",
@@ -1204,7 +1204,7 @@
  },
  "Chemiefabrik:10483": {
   "d": {
-   "f": "2026-10-28"
+   "f": "2026-11-04"
   },
   "date": "2026-12-11",
   "title": "Infos folgen … Heartbreakgeburtstag"
@@ -1212,7 +1212,7 @@
  "Chemiefabrik:10484": {
   "d": {
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00"
   },
   "date": "2026-12-18",
@@ -1230,7 +1230,7 @@
   "d": {
    "ak": "15,00 €",
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00"
   },
   "date": "2026-11-19",
@@ -1240,7 +1240,7 @@
   "d": {
    "ak": "20,00 €",
    "doors": "20:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "21:00",
    "tickets": [
     {
@@ -1285,7 +1285,7 @@
   "d": {
    "ak": "20,00 €",
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00",
    "tickets": [
     {
@@ -1325,7 +1325,7 @@
   "d": {
    "ak": "12,00 €",
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00"
   },
   "date": "2026-11-05",
@@ -1334,7 +1334,7 @@
  "Chemiefabrik:15040": {
   "d": {
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00",
    "tickets": [
     {
@@ -1350,7 +1350,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "20:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "21:00",
    "tickets": [
     {
@@ -1388,7 +1388,7 @@
  "Chemiefabrik:15052": {
   "d": {
    "doors": "20:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "21:00"
   },
   "date": "2027-02-19",
@@ -1398,7 +1398,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "18:30",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "19:30"
   },
   "date": "2026-11-11",
@@ -1408,7 +1408,7 @@
   "d": {
    "ak": "16,00 €",
    "doors": "18:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "19:00"
   },
   "date": "2026-11-29",
@@ -1425,12 +1425,16 @@
   "d": {
    "ak": "35,00 €",
    "doors": "18:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "19:00",
    "tickets": [
     {
      "name": "TixforGigs",
      "url": "https://www.tixforgigs.com/Event/74662"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/startseite/5028-nasty-d-reduction-d-more.html"
     }
    ],
    "vvk": "30,00 €",
@@ -1464,7 +1468,7 @@
  "Chemiefabrik:15094": {
   "d": {
    "doors": "17:30",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "18:30"
   },
   "date": "2026-11-22",
@@ -1473,7 +1477,7 @@
  "Chemiefabrik:15096": {
   "d": {
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00",
    "tickets": [
     {
@@ -1504,14 +1508,14 @@
  },
  "Chemiefabrik:15102": {
   "d": {
-   "f": "2026-10-28"
+   "f": "2026-11-04"
   },
   "date": "2027-07-02",
   "title": "Infos folgen … Open Air Die ART Postpunk, New Wave, Experime"
  },
  "Chemiefabrik:15103": {
   "d": {
-   "f": "2026-10-28"
+   "f": "2026-11-04"
   },
   "date": "2027-04-16",
   "title": "Infos folgen … THE GOOD THE BAD THE ZUGLY"
@@ -1520,7 +1524,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00",
    "tickets": [
     {
@@ -1546,7 +1550,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00",
    "tickets": [
     {
@@ -1591,7 +1595,7 @@
   "d": {
    "ak": "27,00 €",
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00",
    "tickets": [
     {
@@ -1609,7 +1613,7 @@
   "d": {
    "ak": "35,00 €",
    "doors": "18:30",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "19:30",
    "tickets": [
     {
@@ -1631,7 +1635,7 @@
   "d": {
    "ak": "40,00 €",
    "doors": "18:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "19:00",
    "tickets": [
     {
@@ -1653,7 +1657,7 @@
   "d": {
    "ak": "28,00 €",
    "doors": "20:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "21:00",
    "tickets": [
     {
@@ -1674,7 +1678,7 @@
  "Chemiefabrik:15187": {
   "d": {
    "doors": "15:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "16:00",
    "tickets": [
     {
@@ -1690,14 +1694,35 @@
  },
  "Chemiefabrik:15199": {
   "d": {
-   "f": "2026-10-28"
+   "doors": "18:00",
+   "f": "2026-11-04",
+   "start": "19:00",
+   "tickets": [
+    {
+     "name": "Rausgegangen",
+     "url": "https://l.facebook.com/l.php?u=https%3A%2F%2Frausgegangen.de%2Fevents%2Flaut-musikvideos-gucken-5-0%2F&h=AUCZ7dALxgw1Tvu2QD3k6L2-R-j6MP0uYVmiqz_E81kbR0b1RwV3yJdVdE-5Xeu-iifUAJRgtExwuu0mlYLkxaO0YFnzmM2hr7K17ZFuffdUD53eFIAk4JCsm8YSDdMvEeydveZmeNdUsamMn0lXbXc-pUhvDTRrThr6wc88dVzSVvXnf0J2Ug&__tn__=q&c[0]=AUCPNzkCC0OyhTtjJnlezkHp88gMnCBDfVs3qIy7FSBMATLsZtvZNhXSqQv47rAqLP2ag0B6zZ9ovgLWdFMeT9Rfv7wi6Nm2pKTVcjSrJ6ICGOglZx5pQe2u6VWnXIAfddQLmJjXfyxs3koHBKvL6TxK3UG0_cPR2wU"
+    }
+   ],
+   "vvk": "5,90 €",
+   "vvk_note": "zzgl. Gebühren"
   },
   "date": "2026-12-10",
   "title": "Infos folgen … LAUT MUSIKVIDEOS GUCKEN #5"
  },
  "Chemiefabrik:15216": {
   "d": {
-   "f": "2026-10-28"
+   "ak": "25,00 €",
+   "doors": "19:00",
+   "f": "2026-11-04",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77945"
+    }
+   ],
+   "vvk": "22,00 €",
+   "vvk_note": "zzgl. Gebühren"
   },
   "date": "2026-12-27",
   "title": "Infos folgen … Into the Darkness"
@@ -1735,7 +1760,7 @@
   "d": {
    "ak": "15,00 €",
    "doors": "19:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "20:00",
    "tickets": [
     {
@@ -1748,6 +1773,22 @@
   },
   "date": "2026-12-17",
   "title": "SLOW GREEN THING Heavy Stoner Rock / Dresden Goatless Doom M"
+ },
+ "Chemiefabrik:15248": {
+  "d": {
+   "doors": "19:00",
+   "f": "2026-11-04",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77983"
+    }
+   ]
+  },
+  "date": "2027-04-20",
+  "seen": "2026-11-04",
+  "title": "NICHTSEATTLE"
  },
  "Chemiefabrik:15274": {
   "d": {
@@ -1780,7 +1821,7 @@
   "d": {
    "ak": "30,00 €",
    "doors": "21:00",
-   "f": "2026-10-28",
+   "f": "2026-11-04",
    "start": "22:00",
    "tickets": [
     {
@@ -2196,6 +2237,86 @@
   "date": "2026-12-30",
   "seen": "2026-11-03",
   "title": "Billard & Bar"
+ },
+ "GrooveStation:10341-2027-01-04-kickermontag@groovestation.de": {
+  "date": "2027-01-04",
+  "seen": "2026-11-04",
+  "title": "Kickermontag"
+ },
+ "GrooveStation:10342-2027-01-11-kickermontag@groovestation.de": {
+  "date": "2027-01-11",
+  "seen": "2026-11-04",
+  "title": "Kickermontag"
+ },
+ "GrooveStation:10343-2027-01-18-kickermontag@groovestation.de": {
+  "date": "2027-01-18",
+  "seen": "2026-11-04",
+  "title": "Kickermontag"
+ },
+ "GrooveStation:10344-2027-01-25-kickermontag@groovestation.de": {
+  "date": "2027-01-25",
+  "seen": "2026-11-04",
+  "title": "Kickermontag"
+ },
+ "GrooveStation:10345-2027-02-01-kickermontag@groovestation.de": {
+  "date": "2027-02-01",
+  "seen": "2026-11-04",
+  "title": "Kickermontag"
+ },
+ "GrooveStation:10346-2027-01-07-billard-bar@groovestation.de": {
+  "date": "2027-01-07",
+  "seen": "2026-11-04",
+  "title": "Billard & Bar"
+ },
+ "GrooveStation:10347-2027-01-12-billard-bar@groovestation.de": {
+  "date": "2027-01-12",
+  "seen": "2026-11-04",
+  "title": "Billard & Bar"
+ },
+ "GrooveStation:10348-2027-01-13-billard-bar@groovestation.de": {
+  "date": "2027-01-13",
+  "seen": "2026-11-04",
+  "title": "Billard & Bar"
+ },
+ "GrooveStation:10349-2027-01-14-billard-bar@groovestation.de": {
+  "date": "2027-01-14",
+  "seen": "2026-11-04",
+  "title": "Billard & Bar"
+ },
+ "GrooveStation:10350-2027-02-15-kickermontag@groovestation.de": {
+  "date": "2027-02-15",
+  "seen": "2026-11-04",
+  "title": "Kickermontag"
+ },
+ "GrooveStation:10351-2027-02-22-kickermontag@groovestation.de": {
+  "date": "2027-02-22",
+  "seen": "2026-11-04",
+  "title": "Kickermontag"
+ },
+ "GrooveStation:10352-2027-03-01-kickermontag@groovestation.de": {
+  "date": "2027-03-01",
+  "seen": "2026-11-04",
+  "title": "Kickermontag"
+ },
+ "GrooveStation:10353-2027-03-08-kickermontag@groovestation.de": {
+  "date": "2027-03-08",
+  "seen": "2026-11-04",
+  "title": "Kickermontag"
+ },
+ "GrooveStation:10354-2027-03-15-kickermontag@groovestation.de": {
+  "date": "2027-03-15",
+  "seen": "2026-11-04",
+  "title": "Kickermontag"
+ },
+ "GrooveStation:10355-2027-03-22-kickermontag@groovestation.de": {
+  "date": "2027-03-22",
+  "seen": "2026-11-04",
+  "title": "Kickermontag"
+ },
+ "GrooveStation:10356-2027-03-29-kickermontag@groovestation.de": {
+  "date": "2027-03-29",
+  "seen": "2026-11-04",
+  "title": "Kickermontag"
  },
  "GrooveStation:9385-2026-10-25-leftovers@groovestation.de": {
   "date": "2026-10-25",
