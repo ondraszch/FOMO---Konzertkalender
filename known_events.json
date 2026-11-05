@@ -525,6 +525,21 @@
   "date": "2027-03-21",
   "title": "POKEY LAFARGE & HIS BAND"
  },
+ "Beatpol:quivers-aus-2": {
+  "d": {
+   "doors": "19:00",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/quivers-dresden-EMM1EQ0"
+    }
+   ]
+  },
+  "date": "2027-05-04",
+  "seen": "2026-11-05",
+  "title": "QUIVERS (AUS)"
+ },
  "Beatpol:ryan-sheridan-ie": {
   "d": {
    "doors": "19:00",
@@ -1520,6 +1535,25 @@
   "date": "2027-04-16",
   "title": "Infos folgen … THE GOOD THE BAD THE ZUGLY"
  },
+ "Chemiefabrik:15114": {
+  "d": {
+   "ak": "20,00 €",
+   "doors": "19:00",
+   "f": "2026-11-05",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/78061"
+    }
+   ],
+   "vvk": "15,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
+  "date": "2027-01-15",
+  "seen": "2026-11-05",
+  "title": "5. Sächsischer Sludge-Kongress"
+ },
  "Chemiefabrik:15115": {
   "d": {
    "ak": "25,00 €",
@@ -1727,6 +1761,25 @@
   "date": "2026-12-27",
   "title": "Infos folgen … Into the Darkness"
  },
+ "Chemiefabrik:15223": {
+  "d": {
+   "ak": "20,00 €",
+   "doors": "19:00",
+   "f": "2026-11-05",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/78057"
+    }
+   ],
+   "vvk": "16,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
+  "date": "2027-02-11",
+  "seen": "2026-11-05",
+  "title": "Skyjoggers"
+ },
  "Chemiefabrik:15226": {
   "d": {
    "doors": "19:00",
@@ -1797,6 +1850,25 @@
   "date": "2026-11-26",
   "seen": "2026-10-31",
   "title": "+ Barraumshow +"
+ },
+ "Chemiefabrik:15287": {
+  "d": {
+   "ak": "25,00 €",
+   "doors": "18:00",
+   "f": "2026-11-05",
+   "start": "19:00"
+  },
+  "date": "2026-12-13",
+  "seen": "2026-11-05",
+  "title": "Heavy Nights Dresden"
+ },
+ "Chemiefabrik:15293": {
+  "d": {
+   "f": "2026-11-05"
+  },
+  "date": "2027-05-15",
+  "seen": "2026-11-05",
+  "title": "VENATOR + HYENA"
  },
  "Chemiefabrik:15294": {
   "d": {
@@ -2317,6 +2389,16 @@
   "date": "2027-03-29",
   "seen": "2026-11-04",
   "title": "Kickermontag"
+ },
+ "GrooveStation:10358-2026-12-24-frohe-weihnachten@groovestation.de": {
+  "date": "2026-12-24",
+  "seen": "2026-11-05",
+  "title": "Frohe Weihnachten"
+ },
+ "GrooveStation:10359-2027-04-06-the-meffs@groovestation.de": {
+  "date": "2027-04-06",
+  "seen": "2026-11-05",
+  "title": "The Meffs"
  },
  "GrooveStation:9385-2026-10-25-leftovers@groovestation.de": {
   "date": "2026-10-25",
