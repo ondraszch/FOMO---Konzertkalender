@@ -263,6 +263,21 @@
   "date": "2027-05-14",
   "title": "FORTUNA EHRENFELD (D)"
  },
+ "Beatpol:front-line-assembly-can-clock-dva-uk": {
+  "d": {
+   "doors": "19:00",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/front-line-assembly-dva-dresden-EVUZG30"
+    }
+   ]
+  },
+  "date": "2027-03-06",
+  "seen": "2026-11-06",
+  "title": "FRONT LINE ASSEMBLY (CAN) + CLOCK DVA (UK)"
+ },
  "Beatpol:glasperlenspiel-d-2": {
   "d": {
    "doors": "19:00",
@@ -589,6 +604,21 @@
   },
   "date": "2026-11-03",
   "title": "SHELTER BOY (D)"
+ },
+ "Beatpol:shout-out-louds-s": {
+  "d": {
+   "doors": "19:00",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/shout-out-louds-beatpol-22364729/"
+    }
+   ]
+  },
+  "date": "2027-04-23",
+  "seen": "2026-11-06",
+  "title": "SHOUT OUT LOUDS (S)"
  },
  "Beatpol:skuppin-d": {
   "d": {
@@ -1235,7 +1265,18 @@
  },
  "Chemiefabrik:15009": {
   "d": {
-   "f": "2026-10-30"
+   "ak": "25,00 €",
+   "doors": "19:00",
+   "f": "2026-11-06",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77946"
+    }
+   ],
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren"
   },
   "date": "2027-04-24",
   "seen": "2026-10-30",
@@ -1514,7 +1555,7 @@
   "d": {
    "ak": "20,00 €",
    "doors": "19:00",
-   "f": "2026-10-30",
+   "f": "2026-11-06",
    "start": "20:00"
   },
   "date": "2027-01-16",
@@ -2400,6 +2441,11 @@
   "seen": "2026-11-05",
   "title": "The Meffs"
  },
+ "GrooveStation:10360-2027-10-30-halloween-special@groovestation.de": {
+  "date": "2027-10-30",
+  "seen": "2026-11-06",
+  "title": "Halloween Special"
+ },
  "GrooveStation:9385-2026-10-25-leftovers@groovestation.de": {
   "date": "2026-10-25",
   "title": "LEFTOVERS"
@@ -2683,6 +2729,11 @@
   "seen": "2026-10-30",
   "title": "Einfach Else Late Night Show"
  },
+ "Scheune:Scheune-Veranstaltungen-5626": {
+  "date": "2027-10-15",
+  "seen": "2026-11-06",
+  "title": "Rasmus Syman"
+ },
  "Scheune:Scheune-Veranstaltungen-5629": {
   "date": "2026-12-06",
   "title": "Glitzerkids - Die Kinderdisko"
@@ -2723,6 +2774,11 @@
  "Scheune:Scheune-Veranstaltungen-5668": {
   "date": "2026-11-07",
   "title": "Antritt - Der Fahrradpodcast"
+ },
+ "Scheune:Scheune-Veranstaltungen-5671": {
+  "date": "2027-04-30",
+  "seen": "2026-11-06",
+  "title": "Tiavo"
  },
  "Scheune:Scheune-Veranstaltungen-5672": {
   "date": "2026-11-07",

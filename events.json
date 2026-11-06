@@ -1,107 +1,6 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "events": [
-  {
-   "club": "Beatpol",
-   "id": "spike-the-gimme-gimmes-usa",
-   "date": "2026-11-05",
-   "title": "SPIKE & THE GIMME GIMMES (USA)",
-   "detail": "",
-   "url": "https://beatpol.de/spike-the-gimme-gimmes-usa/",
-   "lineup": [],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/spike-and-the-gimme-gimmes-spike-the-gimme-gimmes-take-the-fall-tour-beatpol-21551947/"
-    }
-   ],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Chemiefabrik",
-   "id": "15039",
-   "date": "2026-11-05",
-   "title": "AKA RINDE + SUGAR KO:MA",
-   "detail": "AKA RINDE (Andrej von Dÿse), SUGAR KO:MA",
-   "url": "https://www.chemiefabrik.info/gigs/15039/",
-   "lineup": [
-    {
-     "name": "AKA RINDE (Andrej von Dÿse)",
-     "info": "akustischer Molotowcocktail mit Haltung / Berlin"
-    },
-    {
-     "name": "SUGAR KO:MA",
-     "info": "energetischer Fairy-Art-Punk-Doom-Noise / Dresden"
-    }
-   ],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "12,00 €",
-   "tickets": [],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "punk",
-    "doom"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5394",
-   "date": "2026-11-05",
-   "title": "Livelyrix Poetry Slam",
-   "detail": "",
-   "url": "https://scheune.org/show/5394/livelyrix-poetry-slam.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5488",
-   "date": "2026-11-05",
-   "title": "Unser Schmerz ist unsere Kraft",
-   "detail": "",
-   "url": "https://scheune.org/show/5488/unser-schmerz-ist-unsere-kraft.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Beatpol",
    "id": "monolord-s",
@@ -3202,7 +3101,7 @@
    "club": "Chemiefabrik",
    "id": "15287",
    "date": "2026-12-13",
-   "title": "Heavy Nights Dresden",
+   "title": "AMBUSH + JAWBREAKER",
    "detail": "AMBUSH, JAWBREAKER",
    "url": "https://www.chemiefabrik.info/gigs/15287/",
    "lineup": [
@@ -3583,6 +3482,27 @@
    "title": "Julius Fischer & Christian Meyer: Weihnachtsschmonzette 2026",
    "detail": "",
    "url": "https://scheune.org/show/5416/julius-fischer-christian-meyer-weihnachtsschmonzette-2026.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5543",
+   "date": "2026-12-20",
+   "title": "Highnachten 2026",
+   "detail": "",
+   "url": "https://scheune.org/show/5543/highnachten-2026.html",
    "lineup": [],
    "time": "",
    "doors": "",
@@ -5559,16 +5479,46 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "front-line-assembly-can-clock-dva-uk",
+   "date": "2027-03-06",
+   "title": "FRONT LINE ASSEMBLY (CAN) + CLOCK DVA (UK)",
+   "detail": "",
+   "url": "https://beatpol.de/front-line-assembly-can-clock-dva-uk/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/front-line-assembly-dva-dresden-EVUZG30"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Chemiefabrik",
    "id": "15159",
    "date": "2027-03-06",
    "title": "TV SMITH and the BORED TEENAGERS",
-   "detail": "",
+   "detail": "EROTIC DEVICES",
    "url": "https://www.chemiefabrik.info/gigs/15159/",
    "lineup": [
     {
      "name": "TV Smith and the Bored Teenagers",
      "info": "77`s Kultpunk / UK, ESP"
+    },
+    {
+     "name": "EROTIC DEVICES",
+     "info": "Punkrock / D, CH"
     }
    ],
    "time": "20:00",
@@ -6561,6 +6511,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "shout-out-louds-s",
+   "date": "2027-04-23",
+   "title": "SHOUT OUT LOUDS (S)",
+   "detail": "",
+   "url": "https://beatpol.de/shout-out-louds-s/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/shout-out-louds-beatpol-22364729/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Chemiefabrik",
    "id": "15009",
    "date": "2027-04-24",
@@ -6586,12 +6562,17 @@
     }
    ],
    "time": "19:00",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "20,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "25,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/77946"
+    }
+   ],
    "soldout": false,
    "hit": true,
    "hits": [
@@ -6747,6 +6728,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5671",
+   "date": "2027-04-30",
+   "title": "Tiavo",
+   "detail": "",
+   "url": "https://scheune.org/show/5671/tiavo.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Beatpol",
@@ -7205,6 +7207,27 @@
    "new": false
   },
   {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5626",
+   "date": "2027-10-15",
+   "title": "Rasmus Syman",
+   "detail": "",
+   "url": "https://scheune.org/show/5626/rasmus-syman.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "GrooveStation",
    "id": "10323-2027-10-21-tonbandgeraet@groovestation.de",
    "date": "2027-10-21",
@@ -7224,6 +7247,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "GrooveStation",
+   "id": "10360-2027-10-30-halloween-special@groovestation.de",
+   "date": "2027-10-30",
+   "title": "Halloween Special",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2027-10-30-halloween-special",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Beatpol",
