@@ -1,187 +1,6 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "events": [
-  {
-   "club": "Beatpol",
-   "id": "monolord-s",
-   "date": "2026-11-06",
-   "title": "MONOLORD (S)",
-   "detail": "",
-   "url": "https://beatpol.de/monolord-s/",
-   "lineup": [],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/monolord-dresden-GLEMZ7"
-    }
-   ],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Chemiefabrik",
-   "id": "10106",
-   "date": "2026-11-06",
-   "title": "ANCST - CHAVER - NECROMORPH - WELK",
-   "detail": "ANCST, Chaver, Necromorph, Welk",
-   "url": "https://www.chemiefabrik.info/gigs/10106/",
-   "lineup": [
-    {
-     "name": "ANCST",
-     "info": "Blackened MxC & Dark Ambient / Berlin"
-    },
-    {
-     "name": "Chaver",
-     "info": "Metal,HC / Leipzig"
-    },
-    {
-     "name": "Necromorph",
-     "info": "Grindcore / Berlin"
-    },
-    {
-     "name": "Welk",
-     "info": "Black Metal / Leipzig"
-    }
-   ],
-   "time": "20:00",
-   "doors": "20:00",
-   "start": "21:00",
-   "vvk": "22,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "25,00 €",
-   "tickets": [
-    {
-     "name": "TixforGigs",
-     "url": "https://www.tixforgigs.com/Event/71549"
-    },
-    {
-     "name": "SaxTicket",
-     "url": "https://www.saxticket.de/index.php?id_product=7601&rewrite=uli-sailor-d&controller=product"
-    }
-   ],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "metal",
-    "grind"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10172-2026-11-06-freddy-fischer-his-cosmic-rocktime-band@groovestation.de",
-   "date": "2026-11-06",
-   "title": "Freddy Fischer & his Cosmic Rocktime Band",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-06-freddy-fischer-his-cosmic-rocktime-band",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10272-2026-11-06-i-bet-you-look-good-on-the-dancefloor-w-mauf@groovestation.de",
-   "date": "2026-11-06",
-   "title": "I bet you look good on the dancefloor w/ !Mauf",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-06-i-bet-you-look-good-on-the-dancefloor-w-mauf",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5665",
-   "date": "2026-11-06",
-   "title": "Hi Freaks",
-   "detail": "",
-   "url": "https://scheune.org/show/5665/hi-freaks.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5749",
-   "date": "2026-11-06",
-   "title": "Meet-Up für Podcaster*innen und Sprecher*innen",
-   "detail": "",
-   "url": "https://scheune.org/show/5749/meet-up-fr-podcaster-innen-und-sprecher-innen.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": true
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5666",
-   "date": "2026-11-06",
-   "title": "Zum Dorfkrug",
-   "detail": "",
-   "url": "https://scheune.org/show/5666/zum-dorfkrug.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Beatpol",
    "id": "the-obsessed-usa",
@@ -994,7 +813,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -1469,7 +1288,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Chemiefabrik",
@@ -1875,8 +1694,8 @@
     }
    ],
    "time": "19:00",
-   "doors": "",
-   "start": "",
+   "doors": "19:00",
+   "start": "20:00",
    "vvk": "",
    "vvk_note": "",
    "ak": "",
@@ -1929,7 +1748,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -2994,7 +2813,7 @@
    "club": "Chemiefabrik",
    "id": "15040",
    "date": "2026-12-12",
-   "title": "Abschiedskonzert - 10 Jahre SEVENTH FLOOR",
+   "title": "Abschiedskonzert - SEVENTH FLOOR",
    "detail": "SEVENTH FLOOR, VIRUNUM, 5RAUMFENSTER",
    "url": "https://www.chemiefabrik.info/gigs/15040/",
    "lineup": [
@@ -3394,7 +3213,7 @@
    "club": "Chemiefabrik",
    "id": "10354",
    "date": "2026-12-19",
-   "title": "Skinsects + Squelette + Carry No Banners",
+   "title": "SKINSECTS + SQUELETTE + CNB",
    "detail": "SKINSECTS, Squelette, Carry No Banners",
    "url": "https://www.chemiefabrik.info/gigs/10354/",
    "lineup": [
@@ -4198,7 +4017,7 @@
     "punk"
    ],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -4832,7 +4651,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Beatpol",
@@ -6579,7 +6398,7 @@
     "punk"
    ],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -6963,7 +6782,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
