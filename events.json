@@ -1,56 +1,6 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "events": [
-  {
-   "club": "Beatpol",
-   "id": "david-eugene-edwards-usa",
-   "date": "2026-11-08",
-   "title": "DAVID EUGENE EDWARDS (USA)",
-   "detail": "",
-   "url": "https://beatpol.de/david-eugene-edwards-usa/",
-   "lineup": [],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/david-eugene-edwards-tour-2026-beatpol-21669533/"
-    }
-   ],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "9406-2026-11-08-salo@groovestation.de",
-   "date": "2026-11-08",
-   "title": "SALÒ",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-08-salo",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "hardcore",
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "GrooveStation",
    "id": "10285-2026-11-09-kickermontag@groovestation.de",
