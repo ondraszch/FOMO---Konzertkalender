@@ -662,6 +662,21 @@
   "date": "2026-11-05",
   "title": "SPIKE & THE GIMME GIMMES (USA)"
  },
+ "Beatpol:the-doors-alive-uk-nl": {
+  "d": {
+   "doors": "19:00",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/the-doors-alive-dresden-EVAXO1A"
+    }
+   ]
+  },
+  "date": "2027-12-03",
+  "seen": "2026-11-10",
+  "title": "THE DOORS ALIVE (UK/NL)"
+ },
  "Beatpol:the-molotovs-uk": {
   "d": {
    "doors": "19:00",
@@ -1221,6 +1236,17 @@
   "date": "2027-01-09",
   "title": "Dagger Threat HC,Metal / Hamburg XOXO Hardcore / Zürich Odd "
  },
+ "Chemiefabrik:10465": {
+  "d": {
+   "ak": "15,00 €",
+   "doors": "19:00",
+   "f": "2026-11-10",
+   "start": "20:00"
+  },
+  "date": "2026-12-20",
+  "seen": "2026-11-10",
+  "title": "Weihnachtskonzert"
+ },
  "Chemiefabrik:10468": {
   "d": {
    "doors": "19:00",
@@ -1318,7 +1344,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "19:30",
-   "f": "2026-11-03",
+   "f": "2026-11-10",
    "start": "20:30",
    "tickets": [
     {
@@ -1824,7 +1850,7 @@
  "Chemiefabrik:15226": {
   "d": {
    "doors": "19:00",
-   "f": "2026-11-03",
+   "f": "2026-11-10",
    "start": "20:00",
    "tickets": [
     {
@@ -2743,6 +2769,11 @@
  "Scheune:Scheune-Veranstaltungen-5637": {
   "date": "2027-02-14",
   "title": "Willi Weitzel"
+ },
+ "Scheune:Scheune-Veranstaltungen-5638": {
+  "date": "2027-11-12",
+  "seen": "2026-11-10",
+  "title": "Simon Hegewald"
  },
  "Scheune:Scheune-Veranstaltungen-5639": {
   "date": "2027-04-02",

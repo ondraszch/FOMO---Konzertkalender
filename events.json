@@ -1,48 +1,6 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "events": [
-  {
-   "club": "GrooveStation",
-   "id": "10285-2026-11-09-kickermontag@groovestation.de",
-   "date": "2026-11-09",
-   "title": "Kickermontag",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-09-kickermontag",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5458",
-   "date": "2026-11-09",
-   "title": "Feature Ring: Spilif",
-   "detail": "",
-   "url": "https://scheune.org/show/5458/feature-ring-spilif.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "15086",
@@ -2897,6 +2855,38 @@
    "new": false
   },
   {
+   "club": "Chemiefabrik",
+   "id": "10465",
+   "date": "2026-12-20",
+   "title": "Weihnachtskonzert",
+   "detail": "Gaffa Ghandi, Gavial",
+   "url": "https://www.chemiefabrik.info/gigs/10465/",
+   "lineup": [
+    {
+     "name": "Gaffa Ghandi",
+     "info": "Stoner Rock / Berlin/Dresden"
+    },
+    {
+     "name": "Gavial",
+     "info": "Psychedelic Rock / Dresden/Leipzig"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "15,00 €",
+   "tickets": [],
+   "soldout": false,
+   "hit": true,
+   "hits": [
+    "stoner"
+   ],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5543",
    "date": "2026-12-20",
@@ -5093,7 +5083,7 @@
     "punk"
    ],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -6106,7 +6096,7 @@
     "punk"
    ],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -6717,6 +6707,27 @@
    "new": false
   },
   {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5638",
+   "date": "2027-11-12",
+   "title": "Simon Hegewald",
+   "detail": "",
+   "url": "https://scheune.org/show/5638/simon-hegewald.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Beatpol",
    "id": "skuppin-d",
    "date": "2027-11-16",
@@ -6741,6 +6752,32 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "the-doors-alive-uk-nl",
+   "date": "2027-12-03",
+   "title": "THE DOORS ALIVE (UK/NL)",
+   "detail": "",
+   "url": "https://beatpol.de/the-doors-alive-uk-nl/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/the-doors-alive-dresden-EVAXO1A"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "GrooveStation",
