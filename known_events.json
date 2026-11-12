@@ -49,6 +49,21 @@
   "date": "2027-03-23",
   "title": "ANNA ERHARD (D)"
  },
+ "Beatpol:birdpen-uk-2": {
+  "d": {
+   "doors": "19:00",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/birdpen-think-nice-tour-dresden-EPSCZU3"
+    }
+   ]
+  },
+  "date": "2027-05-13",
+  "seen": "2026-11-12",
+  "title": "BIRDPEN (UK)"
+ },
  "Beatpol:black-sabbitch-usa": {
   "d": {
    "doors": "19:00",
@@ -555,6 +570,21 @@
   "seen": "2026-11-05",
   "title": "QUIVERS (AUS)"
  },
+ "Beatpol:rantanplan-d-2": {
+  "d": {
+   "doors": "19:00",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/rantanplan-live-2027-beatpol-22397959/"
+    }
+   ]
+  },
+  "date": "2027-04-30",
+  "seen": "2026-11-12",
+  "title": "RANTANPLAN (D)"
+ },
  "Beatpol:ryan-sheridan-ie": {
   "d": {
    "doors": "19:00",
@@ -782,6 +812,21 @@
   },
   "date": "2026-12-04",
   "title": "WEDNESDAY 13 (USA) + THE BIRTHDAY MASSACRE (CAN)"
+ },
+ "Beatpol:yeahrs-d": {
+  "d": {
+   "doors": "19:00",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/yeahrs-dresden-EKXNHJ2"
+    }
+   ]
+  },
+  "date": "2027-02-02",
+  "seen": "2026-11-12",
+  "title": "YEAHRS (D)"
  },
  "Chemiefabrik:10063": {
   "d": {
@@ -1608,7 +1653,7 @@
   "d": {
    "ak": "20,00 €",
    "doors": "19:00",
-   "f": "2026-11-05",
+   "f": "2026-11-12",
    "start": "20:00",
    "tickets": [
     {
@@ -1834,7 +1879,7 @@
   "d": {
    "ak": "20,00 €",
    "doors": "19:00",
-   "f": "2026-11-05",
+   "f": "2026-11-12",
    "start": "20:00",
    "tickets": [
     {
@@ -1945,7 +1990,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "18:00",
-   "f": "2026-11-05",
+   "f": "2026-11-12",
    "start": "19:00"
   },
   "date": "2026-12-13",
@@ -1954,7 +1999,7 @@
  },
  "Chemiefabrik:15293": {
   "d": {
-   "f": "2026-11-05"
+   "f": "2026-11-12"
   },
   "date": "2027-05-15",
   "seen": "2026-11-05",
@@ -2494,6 +2539,11 @@
   "date": "2027-10-30",
   "seen": "2026-11-06",
   "title": "Halloween Special"
+ },
+ "GrooveStation:10362-2027-03-27-papke@groovestation.de": {
+  "date": "2027-03-27",
+  "seen": "2026-11-12",
+  "title": "PAPKE"
  },
  "GrooveStation:9385-2026-10-25-leftovers@groovestation.de": {
   "date": "2026-10-25",

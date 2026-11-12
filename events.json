@@ -1,84 +1,6 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "15063",
-   "date": "2026-11-11",
-   "title": "DRAWN AND QUARTERED",
-   "detail": "Noroth, Mouth of Madness",
-   "url": "https://www.chemiefabrik.info/gigs/15063/",
-   "lineup": [
-    {
-     "name": "Drawn and Quartered",
-     "info": "Death Metal / Seattle, USA"
-    },
-    {
-     "name": "Noroth",
-     "info": "Death Metal / Seattle, USA"
-    },
-    {
-     "name": "Mouth of Madness",
-     "info": "Black/Death Metal / Berlin/Görlitz, Germany"
-    }
-   ],
-   "time": "18:30",
-   "doors": "18:30",
-   "start": "19:30",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "25,00 €",
-   "tickets": [],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "metal"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10326-2026-11-11-midi-w-acid-adams-bambi@groovestation.de",
-   "date": "2026-11-11",
-   "title": "MiDi w/ Acid Adams & Bambi",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-11-midi-w-acid-adams-bambi",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5602",
-   "date": "2026-11-11",
-   "title": "Sax Royal - Die Dresdner Lesebühne",
-   "detail": "",
-   "url": "https://scheune.org/show/5602/sax-royal-die-dresdner-lesebhne.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "10289",
@@ -852,12 +774,16 @@
    "id": "10277",
    "date": "2026-11-21",
    "title": "4. Dresden Death Punk Night",
-   "detail": "ASSES OF FIRE",
+   "detail": "ASSES OF FIRE, MALMØ",
    "url": "https://www.chemiefabrik.info/gigs/10277/",
    "lineup": [
     {
      "name": "ASSES OF FIRE",
      "info": "Death Punk / DD"
+    },
+    {
+     "name": "MALMØ",
+     "info": "High Energy Rock / DD"
     }
    ],
    "time": "20:00",
@@ -3129,7 +3055,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -3171,7 +3097,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Chemiefabrik",
@@ -3295,7 +3221,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -3316,7 +3242,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -3337,7 +3263,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -3358,7 +3284,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -3526,7 +3452,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -3684,7 +3610,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -3878,6 +3804,32 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "yeahrs-d",
+   "date": "2027-02-02",
+   "title": "YEAHRS (D)",
+   "detail": "Ostpol (kleiner Saal)",
+   "url": "https://beatpol.de/yeahrs-d/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/yeahrs-dresden-EKXNHJ2"
+    }
+   ],
    "soldout": false,
    "hit": false,
    "hits": [],
@@ -4118,7 +4070,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -4374,7 +4326,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Beatpol",
@@ -4637,7 +4589,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Beatpol",
@@ -4871,7 +4823,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -5105,7 +5057,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Beatpol",
@@ -5211,7 +5163,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Beatpol",
@@ -5288,6 +5240,27 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10362-2027-03-27-papke@groovestation.de",
+   "date": "2027-03-27",
+   "title": "PAPKE",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2027-03-27-papke",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
+   "club": "GrooveStation",
    "id": "10356-2027-03-29-kickermontag@groovestation.de",
    "date": "2027-03-29",
    "title": "Kickermontag",
@@ -5305,7 +5278,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Beatpol",
@@ -5827,7 +5800,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -5998,6 +5971,32 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "rantanplan-d-2",
+   "date": "2027-04-30",
+   "title": "RANTANPLAN (D)",
+   "detail": "",
+   "url": "https://beatpol.de/rantanplan-d-2/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/rantanplan-live-2027-beatpol-22397959/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Beatpol",
@@ -6194,6 +6193,32 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "birdpen-uk-2",
+   "date": "2027-05-13",
+   "title": "BIRDPEN (UK)",
+   "detail": "",
+   "url": "https://beatpol.de/birdpen-uk-2/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/birdpen-think-nice-tour-dresden-EPSCZU3"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Beatpol",
