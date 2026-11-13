@@ -757,6 +757,21 @@
   "date": "2027-02-19",
   "title": "THE RASMUS (FIN)"
  },
+ "Beatpol:the-slow-show-uk-2": {
+  "d": {
+   "doors": "19:00",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/"
+    }
+   ]
+  },
+  "date": "2027-04-03",
+  "seen": "2026-11-13",
+  "title": "THE SLOW SHOW (UK)"
+ },
  "Beatpol:the-walking-who-aus": {
   "d": {
    "doors": "19:00",
@@ -1338,7 +1353,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "19:00",
-   "f": "2026-11-06",
+   "f": "2026-11-13",
    "start": "20:00",
    "tickets": [
     {
@@ -1628,7 +1643,7 @@
   "d": {
    "ak": "20,00 €",
    "doors": "19:00",
-   "f": "2026-11-06",
+   "f": "2026-11-13",
    "start": "20:00"
   },
   "date": "2027-01-16",

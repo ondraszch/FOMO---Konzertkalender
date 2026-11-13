@@ -1,85 +1,6 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "10289",
-   "date": "2026-11-12",
-   "title": "DAILY THOMPSON",
-   "detail": "Constance Tomb",
-   "url": "https://www.chemiefabrik.info/gigs/10289/",
-   "lineup": [
-    {
-     "name": "DAILY THOMPSON",
-     "info": "Grunge/Alternative/Desert Rock / Deutschland"
-    },
-    {
-     "name": "Constance Tomb",
-     "info": "Post Punk/Goth Rock / USA"
-    }
-   ],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "22,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "25,00 €",
-   "tickets": [
-    {
-     "name": "TixforGigs",
-     "url": "https://www.tixforgigs.com/Event/72404"
-    }
-   ],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "9396-2026-11-12-bruchbude@groovestation.de",
-   "date": "2026-11-12",
-   "title": "Bruchbude",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-12-bruchbude",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5220",
-   "date": "2026-11-12",
-   "title": "Anna Bartling",
-   "detail": "",
-   "url": "https://scheune.org/show/5220/anna-bartling.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "15227",
@@ -2328,7 +2249,7 @@
     "metal"
    ],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -2811,7 +2732,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -3378,7 +3299,7 @@
     "sludge"
    ],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Chemiefabrik",
@@ -3960,7 +3881,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Beatpol",
@@ -5380,6 +5301,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "the-slow-show-uk-2",
+   "date": "2027-04-03",
+   "title": "THE SLOW SHOW (UK)",
+   "detail": "",
+   "url": "https://beatpol.de/the-slow-show-uk-2/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5597",
    "date": "2027-04-03",
@@ -5421,7 +5368,7 @@
     "punk"
    ],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -6139,7 +6086,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Chemiefabrik",
@@ -6276,7 +6223,7 @@
     "metal"
    ],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Chemiefabrik",
