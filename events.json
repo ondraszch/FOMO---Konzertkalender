@@ -1,132 +1,6 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "15227",
-   "date": "2026-11-13",
-   "title": "90`er Trashparty",
-   "detail": "",
-   "url": "https://www.chemiefabrik.info/gigs/15227/",
-   "lineup": [],
-   "time": "21:00",
-   "doors": "21:00",
-   "start": "21:30",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "5 €",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Club Puschkin",
-   "id": "enkay-zwischen-den-stuehlen-tour-2026",
-   "date": "2026-11-13",
-   "title": "ENKAY | Zwischen den Stühlen Tour 2026 (hochverlegt in die Tante JU)",
-   "detail": "Konzerte",
-   "url": "https://www.clubpuschkin.de/events/enkay-zwischen-den-stuehlen-tour-2026/",
-   "lineup": [],
-   "time": "19:00",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10303-2026-11-13-milkshake@groovestation.de",
-   "date": "2026-11-13",
-   "title": "MilkShake",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-13-milkshake",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10206-2026-11-13-so-soon@groovestation.de",
-   "date": "2026-11-13",
-   "title": "So Soon",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-13-so-soon",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5750",
-   "date": "2026-11-13",
-   "title": "Hausführung durch die scheune",
-   "detail": "",
-   "url": "https://scheune.org/show/5750/hausfhrung-durch-die-scheune.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5504",
-   "date": "2026-11-13",
-   "title": "Tiere Streicheln Menschen",
-   "detail": "",
-   "url": "https://scheune.org/show/5504/tiere-streicheln-menschen.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Beatpol",
    "id": "itchy-d",
@@ -4682,7 +4556,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Chemiefabrik",
@@ -5317,7 +5191,7 @@
    "tickets": [
     {
      "name": "Eventim",
-     "url": "https://www.eventim.de/"
+     "url": "https://www.eventim.de/event/the-slow-show-tour-2027-beatpol-22388472/"
     }
    ],
    "soldout": false,
@@ -5794,7 +5668,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Chemiefabrik",
@@ -6034,7 +5908,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Beatpol",
@@ -6537,7 +6411,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -6579,7 +6453,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Beatpol",
