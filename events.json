@@ -1,117 +1,6 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "events": [
-  {
-   "club": "Beatpol",
-   "id": "itchy-d",
-   "date": "2026-11-14",
-   "title": "ITCHY (D)",
-   "detail": "",
-   "url": "https://beatpol.de/itchy-d/",
-   "lineup": [],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": true,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Chemiefabrik",
-   "id": "10264",
-   "date": "2026-11-14",
-   "title": "VSK - PARKPUNK - TROTZDEM",
-   "detail": "VSK, PARKPUNK, TROTZDEM",
-   "url": "https://www.chemiefabrik.info/gigs/10264/",
-   "lineup": [
-    {
-     "name": "VSK",
-     "info": "Punkrock / Freiberg/Celle"
-    },
-    {
-     "name": "PARKPUNK",
-     "info": "Punkrock / Regensburg"
-    },
-    {
-     "name": "TROTZDEM",
-     "info": "Punkrock / Dresden"
-    }
-   ],
-   "time": "20:00",
-   "doors": "20:00",
-   "start": "21:00",
-   "vvk": "17,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "20,00 €",
-   "tickets": [
-    {
-     "name": "TixforGigs",
-     "url": "https://www.tixforgigs.com/Event/71019"
-    },
-    {
-     "name": "SaxTicket",
-     "url": "https://www.saxticket.de/index.php?id_product=5057&rewrite=vsk-d&controller=product&fbclid=IwY2xjawSduPdleHRuA2FlbQIxMABicmlkETFoc0FOWThXZWg1TzFTSm9kc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHgB3oo3FzPKRFUxLzG1aFH5D7wVGbdpQ19q0LfeoXWQOk9jxGgbOHtBXXx79_aem_o4w0wpunkPXlaHY5O_2_7g"
-    }
-   ],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Club Puschkin",
-   "id": "dari",
-   "date": "2026-11-14",
-   "title": "Dari",
-   "detail": "Konzerte",
-   "url": "https://www.clubpuschkin.de/events/dari/",
-   "lineup": [],
-   "time": "20:00",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10271-2026-11-14-alternative-block-party@groovestation.de",
-   "date": "2026-11-14",
-   "title": "Alternative Block Party",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-14-alternative-block-party",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "metal",
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Club Puschkin",
    "id": "dominik-hartz",
@@ -3316,6 +3205,27 @@
    "new": false
   },
   {
+   "club": "GrooveStation",
+   "id": "10363-2027-01-22-i-bet-you-look-good-on-the-dancefloor-w-mauf@groovestation.de",
+   "date": "2027-01-22",
+   "title": "I bet you look good on the dancefloor w/ !Mauf",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2027-01-22-i-bet-you-look-good-on-the-dancefloor-w-mauf",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Chemiefabrik",
    "id": "15115",
    "date": "2027-01-23",
@@ -3366,6 +3276,27 @@
    "new": false
   },
   {
+   "club": "GrooveStation",
+   "id": "10357-2027-01-23-puzzle01099-geburtstag-30@groovestation.de",
+   "date": "2027-01-23",
+   "title": "Puzzle01099 - Geburtstag 3.0",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2027-01-23-puzzle01099-geburtstag-30",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5474",
    "date": "2027-01-23",
@@ -3406,6 +3337,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "GrooveStation",
+   "id": "10364-2027-01-27-poetry-slam@groovestation.de",
+   "date": "2027-01-27",
+   "title": "Poetry Slam",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2027-01-27-poetry-slam",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Scheune",
