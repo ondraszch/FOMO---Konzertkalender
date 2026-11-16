@@ -1,27 +1,6 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "events": [
-  {
-   "club": "Club Puschkin",
-   "id": "dominik-hartz",
-   "date": "2026-11-15",
-   "title": "Dominik Hartz",
-   "detail": "Konzerte",
-   "url": "https://www.clubpuschkin.de/events/dominik-hartz/",
-   "lineup": [],
-   "time": "20:00",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": true,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "GrooveStation",
    "id": "10286-2026-11-16-kickermontag@groovestation.de",
@@ -860,12 +839,16 @@
    "id": "10470",
    "date": "2026-11-27",
    "title": "GRUPPA KARL MARX STADT - Ausverkauft!",
-   "detail": "GRUPPA KARL MARX STADT",
+   "detail": "GRUPPA KARL MARX STADT, Aftershow mit:",
    "url": "https://www.chemiefabrik.info/gigs/10470/",
    "lineup": [
     {
      "name": "GRUPPA KARL MARX STADT",
      "info": "Balkan / Chemnitz"
+    },
+    {
+     "name": "Aftershow mit:",
+     "info": "Loiko Zobar (The Gypsy Love Train) / Balkan-Beatz, Polka-Punk, Eastern-Ska"
     }
    ],
    "time": "20:00",
@@ -876,8 +859,10 @@
    "ak": "",
    "tickets": [],
    "soldout": true,
-   "hit": false,
-   "hits": [],
+   "hit": true,
+   "hits": [
+    "punk"
+   ],
    "cancelled": false,
    "new": false
   },
@@ -933,12 +918,16 @@
    "id": "9603",
    "date": "2026-11-28",
    "title": "KONRAD KUECHENMEISTER",
-   "detail": "",
+   "detail": "György De Val",
    "url": "https://www.chemiefabrik.info/gigs/9603/",
    "lineup": [
     {
      "name": "KONRAD KUECHENMEISTER",
      "info": "Loop Entertainment / DD"
+    },
+    {
+     "name": "György De Val",
+     "info": "Aftershow-Party / DD"
     }
    ],
    "time": "21:00",
@@ -1337,8 +1326,8 @@
    "ak": "",
    "tickets": [
     {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/wednesday-13-the-birthday-massacre-beatpol-21752702/"
+     "name": "Hamburgrecords",
+     "url": "https://tickets.hamburgrecords.com/wednesday13-04-12-2026-dresden-beatpol.html"
     }
    ],
    "soldout": false,
@@ -1615,27 +1604,6 @@
    "title": "Billard & Bar",
    "detail": "",
    "url": "https://www.groovestation.de/event/2026-12-08-billard-bar",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "9597-2026-12-08-ell@groovestation.de",
-   "date": "2026-12-08",
-   "title": "ELL",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-12-08-ell",
    "lineup": [],
    "time": "",
    "doors": "",
@@ -6177,12 +6145,16 @@
    "id": "15102",
    "date": "2027-07-02",
    "title": "Open Air",
-   "detail": "Die ART",
+   "detail": "Die ART, FEELING D",
    "url": "https://www.chemiefabrik.info/gigs/15102/",
    "lineup": [
     {
      "name": "Die ART",
      "info": "Postpunk, New Wave, Experimentell / Leipzig"
+    },
+    {
+     "name": "FEELING D",
+     "info": "Feeling B Punk / Dresden"
     }
    ],
    "time": "",
