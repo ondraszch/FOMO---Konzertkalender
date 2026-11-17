@@ -1300,7 +1300,7 @@
   "d": {
    "ak": "15,00 €",
    "doors": "19:00",
-   "f": "2026-11-10",
+   "f": "2026-11-17",
    "start": "20:00"
   },
   "date": "2026-12-20",
@@ -1404,7 +1404,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "19:30",
-   "f": "2026-11-10",
+   "f": "2026-11-17",
    "start": "20:30",
    "tickets": [
     {
@@ -1912,7 +1912,7 @@
  "Chemiefabrik:15226": {
   "d": {
    "doors": "19:00",
-   "f": "2026-11-10",
+   "f": "2026-11-17",
    "start": "20:00",
    "tickets": [
     {
@@ -2575,6 +2575,26 @@
   "seen": "2026-11-15",
   "title": "Poetry Slam"
  },
+ "GrooveStation:10365-2026-12-05-gluehmarkt-by-schoener-tag-kollektiv@groovestation.de": {
+  "date": "2026-12-05",
+  "seen": "2026-11-17",
+  "title": "Glühmarkt by Schöner Tag Kollektiv"
+ },
+ "GrooveStation:10366-2026-12-05-tanzvergnuegen-by-schoener-tag-kollektiv@groovestation.de": {
+  "date": "2026-12-05",
+  "seen": "2026-11-17",
+  "title": "Tanzvergnügen by Schöner Tag Kollektiv"
+ },
+ "GrooveStation:10367-2026-12-26-uncanny-valley-betriebsweihnachtsfeier@groovestation.de": {
+  "date": "2026-12-26",
+  "seen": "2026-11-17",
+  "title": "Uncanny Valley Betriebsweihnachtsfeier"
+ },
+ "GrooveStation:10368-2027-04-03-teenage-dream@groovestation.de": {
+  "date": "2027-04-03",
+  "seen": "2026-11-17",
+  "title": "Teenage Dream"
+ },
  "GrooveStation:9385-2026-10-25-leftovers@groovestation.de": {
   "date": "2026-10-25",
   "title": "LEFTOVERS"
@@ -2815,6 +2835,11 @@
  "Scheune:Scheune-Veranstaltungen-5567": {
   "date": "2026-12-04",
   "title": "La Boum - Das große Wunschkonzert"
+ },
+ "Scheune:Scheune-Veranstaltungen-5575": {
+  "date": "2027-04-10",
+  "seen": "2026-11-17",
+  "title": "Mariybu Frech Tour"
  },
  "Scheune:Scheune-Veranstaltungen-5579": {
   "date": "2026-11-21",
