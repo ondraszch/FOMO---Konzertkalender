@@ -1,119 +1,6 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "events": [
-  {
-   "club": "Beatpol",
-   "id": "black-sabbitch-usa-2",
-   "date": "2026-11-17",
-   "title": "BLACK SABBITCH (USA) (verlegt auf 20.04.2027)",
-   "detail": "",
-   "url": "https://beatpol.de/black-sabbitch-usa-2/",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": true,
-   "new": false
-  },
-  {
-   "club": "Chemiefabrik",
-   "id": "15129",
-   "date": "2026-11-17",
-   "title": "MURPHY’S LAW + CLOBBER + DOPE END",
-   "detail": "MURPHY`S LAW, CLOBBER, Dope End, STAATSSICHERHEIT",
-   "url": "https://www.chemiefabrik.info/gigs/15129/",
-   "lineup": [
-    {
-     "name": "MURPHY`S LAW",
-     "info": "HC, Punk / USA, New York"
-    },
-    {
-     "name": "CLOBBER",
-     "info": "HC, Punk / GB, London"
-    },
-    {
-     "name": "Dope End",
-     "info": "Hardcore / Leipzig"
-    },
-    {
-     "name": "STAATSSICHERHEIT",
-     "info": "Punkrock / Dresden"
-    }
-   ],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "22,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "25,00 €",
-   "tickets": [
-    {
-     "name": "TixforGigs",
-     "url": "https://www.tixforgigs.com/Event/76828"
-    },
-    {
-     "name": "SaxTicket",
-     "url": "https://www.saxticket.de/alle-tickets/8529-murphy-s-law-usa.html"
-    }
-   ],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "hardcore",
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10332-2026-11-17-billard-bar@groovestation.de",
-   "date": "2026-11-17",
-   "title": "Billard & Bar",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-17-billard-bar",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5552",
-   "date": "2026-11-17",
-   "title": "Unlocked #12",
-   "detail": "",
-   "url": "https://scheune.org/show/5552/unlocked-12.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "15151",
@@ -142,20 +29,11 @@
    "time": "18:00",
    "doors": "18:00",
    "start": "19:00",
-   "vvk": "35,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "40,00 €",
-   "tickets": [
-    {
-     "name": "TixforGigs",
-     "url": "https://www.tixforgigs.com/Event/75601"
-    },
-    {
-     "name": "SaxTicket",
-     "url": "https://www.saxticket.de/startseite/5616-ignite-usa.html"
-    }
-   ],
-   "soldout": false,
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": true,
    "hit": true,
    "hits": [
     "hardcore"
@@ -433,11 +311,15 @@
    "start": "21:00",
    "vvk": "18,80 €",
    "vvk_note": "zzgl. Gebühren",
-   "ak": "",
+   "ak": "20,00 €",
    "tickets": [
     {
      "name": "SaxTicket",
      "url": "https://www.saxticket.de/startseite/1766-asses-of-fire-30-jahre-turbonegro.html"
+    },
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/de-DE/Event/77950/asses-of-fire-the-turbonegro-show-chemiefabrik-dresden"
     }
    ],
    "soldout": false,
@@ -919,6 +801,10 @@
     {
      "name": "SaxTicket",
      "url": "https://www.saxticket.de/index.php?id_product=1624&rewrite=konrad-kuechenmeister-d&controller=product"
+    },
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/de-DE/Event/77486/konrad-kuechenmeister-loop-entertainment-2026-chemiefabrik-dresden"
     }
    ],
    "soldout": false,
@@ -937,7 +823,7 @@
    "lineup": [],
    "time": "",
    "doors": "",
-   "start": "",
+   "start": "11:00",
    "vvk": "",
    "vvk_note": "",
    "ak": "",
@@ -2400,7 +2286,7 @@
     "stoner"
    ],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -5510,12 +5396,17 @@
     }
    ],
    "time": "19:00",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "29,45 €",
+   "vvk_note": "zzgl. Gebühren",
    "ak": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.eventim.de%2Fartist%2Fthe-good-the-bad-and-the-zugly%2F%3Faffiliate%3DFKP&h=AUDjVekUGE_EKTxPsF9BVrKDjlsvbvXtP7_OfNMar8UBYw3V548BG1EepGyItaNycE5KzBVRgGABlOsKbJfz4ktWc0rGXFEoDjxkd08zmv4MBfDjjRoBK4ZT_36US6jnvznHBgVrG8oVCUFNx9PcirFX5SIvfcVWzS2eaj8uas8"
+    }
+   ],
    "soldout": false,
    "hit": true,
    "hits": [
@@ -6390,7 +6281,7 @@
    "time": "15:00",
    "doors": "15:00",
    "start": "16:00",
-   "vvk": "38,00 €",
+   "vvk": "42,00 €",
    "vvk_note": "zzgl. Gebühren",
    "ak": "",
    "tickets": [
@@ -6536,7 +6427,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Beatpol",
@@ -6588,7 +6479,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",

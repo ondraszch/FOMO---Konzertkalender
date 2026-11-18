@@ -846,7 +846,7 @@
  "Chemiefabrik:10063": {
   "d": {
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00",
    "tickets": [
     {
@@ -864,7 +864,7 @@
   "d": {
    "ak": "30,00 €",
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00",
    "tickets": [
     {
@@ -902,7 +902,8 @@
  },
  "Chemiefabrik:10161": {
   "d": {
-   "f": "2026-11-11"
+   "f": "2026-11-18",
+   "start": "11:00"
   },
   "date": "2026-11-28",
   "title": "Infos folgen … Veganer Wintermarkt"
@@ -1019,13 +1020,18 @@
  },
  "Chemiefabrik:10277": {
   "d": {
+   "ak": "20,00 €",
    "doors": "20:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "21:00",
    "tickets": [
     {
      "name": "SaxTicket",
      "url": "https://www.saxticket.de/startseite/1766-asses-of-fire-30-jahre-turbonegro.html"
+    },
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/de-DE/Event/77950/asses-of-fire-the-turbonegro-show-chemiefabrik-dresden"
     }
    ],
    "vvk": "18,80 €",
@@ -1056,7 +1062,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "20:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "21:00",
    "tickets": [
     {
@@ -1124,7 +1130,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "20:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "21:00",
    "tickets": [
     {
@@ -1164,7 +1170,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "20:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "21:00",
    "tickets": [
     {
@@ -1186,7 +1192,7 @@
   "d": {
    "ak": "45,00 €",
    "doors": "17:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "18:00",
    "tickets": [
     {
@@ -1204,7 +1210,7 @@
   "d": {
    "ak": "35,00 €",
    "doors": "17:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "18:00",
    "tickets": [
     {
@@ -1226,7 +1232,7 @@
   "d": {
    "ak": "22,00 €",
    "doors": "20:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "21:00",
    "tickets": [
     {
@@ -1247,7 +1253,7 @@
  "Chemiefabrik:10454": {
   "d": {
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00"
   },
   "date": "2027-05-05",
@@ -1257,7 +1263,7 @@
  "Chemiefabrik:10458": {
   "d": {
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00",
    "tickets": [
     {
@@ -1278,7 +1284,7 @@
  "Chemiefabrik:10459": {
   "d": {
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00",
    "tickets": [
     {
@@ -1327,7 +1333,7 @@
  "Chemiefabrik:10470": {
   "d": {
    "doors": "20:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "21:00"
   },
   "date": "2026-11-27",
@@ -1335,7 +1341,7 @@
  },
  "Chemiefabrik:10483": {
   "d": {
-   "f": "2026-11-11"
+   "f": "2026-11-18"
   },
   "date": "2026-12-11",
   "title": "Infos folgen … Heartbreakgeburtstag"
@@ -1343,7 +1349,7 @@
  "Chemiefabrik:10484": {
   "d": {
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00"
   },
   "date": "2026-12-18",
@@ -1372,7 +1378,7 @@
   "d": {
    "ak": "15,00 €",
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00"
   },
   "date": "2026-11-19",
@@ -1382,7 +1388,7 @@
   "d": {
    "ak": "20,00 €",
    "doors": "20:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "21:00",
    "tickets": [
     {
@@ -1427,7 +1433,7 @@
   "d": {
    "ak": "20,00 €",
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00",
    "tickets": [
     {
@@ -1476,7 +1482,7 @@
  "Chemiefabrik:15040": {
   "d": {
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00",
    "tickets": [
     {
@@ -1494,7 +1500,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "20:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "21:00",
    "tickets": [
     {
@@ -1532,7 +1538,7 @@
  "Chemiefabrik:15052": {
   "d": {
    "doors": "20:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "21:00"
   },
   "date": "2027-02-19",
@@ -1552,7 +1558,7 @@
   "d": {
    "ak": "16,00 €",
    "doors": "18:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "19:00"
   },
   "date": "2026-11-29",
@@ -1612,7 +1618,7 @@
  "Chemiefabrik:15094": {
   "d": {
    "doors": "18:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "18:30"
   },
   "date": "2026-11-22",
@@ -1621,7 +1627,7 @@
  "Chemiefabrik:15096": {
   "d": {
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00",
    "tickets": [
     {
@@ -1652,14 +1658,24 @@
  },
  "Chemiefabrik:15102": {
   "d": {
-   "f": "2026-11-11"
+   "f": "2026-11-18"
   },
   "date": "2027-07-02",
   "title": "Infos folgen … Open Air Die ART Postpunk, New Wave, Experime"
  },
  "Chemiefabrik:15103": {
   "d": {
-   "f": "2026-11-11"
+   "doors": "19:00",
+   "f": "2026-11-18",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.eventim.de%2Fartist%2Fthe-good-the-bad-and-the-zugly%2F%3Faffiliate%3DFKP&h=AUDjVekUGE_EKTxPsF9BVrKDjlsvbvXtP7_OfNMar8UBYw3V548BG1EepGyItaNycE5KzBVRgGABlOsKbJfz4ktWc0rGXFEoDjxkd08zmv4MBfDjjRoBK4ZT_36US6jnvznHBgVrG8oVCUFNx9PcirFX5SIvfcVWzS2eaj8uas8"
+    }
+   ],
+   "vvk": "29,45 €",
+   "vvk_note": "zzgl. Gebühren"
   },
   "date": "2027-04-16",
   "title": "Infos folgen … THE GOOD THE BAD THE ZUGLY"
@@ -1687,7 +1703,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00",
    "tickets": [
     {
@@ -1758,7 +1774,7 @@
   "d": {
    "ak": "27,00 €",
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00",
    "tickets": [
     {
@@ -1776,7 +1792,7 @@
   "d": {
    "ak": "35,00 €",
    "doors": "18:30",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "19:30",
    "tickets": [
     {
@@ -1796,22 +1812,9 @@
  },
  "Chemiefabrik:15151": {
   "d": {
-   "ak": "40,00 €",
    "doors": "18:00",
-   "f": "2026-11-11",
-   "start": "19:00",
-   "tickets": [
-    {
-     "name": "TixforGigs",
-     "url": "https://www.tixforgigs.com/Event/75601"
-    },
-    {
-     "name": "SaxTicket",
-     "url": "https://www.saxticket.de/startseite/5616-ignite-usa.html"
-    }
-   ],
-   "vvk": "35,00 €",
-   "vvk_note": "zzgl. Gebühren"
+   "f": "2026-11-18",
+   "start": "19:00"
   },
   "date": "2026-11-18",
   "title": "Europe November `26 IGNITE Melodic Hardcore / USA CANCER BAT"
@@ -1820,7 +1823,7 @@
   "d": {
    "ak": "28,00 €",
    "doors": "20:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "21:00",
    "tickets": [
     {
@@ -1841,7 +1844,7 @@
  "Chemiefabrik:15187": {
   "d": {
    "doors": "15:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "16:00",
    "tickets": [
     {
@@ -1849,7 +1852,7 @@
      "url": "https://www.tixforgigs.com/Event/77103"
     }
    ],
-   "vvk": "38,00 €",
+   "vvk": "42,00 €",
    "vvk_note": "zzgl. Gebühren"
   },
   "date": "2027-09-04",
@@ -1858,7 +1861,7 @@
  "Chemiefabrik:15199": {
   "d": {
    "doors": "18:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "19:00",
    "tickets": [
     {
@@ -1876,7 +1879,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00",
    "tickets": [
     {
@@ -1942,7 +1945,7 @@
   "d": {
    "ak": "15,00 €",
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00",
    "tickets": [
     {
@@ -1959,7 +1962,7 @@
  "Chemiefabrik:15248": {
   "d": {
    "doors": "19:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "20:00",
    "tickets": [
     {
@@ -1976,7 +1979,7 @@
   "d": {
    "ak": "38,00 €",
    "doors": "20:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "21:00",
    "tickets": [
     {
@@ -2043,12 +2046,16 @@
   "d": {
    "ak": "30,00 €",
    "doors": "21:00",
-   "f": "2026-11-11",
+   "f": "2026-11-18",
    "start": "22:00",
    "tickets": [
     {
      "name": "SaxTicket",
      "url": "https://www.saxticket.de/index.php?id_product=1624&rewrite=konrad-kuechenmeister-d&controller=product"
+    },
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/de-DE/Event/77486/konrad-kuechenmeister-loop-entertainment-2026-chemiefabrik-dresden"
     }
    ],
    "vvk": "25,00 €",
