@@ -1,67 +1,6 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "15151",
-   "date": "2026-11-18",
-   "title": "IGNITE - CANCER BATS - OUTSPOKEN - TLUF",
-   "detail": "IGNITE, CANCER BATS, OUTSPOKEN, 1000 LÖWEN UNTER FEINDEN",
-   "url": "https://www.chemiefabrik.info/gigs/15151/",
-   "lineup": [
-    {
-     "name": "IGNITE",
-     "info": "Melodic Hardcore / USA"
-    },
-    {
-     "name": "CANCER BATS",
-     "info": "Hardcore, Southern Rock / CAN"
-    },
-    {
-     "name": "OUTSPOKEN",
-     "info": "Hardcore / USA"
-    },
-    {
-     "name": "1000 LÖWEN UNTER FEINDEN",
-     "info": "HC / D"
-    }
-   ],
-   "time": "18:00",
-   "doors": "18:00",
-   "start": "19:00",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": true,
-   "hit": true,
-   "hits": [
-    "hardcore"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10333-2026-11-18-billard-bar@groovestation.de",
-   "date": "2026-11-18",
-   "title": "Billard & Bar",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-18-billard-bar",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "15013",
@@ -2132,8 +2071,8 @@
    "detail": "",
    "url": "https://beatpol.de/erdmoebel-d/",
    "lineup": [],
-   "time": "19:30",
-   "doors": "19:30",
+   "time": "19:00",
+   "doors": "19:00",
    "start": "20:00",
    "vvk": "",
    "vvk_note": "",
@@ -2292,9 +2231,9 @@
    "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5543",
    "date": "2026-12-20",
-   "title": "Highnachten 2026",
+   "title": "Regio Tales Weihnachten 2026",
    "detail": "",
-   "url": "https://scheune.org/show/5543/highnachten-2026.html",
+   "url": "https://scheune.org/show/5543/regio-tales-weihnachten-2026.html",
    "lineup": [],
    "time": "",
    "doors": "",
@@ -2903,8 +2842,8 @@
    "ak": "",
    "tickets": [
     {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/artist/mutabor/mutabor-4028321/"
+     "name": "Ticket-heart",
+     "url": "https://www.ticket-heart.de/"
     }
    ],
    "soldout": false,
@@ -5240,7 +5179,7 @@
     "punk"
    ],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -5897,6 +5836,32 @@
    "new": false
   },
   {
+   "club": "Beatpol",
+   "id": "madsen-d",
+   "date": "2027-05-08",
+   "title": "MADSEN (D)",
+   "detail": "",
+   "url": "https://beatpol.de/madsen-d/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "GrooveStation",
    "id": "10308-2027-05-08-mace@groovestation.de",
    "date": "2027-05-08",
@@ -5916,6 +5881,52 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Chemiefabrik",
+   "id": "15264",
+   "date": "2027-05-09",
+   "title": "Dragged Into Sunlight + Mizmor + This Gift Is A Curse",
+   "detail": "Dragged Into Sunlight, Mizmor, This Gift Is A Curse",
+   "url": "https://www.chemiefabrik.info/gigs/15264/",
+   "lineup": [
+    {
+     "name": "Dragged Into Sunlight",
+     "info": "Sludge / UK"
+    },
+    {
+     "name": "Mizmor",
+     "info": "Black/Doom/Drone / USA"
+    },
+    {
+     "name": "This Gift Is A Curse",
+     "info": "Black/Sludge / Sweden"
+    }
+   ],
+   "time": "20:00",
+   "doors": "20:00",
+   "start": "21:00",
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Katharsis Shop",
+     "url": "https://www.eventim-light.com/de/a/5d6d605e10560c0001485fba/e/6afe2a0e6481ec2c8d44014c"
+    },
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/78029"
+    }
+   ],
+   "soldout": false,
+   "hit": true,
+   "hits": [
+    "doom",
+    "sludge"
+   ],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Beatpol",
