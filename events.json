@@ -1,124 +1,6 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "15013",
-   "date": "2026-11-19",
-   "title": "GRIN + ASTRAL KOMPAKT",
-   "detail": "GRIN, ASTRAL KOMPAKT",
-   "url": "https://www.chemiefabrik.info/gigs/15013/",
-   "lineup": [
-    {
-     "name": "GRIN",
-     "info": "Heavy Psych/Doom/Sludge / Berlin"
-    },
-    {
-     "name": "ASTRAL KOMPAKT",
-     "info": "Instrumental Stoner Rock / Köln"
-    }
-   ],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "15,00 €",
-   "tickets": [],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "doom",
-    "sludge",
-    "stoner"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10324-2026-11-19-billard-bar@groovestation.de",
-   "date": "2026-11-19",
-   "title": "Billard & Bar",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-19-billard-bar",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10228-2026-11-19-facesoul@groovestation.de",
-   "date": "2026-11-19",
-   "title": "Facesoul",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-19-facesoul",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5400",
-   "date": "2026-11-19",
-   "title": "David Lübke",
-   "detail": "",
-   "url": "https://scheune.org/show/5400/david-lbke.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5751",
-   "date": "2026-11-19",
-   "title": "Hausführung durch die scheune",
-   "detail": "",
-   "url": "https://scheune.org/show/5751/hausfhrung-durch-die-scheune.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "10306",
@@ -2722,6 +2604,27 @@
    "new": false
   },
   {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5551",
+   "date": "2027-01-09",
+   "title": "Soft Riot",
+   "detail": "",
+   "url": "https://scheune.org/show/5551/soft-riot.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "GrooveStation",
    "id": "10342-2027-01-11-kickermontag@groovestation.de",
    "date": "2027-01-11",
@@ -3416,7 +3319,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Chemiefabrik",
@@ -4839,7 +4742,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -5658,7 +5561,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Beatpol",
@@ -5852,7 +5755,7 @@
    "tickets": [
     {
      "name": "Eventim",
-     "url": "https://www.eventim.de/"
+     "url": "https://www.eventim.de/event/madsen-smile-2027-beatpol-22427816/"
     }
    ],
    "soldout": false,
@@ -5952,7 +5855,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Beatpol",

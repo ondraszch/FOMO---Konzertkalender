@@ -394,7 +394,7 @@
    "tickets": [
     {
      "name": "Eventim",
-     "url": "https://www.eventim.de/"
+     "url": "https://www.eventim.de/event/madsen-smile-2027-beatpol-22427816/"
     }
    ]
   },
@@ -1374,7 +1374,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "19:00",
-   "f": "2026-11-13",
+   "f": "2026-11-20",
    "start": "20:00",
    "tickets": [
     {
@@ -1664,7 +1664,7 @@
   "d": {
    "ak": "20,00 €",
    "doors": "19:00",
-   "f": "2026-11-13",
+   "f": "2026-11-20",
    "start": "20:00"
   },
   "date": "2027-01-16",
@@ -2851,6 +2851,11 @@
   "date": "2027-04-14",
   "seen": "2026-10-21",
   "title": "Moop Mama"
+ },
+ "Scheune:Scheune-Veranstaltungen-5551": {
+  "date": "2027-01-09",
+  "seen": "2026-11-20",
+  "title": "Soft Riot"
  },
  "Scheune:Scheune-Veranstaltungen-5552": {
   "date": "2026-11-17",
