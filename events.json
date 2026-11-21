@@ -1,89 +1,6 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "10306",
-   "date": "2026-11-20",
-   "title": "DIE VERLIERER + DIE SCHLUEPPIS",
-   "detail": "DIE VERLIERER, DIE SCHLUEPPIS, Aftershow mit:",
-   "url": "https://www.chemiefabrik.info/gigs/10306/",
-   "lineup": [
-    {
-     "name": "DIE VERLIERER",
-     "info": "Punk / Berlin"
-    },
-    {
-     "name": "DIE SCHLUEPPIS",
-     "info": "Punk / Berlin"
-    },
-    {
-     "name": "Aftershow mit:",
-     "info": "Teenage Depression / 77 Punk, Powerpop, 80s & more"
-    }
-   ],
-   "time": "20:00",
-   "doors": "20:00",
-   "start": "21:00",
-   "vvk": "22,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "25,00 €",
-   "tickets": [
-    {
-     "name": "TixforGigs",
-     "url": "https://www.tixforgigs.com/Event/72232"
-    }
-   ],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10269-2026-11-20-female-pop-night@groovestation.de",
-   "date": "2026-11-20",
-   "title": "Female Pop Night",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-20-female-pop-night",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5583",
-   "date": "2026-11-20",
-   "title": "Storno der Liebe",
-   "detail": "",
-   "url": "https://scheune.org/show/5583/storno-der-liebe.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Beatpol",
    "id": "die-liga-der-gewoehnlichen-gentlemen-d",
@@ -256,13 +173,8 @@
    "vvk": "",
    "vvk_note": "",
    "ak": "",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/artist/jas/jas-so-schoen-verloren-tour-2026-4012522/"
-    }
-   ],
-   "soldout": false,
+   "tickets": [],
+   "soldout": true,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -1368,6 +1280,27 @@
    "new": false
   },
   {
+   "club": "GrooveStation",
+   "id": "10369-2026-12-09-midi-w-souphle-jun-choi@groovestation.de",
+   "date": "2026-12-09",
+   "title": "MiDi w/ Souphlé & Jun Choi",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2026-12-09-midi-w-souphle-jun-choi",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Beatpol",
    "id": "sarah-lesch-d-2",
    "date": "2026-12-10",
@@ -2171,6 +2104,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "GrooveStation",
+   "id": "10370-2026-12-23-midi-w-druckausgleich-dj-menschester@groovestation.de",
+   "date": "2026-12-23",
+   "title": "MiDi w/ DRUCKAUSGLEICH & DJ Menschester",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2026-12-23-midi-w-druckausgleich-dj-menschester",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "GrooveStation",
@@ -4202,6 +4156,47 @@
    "new": false
   },
   {
+   "club": "Chemiefabrik",
+   "id": "15188",
+   "date": "2027-03-05",
+   "title": "BUZZ KULL - FUTURE FACES",
+   "detail": "BUZZ KULL, Future Faces",
+   "url": "https://www.chemiefabrik.info/gigs/15188/",
+   "lineup": [
+    {
+     "name": "BUZZ KULL",
+     "info": "Darkwave, EBM, Post-Punk / Sydney,AUT"
+    },
+    {
+     "name": "Future Faces",
+     "info": "Cold Wave, Post-Punk / Genf, CH"
+    }
+   ],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "22,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "25,00 €",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/78328"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/8699-buzz-kull-aus-future-faces-ch.html"
+    }
+   ],
+   "soldout": false,
+   "hit": true,
+   "hits": [
+    "punk"
+   ],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Scheune",
    "id": "Scheune-Veranstaltungen-5561",
    "date": "2027-03-05",
@@ -4888,7 +4883,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",

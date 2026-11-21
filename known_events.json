@@ -346,13 +346,7 @@
  "Beatpol:jas-d": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/artist/jas/jas-so-schoen-verloren-tour-2026-4012522/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2026-11-24",
   "title": "JAS (D)"
@@ -1873,6 +1867,29 @@
   "date": "2027-09-04",
   "title": "DAMAGE FESTIVAL"
  },
+ "Chemiefabrik:15188": {
+  "d": {
+   "ak": "25,00 €",
+   "doors": "19:00",
+   "f": "2026-11-21",
+   "start": "20:00",
+   "tickets": [
+    {
+     "name": "TixforGigs",
+     "url": "https://www.tixforgigs.com/Event/78328"
+    },
+    {
+     "name": "SaxTicket",
+     "url": "https://www.saxticket.de/alle-tickets/8699-buzz-kull-aus-future-faces-ch.html"
+    }
+   ],
+   "vvk": "22,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
+  "date": "2027-03-05",
+  "seen": "2026-11-21",
+  "title": "BUZZ KULL - FUTURE FACES"
+ },
  "Chemiefabrik:15199": {
   "d": {
    "doors": "18:00",
@@ -2034,7 +2051,7 @@
  "Chemiefabrik:15274": {
   "d": {
    "doors": "19:00",
-   "f": "2026-11-14",
+   "f": "2026-11-21",
    "start": "20:00"
   },
   "date": "2026-11-26",
@@ -2064,7 +2081,7 @@
   "d": {
    "ak": "17,00 €",
    "doors": "17:00",
-   "f": "2026-11-14",
+   "f": "2026-11-21",
    "start": "18:00",
    "tickets": [
     {
@@ -2638,6 +2655,16 @@
   "date": "2027-04-03",
   "seen": "2026-11-17",
   "title": "Teenage Dream"
+ },
+ "GrooveStation:10369-2026-12-09-midi-w-souphle-jun-choi@groovestation.de": {
+  "date": "2026-12-09",
+  "seen": "2026-11-21",
+  "title": "MiDi w/ Souphlé & Jun Choi"
+ },
+ "GrooveStation:10370-2026-12-23-midi-w-druckausgleich-dj-menschester@groovestation.de": {
+  "date": "2026-12-23",
+  "seen": "2026-11-21",
+  "title": "MiDi w/ DRUCKAUSGLEICH & DJ Menschester"
  },
  "GrooveStation:9385-2026-10-25-leftovers@groovestation.de": {
   "date": "2026-10-25",
