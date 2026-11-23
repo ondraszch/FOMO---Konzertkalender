@@ -1,34 +1,6 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "events": [
-  {
-   "club": "Chemiefabrik",
-   "id": "15094",
-   "date": "2026-11-22",
-   "title": "Generation Y Punk Doku",
-   "detail": "Lesung",
-   "url": "https://www.chemiefabrik.info/gigs/15094/",
-   "lineup": [
-    {
-     "name": "Lesung",
-     "info": ""
-    }
-   ],
-   "time": "18:00",
-   "doors": "18:00",
-   "start": "18:30",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "GrooveStation",
    "id": "10287-2026-11-23-kickermontag@groovestation.de",
@@ -2284,6 +2256,27 @@
   },
   {
    "club": "GrooveStation",
+   "id": "10371-2027-01-02-female-pop-night@groovestation.de",
+   "date": "2027-01-02",
+   "title": "female pop night",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2027-01-02-female-pop-night",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
+   "club": "GrooveStation",
    "id": "10341-2027-01-04-kickermontag@groovestation.de",
    "date": "2027-01-04",
    "title": "Kickermontag",
@@ -2302,6 +2295,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "GrooveStation",
+   "id": "10372-2027-01-05-groovequiz@groovestation.de",
+   "date": "2027-01-05",
+   "title": "GrooveQuiz",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2027-01-05-groovequiz",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Scheune",
@@ -2806,7 +2820,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Chemiefabrik",
@@ -2877,7 +2891,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -2940,7 +2954,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -3165,6 +3179,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "GrooveStation",
+   "id": "10373-2027-02-02-groovequiz@groovestation.de",
+   "date": "2027-02-02",
+   "title": "GrooveQuiz",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2027-02-02-groovequiz",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Chemiefabrik",
@@ -3676,32 +3711,6 @@
     {
      "name": "Loveyourartist",
      "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/honig-meursault-dresden-5IZPJM"
-    }
-   ],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Beatpol",
-   "id": "paulwetz-d",
-   "date": "2027-02-24",
-   "title": "PAULWETZ (D)",
-   "detail": "",
-   "url": "https://beatpol.de/paulwetz-d/",
-   "lineup": [],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/paulwetz-tour-2027-beatpol-21071296/"
     }
    ],
    "soldout": false,
@@ -4258,6 +4267,51 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Chemiefabrik",
+   "id": "15304",
+   "date": "2027-03-11",
+   "title": "ELLENDE + SUNKEN + DUIR",
+   "detail": "ELLENDE, Sunken, Duir",
+   "url": "https://www.chemiefabrik.info/gigs/15304/",
+   "lineup": [
+    {
+     "name": "ELLENDE",
+     "info": "Black Metal / Österreich"
+    },
+    {
+     "name": "Sunken",
+     "info": "Atmospheric Black Metal / Denmark"
+    },
+    {
+     "name": "Duir",
+     "info": "Atmospheric Black Metal / Italien"
+    }
+   ],
+   "time": "18:01",
+   "doors": "18:01",
+   "start": "19:10",
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Katharsis Shop",
+     "url": "https://www.eventim-light.com/de/a/5d6d605e10560c0001485fba/e/6afe1d6e6481ec2c8d4400a4"
+    },
+    {
+     "name": "Tix4Gigs",
+     "url": "https://www.tixforgigs.com/Event/78427"
+    }
+   ],
+   "soldout": false,
+   "hit": true,
+   "hits": [
+    "metal"
+   ],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "GrooveStation",
@@ -6247,6 +6301,32 @@
     {
      "name": "Loveyourartist",
      "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/skuppin-musee-tour-2027-dresden-E1A3GMH"
+    }
+   ],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": false
+  },
+  {
+   "club": "Beatpol",
+   "id": "paulwetz-d",
+   "date": "2027-11-30",
+   "title": "PAULWETZ (D)",
+   "detail": "",
+   "url": "https://beatpol.de/paulwetz-d/",
+   "lineup": [],
+   "time": "19:00",
+   "doors": "19:00",
+   "start": "20:00",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [
+    {
+     "name": "Eventim",
+     "url": "https://www.eventim.de/event/paulwetz-tour-2027-beatpol-21071296/"
     }
    ],
    "soldout": false,

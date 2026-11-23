@@ -1760,7 +1760,7 @@
   "d": {
    "ak": "28,00 €",
    "doors": "20:00",
-   "f": "2026-11-16",
+   "f": "2026-11-23",
    "start": "21:00",
    "tickets": [
     {
@@ -2095,6 +2095,28 @@
   "date": "2027-05-16",
   "seen": "2026-10-31",
   "title": "LOS FASTIDIOS"
+ },
+ "Chemiefabrik:15304": {
+  "d": {
+   "doors": "18:01",
+   "f": "2026-11-23",
+   "start": "19:10",
+   "tickets": [
+    {
+     "name": "Katharsis Shop",
+     "url": "https://www.eventim-light.com/de/a/5d6d605e10560c0001485fba/e/6afe1d6e6481ec2c8d4400a4"
+    },
+    {
+     "name": "Tix4Gigs",
+     "url": "https://www.tixforgigs.com/Event/78427"
+    }
+   ],
+   "vvk": "35,00 €",
+   "vvk_note": "zzgl. Gebühren"
+  },
+  "date": "2027-03-11",
+  "seen": "2026-11-23",
+  "title": "ELLENDE + SUNKEN + DUIR"
  },
  "Chemiefabrik:9603": {
   "d": {
@@ -2665,6 +2687,21 @@
   "date": "2026-12-23",
   "seen": "2026-11-21",
   "title": "MiDi w/ DRUCKAUSGLEICH & DJ Menschester"
+ },
+ "GrooveStation:10371-2027-01-02-female-pop-night@groovestation.de": {
+  "date": "2027-01-02",
+  "seen": "2026-11-23",
+  "title": "female pop night"
+ },
+ "GrooveStation:10372-2027-01-05-groovequiz@groovestation.de": {
+  "date": "2027-01-05",
+  "seen": "2026-11-23",
+  "title": "GrooveQuiz"
+ },
+ "GrooveStation:10373-2027-02-02-groovequiz@groovestation.de": {
+  "date": "2027-02-02",
+  "seen": "2026-11-23",
+  "title": "GrooveQuiz"
  },
  "GrooveStation:9385-2026-10-25-leftovers@groovestation.de": {
   "date": "2026-10-25",
