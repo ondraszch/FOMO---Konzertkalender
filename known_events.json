@@ -13,8 +13,8 @@
    "start": "20:00",
    "tickets": [
     {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/acht-eimer-huehnerherzen-hearts-on-fire-2027-beatpol-21938727/"
+     "name": "Loveyourartist",
+     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/acht-eimer-huhnerherzen-dresden-EKGSO5I"
     }
    ]
   },
@@ -1315,7 +1315,7 @@
   "d": {
    "ak": "15,00 €",
    "doors": "19:00",
-   "f": "2026-11-17",
+   "f": "2026-11-24",
    "start": "20:00"
   },
   "date": "2026-12-20",
@@ -1419,7 +1419,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "19:30",
-   "f": "2026-11-17",
+   "f": "2026-11-24",
    "start": "20:30",
    "tickets": [
     {
@@ -1947,7 +1947,7 @@
  "Chemiefabrik:15226": {
   "d": {
    "doors": "19:00",
-   "f": "2026-11-17",
+   "f": "2026-11-24",
    "start": "20:00",
    "tickets": [
     {
@@ -2703,6 +2703,11 @@
   "seen": "2026-11-23",
   "title": "GrooveQuiz"
  },
+ "GrooveStation:10379-2027-05-04-das-groovequiz-star-wars-spezial-2@groovestation.de": {
+  "date": "2027-05-04",
+  "seen": "2026-11-24",
+  "title": "Das GrooveQuiz STAR WARS Spezial"
+ },
  "GrooveStation:9385-2026-10-25-leftovers@groovestation.de": {
   "date": "2026-10-25",
   "title": "LEFTOVERS"
@@ -3144,5 +3149,10 @@
   "date": "2026-11-26",
   "seen": "2026-10-30",
   "title": "Hausführung durch die scheune"
+ },
+ "Scheune:Scheune-Veranstaltungen-5766": {
+  "date": "2027-03-20",
+  "seen": "2026-11-24",
+  "title": "Ebow - ARBAYT TOUR"
  }
 }
