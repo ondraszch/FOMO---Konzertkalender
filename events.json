@@ -1,48 +1,6 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "events": [
-  {
-   "club": "Beatpol",
-   "id": "jas-d",
-   "date": "2026-11-24",
-   "title": "JAS (D)",
-   "detail": "",
-   "url": "https://beatpol.de/jas-d/",
-   "lineup": [],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": true,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10263-2026-11-24-streichelt@groovestation.de",
-   "date": "2026-11-24",
-   "title": "Streichelt",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-24-streichelt",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Beatpol",
    "id": "conny-ochs-d-3",
@@ -153,8 +111,8 @@
    "club": "Chemiefabrik",
    "id": "15274",
    "date": "2026-11-26",
-   "title": "CEL RAY + ROSA C",
-   "detail": "CEL RAY, ROSA C",
+   "title": "CEL RAY + INEPT SHORTS",
+   "detail": "CEL RAY, INEPT SHORTS",
    "url": "https://www.chemiefabrik.info/gigs/15274/",
    "lineup": [
     {
@@ -162,8 +120,8 @@
      "info": "USA"
     },
     {
-     "name": "ROSA C",
-     "info": "Grunge, Glam, Punk / Dresden"
+     "name": "INEPT SHORTS",
+     "info": "Punk / Leipzig"
     }
    ],
    "time": "19:00",
@@ -972,7 +930,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -993,7 +951,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -1287,20 +1245,36 @@
    "club": "Chemiefabrik",
    "id": "10483",
    "date": "2026-12-11",
-   "title": "Heartbreakgeburtstag",
-   "detail": "",
+   "title": "11. Heartbreakgeburtstag",
+   "detail": "BUNTSPECHT, UNIVERSUM, S.U.G.A.R.",
    "url": "https://www.chemiefabrik.info/gigs/10483/",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
+   "lineup": [
+    {
+     "name": "BUNTSPECHT",
+     "info": "Heartbreak Allstars / Dresden"
+    },
+    {
+     "name": "UNIVERSUM",
+     "info": "Heavy Metal / Dresden"
+    },
+    {
+     "name": "S.U.G.A.R.",
+     "info": "Garage Punk / Berlin"
+    }
+   ],
+   "time": "19:30",
+   "doors": "19:30",
+   "start": "20:30",
    "vvk": "",
    "vvk_note": "",
    "ak": "",
    "tickets": [],
    "soldout": false,
-   "hit": false,
-   "hits": [],
+   "hit": true,
+   "hits": [
+    "metal",
+    "punk"
+   ],
    "cancelled": false,
    "new": false
   },
@@ -2029,7 +2003,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Chemiefabrik",
@@ -4849,7 +4823,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "Scheune",
@@ -5090,7 +5064,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
