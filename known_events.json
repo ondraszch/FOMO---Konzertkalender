@@ -1695,7 +1695,7 @@
   "d": {
    "ak": "20,00 €",
    "doors": "19:00",
-   "f": "2026-11-19",
+   "f": "2026-11-26",
    "start": "20:00",
    "tickets": [
     {
@@ -1931,7 +1931,7 @@
   "d": {
    "ak": "20,00 €",
    "doors": "19:00",
-   "f": "2026-11-19",
+   "f": "2026-11-26",
    "start": "20:00",
    "tickets": [
     {
@@ -2031,7 +2031,7 @@
  "Chemiefabrik:15264": {
   "d": {
    "doors": "20:00",
-   "f": "2026-11-19",
+   "f": "2026-11-26",
    "start": "21:00",
    "tickets": [
     {
@@ -2064,7 +2064,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "18:00",
-   "f": "2026-11-19",
+   "f": "2026-11-26",
    "start": "19:00"
   },
   "date": "2026-12-13",
@@ -2073,7 +2073,7 @@
  },
  "Chemiefabrik:15293": {
   "d": {
-   "f": "2026-11-19"
+   "f": "2026-11-26"
   },
   "date": "2027-05-15",
   "seen": "2026-11-05",
@@ -3152,9 +3152,24 @@
   "seen": "2026-10-30",
   "title": "Hausführung durch die scheune"
  },
+ "Scheune:Scheune-Veranstaltungen-5755": {
+  "date": "2027-01-07",
+  "seen": "2026-11-26",
+  "title": "Livelyrix Poetry Slam"
+ },
  "Scheune:Scheune-Veranstaltungen-5766": {
   "date": "2027-03-20",
   "seen": "2026-11-24",
   "title": "Ebow - ARBAYT TOUR"
+ },
+ "Scheune:Scheune-Veranstaltungen-5772": {
+  "date": "2027-01-14",
+  "seen": "2026-11-26",
+  "title": "Sax Royal – die Dresdner Lesebühne"
+ },
+ "Scheune:Scheune-Veranstaltungen-5773": {
+  "date": "2027-02-11",
+  "seen": "2026-11-26",
+  "title": "Sax Royal – die Dresdner Lesebühne"
  }
 }

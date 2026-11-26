@@ -1,112 +1,6 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "events": [
-  {
-   "club": "Beatpol",
-   "id": "conny-ochs-d-3",
-   "date": "2026-11-25",
-   "title": "CONNY OCHS (D)",
-   "detail": "Ostpol (kleiner Saal)",
-   "url": "https://beatpol.de/conny-ochs-d-3/",
-   "lineup": [],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/conny-ochs-dresden-EXO56JM"
-    }
-   ],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Chemiefabrik",
-   "id": "15019",
-   "date": "2026-11-25",
-   "title": "SUMA - DOUBLEWIDE",
-   "detail": "SUMA, DOUBLEWIDE",
-   "url": "https://www.chemiefabrik.info/gigs/15019/",
-   "lineup": [
-    {
-     "name": "SUMA",
-     "info": "Doom/Sludge/Noise / Schweden"
-    },
-    {
-     "name": "DOUBLEWIDE",
-     "info": "HARD STONED HEAVY ROCK / D"
-    }
-   ],
-   "time": "19:00",
-   "doors": "19:00",
-   "start": "20:00",
-   "vvk": "15,00 €",
-   "vvk_note": "zzgl. Gebühren",
-   "ak": "20,00 €",
-   "tickets": [
-    {
-     "name": "TixforGigs",
-     "url": "https://www.tixforgigs.com/Event/75544"
-    }
-   ],
-   "soldout": false,
-   "hit": true,
-   "hits": [
-    "doom",
-    "sludge"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10328-2026-11-25-midi-x-sachsentrance@groovestation.de",
-   "date": "2026-11-25",
-   "title": "MiDi x Sachsentrance",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-25-midi-x-sachsentrance",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Scheune",
-   "id": "Scheune-Veranstaltungen-5304",
-   "date": "2026-11-25",
-   "title": "Sebastian 23",
-   "detail": "",
-   "url": "https://scheune.org/show/5304/sebastian-23.html",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Chemiefabrik",
    "id": "15274",
@@ -2313,6 +2207,27 @@
    "new": false
   },
   {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5755",
+   "date": "2027-01-07",
+   "title": "Livelyrix Poetry Slam",
+   "detail": "",
+   "url": "https://scheune.org/show/5755/livelyrix-poetry-slam.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
+  },
+  {
    "club": "Chemiefabrik",
    "id": "10458",
    "date": "2027-01-08",
@@ -2540,6 +2455,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5772",
+   "date": "2027-01-14",
+   "title": "Sax Royal – die Dresdner Lesebühne",
+   "detail": "",
+   "url": "https://scheune.org/show/5772/sax-royal-die-dresdner-lesebhne.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Beatpol",
@@ -3279,6 +3215,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "Scheune",
+   "id": "Scheune-Veranstaltungen-5773",
+   "date": "2027-02-11",
+   "title": "Sax Royal – die Dresdner Lesebühne",
+   "detail": "",
+   "url": "https://scheune.org/show/5773/sax-royal-die-dresdner-lesebhne.html",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Beatpol",
