@@ -10,13 +10,7 @@
  "Beatpol:acht-eimer-huehnerherzen-d-3": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/acht-eimer-huhnerherzen-dresden-EKGSO5I"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-03-31",
   "title": "ACHT EIMER HÜHNERHERZEN (D)"
@@ -24,13 +18,7 @@
  "Beatpol:anda-morts-a": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Saxticket",
-     "url": "https://www.saxticket.de/startseite/6989-anda-morts-a.html"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2026-11-29",
   "title": "ANDA MORTS (A)"
@@ -38,13 +26,7 @@
  "Beatpol:anna-erhard-d": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/anna-erhard-1000-sheep-tour-2027-ostpol-22188434/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-03-23",
   "title": "ANNA ERHARD (D)"
@@ -52,13 +34,7 @@
  "Beatpol:birdpen-uk-2": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/birdpen-think-nice-tour-dresden-EPSCZU3"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-05-13",
   "seen": "2026-11-12",
@@ -67,13 +43,7 @@
  "Beatpol:black-sabbitch-usa": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/black-sabbitch-dresden-N2T40R"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-04-20",
   "title": "BLACK SABBITCH (USA)"
@@ -85,13 +55,7 @@
  "Beatpol:blackout-problems-d-3": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/blackout-problems-heal-tour-2027-beatpol-22283133/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-04-15",
   "title": "BLACKOUT PROBLEMS (D)"
@@ -99,13 +63,7 @@
  "Beatpol:colour-haze-d-3": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/colour-haze-dresden-QWADJC"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-03-01",
   "title": "COLOUR HAZE (D)"
@@ -127,13 +85,7 @@
  "Beatpol:d-troit-dk": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/dtroit-beatpol-22031456/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-11-05",
   "title": "D/TROIT (DK)"
@@ -155,13 +107,7 @@
  "Beatpol:de-staat-nl": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/de-staat-dresden-E2A6M5A"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-03-27",
   "title": "DE STAAT (NL)"
@@ -183,13 +129,7 @@
  "Beatpol:die-seilschaft-d": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/die-seilschaft-d-dresden-QGTXLU"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-03-05",
   "title": "DIE SEILSCHAFT (D)"
@@ -197,13 +137,7 @@
  "Beatpol:dubioza-kolektiv-bih": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/dubioza-kolektiv-beatpol-21660161/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2026-12-18",
   "title": "DUBIOZA KOLEKTIV (BIH)"
@@ -211,13 +145,7 @@
  "Beatpol:endless-wellness-a": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/endless-wellness-eine-tour-kommt-selten-allein-nochmal-de-tour-beatpol-22234086/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-03-02",
   "title": "ENDLESS WELLNESS (A)"
@@ -225,13 +153,7 @@
  "Beatpol:enno-bunger-d": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Saxticket",
-     "url": "https://www.saxticket.de/index.php?id_product=3202&rewrite=enno-bunger-d&controller=product"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2026-12-02",
   "title": "ENNO BUNGER (D)"
@@ -239,13 +161,7 @@
  "Beatpol:erdmoebel-d": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/erdmoebel-weihnachtstour-2025-beatpol-20281544/?affiliate=GMD&utm_source=google&utm_medium=cpc&utm_campaign=ar_Clubkonzerte&utm_agid=181321932719&utm_term=erdm%C3%B6bel%20dresden&creative=762378211605&device=c&placement=&gad_source=1&gad_campaignid=854342580&gbraid=0AAAAAD8gI54XuM3BJqhlOd3AO8CDL8fei&gclid=CjwKCAiA55rJBhByEiwAFkY1QIhTdPe9oejArUTO-OYp2jeATchjbjHV21hgG_m9lXIHqAxQTdg-mBoC01kQAvD_BwE"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2026-12-19",
   "title": "ERDMÖBEL (D)"
@@ -253,13 +169,7 @@
  "Beatpol:fat-dog-uk": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/fat-dog-cancel-me-im-tired-european-tour-2027-beatpol-22217404/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-03-22",
   "title": "FAT DOG (UK)"
@@ -267,13 +177,7 @@
  "Beatpol:fortuna-ehrenfeld-d-3": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/fortuna-ehrenfeld-dresden-E5SKOUC"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-05-14",
   "title": "FORTUNA EHRENFELD (D)"
@@ -281,28 +185,25 @@
  "Beatpol:front-line-assembly-can-clock-dva-uk": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/front-line-assembly-dva-dresden-EVUZG30"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-03-06",
   "seen": "2026-11-06",
   "title": "FRONT LINE ASSEMBLY (CAN) + CLOCK DVA (UK)"
  },
+ "Beatpol:gisbert-zu-knyphausen-d": {
+  "d": {
+   "doors": "19:00",
+   "start": "20:00"
+  },
+  "date": "2027-04-28",
+  "seen": "2026-11-27",
+  "title": "GISBERT ZU KNYPHAUSEN D"
+ },
  "Beatpol:glasperlenspiel-d-2": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/glasperlenspiel-club-tour-2027-beatpol-22026312/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-02-26",
   "title": "GLASPERLENSPIEL (D)"
@@ -310,13 +211,7 @@
  "Beatpol:greenleaf-s": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/greenleaf-dresden-VDRH0K"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2026-12-11",
   "title": "GREENLEAF (S)"
@@ -324,13 +219,7 @@
  "Beatpol:honig-d-meursault-uk": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/honig-meursault-dresden-5IZPJM"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-02-23",
   "title": "HONIG (D) + MEURSAULT (UK)"
@@ -354,13 +243,7 @@
  "Beatpol:josh": {
   "d": {
    "doors": "18:30",
-   "start": "19:30",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/josh-vertikal-tour-2027-beatpol-21618564/"
-    }
-   ]
+   "start": "19:30"
   },
   "date": "2027-04-08",
   "title": "JOSH."
@@ -373,6 +256,15 @@
   "date": "2026-12-12",
   "title": "KADAVAR (D)"
  },
+ "Beatpol:kafvka-d-3": {
+  "d": {
+   "doors": "19:00",
+   "start": "20:00"
+  },
+  "date": "2027-12-08",
+  "seen": "2026-11-27",
+  "title": "KAFVKA D"
+ },
  "Beatpol:les-yeux-dla-tete-f-4": {
   "d": {
    "doors": "19:00",
@@ -384,13 +276,7 @@
  "Beatpol:madsen-d": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/madsen-smile-2027-beatpol-22427816/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-05-08",
   "seen": "2026-11-19",
@@ -399,13 +285,7 @@
  "Beatpol:make-a-move-d-3": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/make-move-dresden-MJXHS5"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-05-01",
   "title": "MAKE A MOVE (D)"
@@ -413,13 +293,7 @@
  "Beatpol:michelle-david-the-true-tones-usa-nl": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/michelle-david-true-dresden-8O8KX9"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-04-09",
   "title": "MICHELLE DAVID & THE TRUE-TONES (USA/NL)"
@@ -427,13 +301,7 @@
  "Beatpol:mono-jap": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/mono-snowdrop-european-tour-2027-beatpol-21523090/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-01-31",
   "title": "MONO (JAP)"
@@ -455,13 +323,7 @@
  "Beatpol:mothers-finest-uk": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/mothers-finest-beatpol-22145731/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2026-11-28",
   "title": "MOTHER’S FINEST (UK)"
@@ -469,13 +331,7 @@
  "Beatpol:motorpsycho-no": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/motorpsycho-taking-troendelag-to-the-people-tour-2027-beatpol-22275362/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-04-25",
   "title": "MOTORPSYCHO (NO)"
@@ -483,13 +339,7 @@
  "Beatpol:mutabor-d-4": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Ticket-heart",
-     "url": "https://www.ticket-heart.de/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-01-15",
   "title": "MUTABOR (D)"
@@ -497,13 +347,7 @@
  "Beatpol:naft-b-2": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-02-12",
   "title": "NAFT (B)"
@@ -511,13 +355,7 @@
  "Beatpol:nouvelle-vague-f": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/nouvelle-vague-a-date-with-depeche-mode-beatpol-22293328/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-04-10",
   "title": "NOUVELLE VAGUE (F)"
@@ -525,13 +363,7 @@
  "Beatpol:oskar-haag-a": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/oskar-haag-dresden-LUVUZ1"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2026-11-30",
   "title": "OSKAR HAAG (A)"
@@ -539,13 +371,7 @@
  "Beatpol:paulwetz-d": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/paulwetz-tour-2027-beatpol-21071296/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-02-24",
   "title": "PAULWETZ (D)"
@@ -553,27 +379,24 @@
  "Beatpol:pokey-lafarge-his-band": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/pokey-lafarge-rent-money-tour-2027-beatpol-21864848/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-03-21",
   "title": "POKEY LAFARGE & HIS BAND"
  },
+ "Beatpol:prong-usa": {
+  "d": {
+   "doors": "19:00",
+   "start": "20:00"
+  },
+  "date": "2027-06-17",
+  "seen": "2026-11-27",
+  "title": "PRONG USA"
+ },
  "Beatpol:quivers-aus-2": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/quivers-dresden-EMM1EQ0"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-05-04",
   "seen": "2026-11-05",
@@ -582,13 +405,7 @@
  "Beatpol:rantanplan-d-2": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/rantanplan-live-2027-beatpol-22397959/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-04-30",
   "seen": "2026-11-12",
@@ -597,13 +414,7 @@
  "Beatpol:ryan-sheridan-ie": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/ryan-sheridan-beatpol-22151106/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-02-21",
   "title": "RYAN SHERIDAN (IE)"
@@ -611,13 +422,7 @@
  "Beatpol:sarah-lesch-d-2": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Sarahlesch",
-     "url": "https://shop.sarahlesch.de/product/95658/sarah-lesch-beatpol-dresden-am-10-12-2026"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2026-12-10",
   "title": "SARAH LESCH (D)"
@@ -625,13 +430,7 @@
  "Beatpol:senta-d": {
   "d": {
    "doors": "15:00",
-   "start": "16:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/senta-ich-bin-stark-tour-konzerte-fuer-kinder-und-familien-beatpol-21813082/"
-    }
-   ]
+   "start": "16:00"
   },
   "date": "2027-02-28",
   "title": "SENTA (D)"
@@ -647,13 +446,7 @@
  "Beatpol:shout-out-louds-s": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/shout-out-louds-beatpol-22364729/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-04-23",
   "seen": "2026-11-06",
@@ -662,13 +455,7 @@
  "Beatpol:skuppin-d": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/skuppin-musee-tour-2027-dresden-E1A3GMH"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-11-16",
   "title": "SKUPPIN (D)"
@@ -676,13 +463,7 @@
  "Beatpol:soen-s": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/soen-reliance-europe-2027-beatpol-22187592/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-04-01",
   "title": "SOEN (S)"
@@ -704,13 +485,7 @@
  "Beatpol:the-doors-alive-uk-nl": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/the-doors-alive-dresden-EVAXO1A"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-12-03",
   "seen": "2026-11-10",
@@ -719,13 +494,7 @@
  "Beatpol:the-molotovs-uk": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/the-molotovs-beatpol-22346708/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-02-18",
   "title": "THE MOLOTOVS (UK)"
@@ -747,13 +516,7 @@
  "Beatpol:the-ocean-d-2": {
   "d": {
    "doors": "18:30",
-   "start": "19:30",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/the-ocean-dresden-XVESDO"
-    }
-   ]
+   "start": "19:30"
   },
   "date": "2026-11-27",
   "title": "THE OCEAN (D)"
@@ -769,13 +532,7 @@
  "Beatpol:the-slow-show-uk-2": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Eventim",
-     "url": "https://www.eventim.de/event/the-slow-show-tour-2027-beatpol-22388472/"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-04-03",
   "seen": "2026-11-13",
@@ -784,13 +541,7 @@
  "Beatpol:the-walking-who-aus": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/the-walking-who-dresden-3VC4UO"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-04-30",
   "title": "THE WALKING WHO (AUS)"
@@ -798,13 +549,7 @@
  "Beatpol:to-athena-ch-2": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/to-athena-dresden-F5MJJY"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-03-04",
   "title": "TO ATHENA (CH)"
@@ -812,13 +557,7 @@
  "Beatpol:voodoo-beach-d": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/voodoo-beach-dresden-E5BPEVX"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-03-31",
   "title": "VOODOO BEACH (D)"
@@ -826,13 +565,7 @@
  "Beatpol:wednesday-13-usa-the-birthday-massacre-can": {
   "d": {
    "doors": "18:00",
-   "start": "19:00",
-   "tickets": [
-    {
-     "name": "Hamburgrecords",
-     "url": "https://tickets.hamburgrecords.com/wednesday13-04-12-2026-dresden-beatpol.html"
-    }
-   ]
+   "start": "19:00"
   },
   "date": "2026-12-04",
   "title": "WEDNESDAY 13 (USA) + THE BIRTHDAY MASSACRE (CAN)"
@@ -840,13 +573,7 @@
  "Beatpol:yeahrs-d": {
   "d": {
    "doors": "19:00",
-   "start": "20:00",
-   "tickets": [
-    {
-     "name": "Loveyourartist",
-     "url": "https://loveyourartist.com/de/profiles/beatpol-dresden-ev-TYWO2Z/events/yeahrs-dresden-EKXNHJ2"
-    }
-   ]
+   "start": "20:00"
   },
   "date": "2027-02-02",
   "seen": "2026-11-12",
@@ -1370,7 +1097,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "19:00",
-   "f": "2026-11-20",
+   "f": "2026-11-27",
    "start": "20:00",
    "tickets": [
     {
@@ -1660,7 +1387,7 @@
   "d": {
    "ak": "20,00 €",
    "doors": "19:00",
-   "f": "2026-11-20",
+   "f": "2026-11-27",
    "start": "20:00"
   },
   "date": "2027-01-16",
