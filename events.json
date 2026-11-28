@@ -1,80 +1,6 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "events": [
-  {
-   "club": "Beatpol",
-   "id": "the-ocean-d-2",
-   "date": "2026-11-27",
-   "title": "THE OCEAN D",
-   "detail": "",
-   "url": "https://beatpol.de/the-ocean-d-2/",
-   "lineup": [],
-   "time": "18:30",
-   "doors": "18:30",
-   "start": "19:30",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "Chemiefabrik",
-   "id": "10470",
-   "date": "2026-11-27",
-   "title": "GRUPPA KARL MARX STADT - Ausverkauft!",
-   "detail": "GRUPPA KARL MARX STADT, Aftershow mit:",
-   "url": "https://www.chemiefabrik.info/gigs/10470/",
-   "lineup": [
-    {
-     "name": "GRUPPA KARL MARX STADT",
-     "info": "Balkan / Chemnitz"
-    },
-    {
-     "name": "Aftershow mit:",
-     "info": "Loiko Zobar (The Gypsy Love Train) / Balkan-Beatz, Polka-Punk, Eastern-Ska"
-    }
-   ],
-   "time": "20:00",
-   "doors": "20:00",
-   "start": "21:00",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": true,
-   "hit": true,
-   "hits": [
-    "punk"
-   ],
-   "cancelled": false,
-   "new": false
-  },
-  {
-   "club": "GrooveStation",
-   "id": "10317-2026-11-27-fluides-feiern-w-dct@groovestation.de",
-   "date": "2026-11-27",
-   "title": "Fluides Feiern w/ DCT",
-   "detail": "",
-   "url": "https://www.groovestation.de/event/2026-11-27-fluides-feiern-w-dct",
-   "lineup": [],
-   "time": "",
-   "doors": "",
-   "start": "",
-   "vvk": "",
-   "vvk_note": "",
-   "ak": "",
-   "tickets": [],
-   "soldout": false,
-   "hit": false,
-   "hits": [],
-   "cancelled": false,
-   "new": false
-  },
   {
    "club": "Beatpol",
    "id": "mothers-finest-uk",
@@ -598,7 +524,7 @@
    "club": "Beatpol",
    "id": "5702-2",
    "date": "2026-12-05",
-   "title": "BEATPOL KICKS! Party mit DJ !MAUF",
+   "title": "BEATPOL KICKS! Party mit DJ !MAUF ! Ausverkauft !",
    "detail": "",
    "url": "https://beatpol.de/5702-2/",
    "lineup": [],
@@ -609,7 +535,7 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
-   "soldout": false,
+   "soldout": true,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -2204,7 +2130,7 @@
    "hit": false,
    "hits": [],
    "cancelled": false,
-   "new": true
+   "new": false
   },
   {
    "club": "GrooveStation",
@@ -3270,7 +3196,7 @@
    "club": "Beatpol",
    "id": "the-rasmus-fin",
    "date": "2027-02-19",
-   "title": "THE RASMUS FIN",
+   "title": "THE RASMUS FIN ! Ausverkauft !",
    "detail": "",
    "url": "https://beatpol.de/the-rasmus-fin/",
    "lineup": [],
@@ -3281,7 +3207,7 @@
    "vvk_note": "",
    "ak": "",
    "tickets": [],
-   "soldout": false,
+   "soldout": true,
    "hit": false,
    "hits": [],
    "cancelled": false,
@@ -4204,7 +4130,7 @@
    "club": "Beatpol",
    "id": "pokey-lafarge-his-band",
    "date": "2027-03-21",
-   "title": "POKEY LAFARGE & HIS BAND",
+   "title": "POKEY LAFARGE & HIS BAND USA",
    "detail": "",
    "url": "https://beatpol.de/pokey-lafarge-his-band/",
    "lineup": [],
@@ -5988,6 +5914,27 @@
    "hits": [],
    "cancelled": false,
    "new": false
+  },
+  {
+   "club": "GrooveStation",
+   "id": "10537-2027-11-27-amewu@groovestation.de",
+   "date": "2027-11-27",
+   "title": "Amewu",
+   "detail": "",
+   "url": "https://www.groovestation.de/event/2027-11-27-amewu",
+   "lineup": [],
+   "time": "",
+   "doors": "",
+   "start": "",
+   "vvk": "",
+   "vvk_note": "",
+   "ak": "",
+   "tickets": [],
+   "soldout": false,
+   "hit": false,
+   "hits": [],
+   "cancelled": false,
+   "new": true
   },
   {
    "club": "Beatpol",

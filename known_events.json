@@ -1600,7 +1600,7 @@
   "d": {
    "ak": "25,00 €",
    "doors": "19:00",
-   "f": "2026-11-21",
+   "f": "2026-11-28",
    "start": "20:00",
    "tickets": [
     {
@@ -1810,7 +1810,7 @@
   "d": {
    "ak": "17,00 €",
    "doors": "17:00",
-   "f": "2026-11-21",
+   "f": "2026-11-28",
    "start": "18:00",
    "tickets": [
     {
@@ -2436,6 +2436,11 @@
   "date": "2027-05-04",
   "seen": "2026-11-24",
   "title": "Das GrooveQuiz STAR WARS Spezial"
+ },
+ "GrooveStation:10537-2027-11-27-amewu@groovestation.de": {
+  "date": "2027-11-27",
+  "seen": "2026-11-28",
+  "title": "Amewu"
  },
  "GrooveStation:9385-2026-10-25-leftovers@groovestation.de": {
   "date": "2026-10-25",
